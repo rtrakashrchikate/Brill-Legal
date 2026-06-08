@@ -24,20 +24,26 @@ export default function InsightsPage() {
   }));
 
   return (
-    <Container className="py-12">
-      <Breadcrumbs items={[{ name: "Insights", url: "/insights" }]} />
-      <div className="mt-8">
-        <SectionHeading
-          kicker="Insights"
-          title="Legal guides, in plain English"
-          intro="A growing library of practical guides across our seven practice areas — published on a regular calendar."
-        />
-      </div>
-      <div className="mt-10">
+    <>
+      <header className="relative overflow-hidden border-b border-line bg-aura">
+        <div className="pointer-events-none absolute inset-0 bg-grid opacity-50" />
+        <Container className="relative pb-14 pt-10">
+          <Breadcrumbs items={[{ name: "Insights", url: "/insights" }]} />
+          <div className="mt-8">
+            <SectionHeading
+              kicker="Insights"
+              title="Legal guides, in plain English"
+              intro="A growing library of practical guides across our seven practice areas — published on a regular calendar."
+            />
+          </div>
+        </Container>
+      </header>
+
+      <Container className="py-12">
         <Suspense fallback={null}>
           <InsightsList items={items} />
         </Suspense>
-      </div>
-    </Container>
+      </Container>
+    </>
   );
 }

@@ -42,20 +42,30 @@ export default async function PersonPage({
   const authored = getPublishedArticles().filter((a) => a.author === p.slug);
 
   return (
-    <Container className="py-12">
+    <>
       <JsonLd data={graph(personSchema(p))} />
-      <Breadcrumbs
-        items={[
-          { name: "People", url: "/people" },
-          { name: p.name, url: `/people/${p.slug}` },
-        ]}
-      />
+      <header className="relative overflow-hidden border-b border-line bg-aura">
+        <div className="pointer-events-none absolute inset-0 bg-grid opacity-50" />
+        <Container className="relative pb-14 pt-10">
+          <Breadcrumbs
+            items={[
+              { name: "People", url: "/people" },
+              { name: p.name, url: `/people/${p.slug}` },
+            ]}
+          />
+          <div className="mt-8 max-w-2xl">
+            <p className="kicker">{p.title}</p>
+            <h1 className="mt-3 font-display text-4xl text-ink sm:text-5xl">
+              {p.name}
+            </h1>
+            <div className="gold-rule mt-5" />
+          </div>
+        </Container>
+      </header>
 
-      <div className="mt-8 grid gap-12 lg:grid-cols-[minmax(0,1fr)_300px]">
+      <Container className="grid gap-12 py-16 lg:grid-cols-[minmax(0,1fr)_300px]">
         <div className="max-w-2xl">
-          <p className="kicker">{p.title}</p>
-          <h1 className="mt-3 font-display text-4xl text-ink">{p.name}</h1>
-          <p className="mt-5 text-lg leading-relaxed text-muted">{p.bio}</p>
+          <p className="text-lg leading-relaxed text-muted">{p.bio}</p>
 
           {authored.length > 0 && (
             <section className="mt-12">
@@ -117,9 +127,9 @@ export default async function PersonPage({
             </div>
           )}
         </aside>
-      </div>
+      </Container>
 
       <CtaBand matter="your matter" />
-    </Container>
+    </>
   );
 }

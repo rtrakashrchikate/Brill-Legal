@@ -139,6 +139,17 @@ h1, h2, h3, h4 {
 .prose th, .prose td { border: 1px solid var(--color-line); padding: 0.55rem 0.8rem; text-align: left; }
 .prose th { background: var(--color-paper-dim); font-weight: 600; }
 
+/* ---------- Article drop cap ---------- */
+.article-body .prose > p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-size: 3.6rem;
+  line-height: 0.78;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem 0 0;
+  color: var(--color-accent-deep);
+}
+
 /* ---------- Card hover lift ---------- */
 .card-lift { transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease; }
 @media (prefers-reduced-motion: no-preference) {

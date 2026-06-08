@@ -15,17 +15,22 @@ export const metadata: Metadata = pageMeta({
 
 export default function ContactPage() {
   return (
-    <Container className="py-12">
-      <Breadcrumbs items={[{ name: "Contact", url: "/contact" }]} />
-      <div className="mt-8">
-        <SectionHeading
-          kicker="Get in touch"
-          title="Request a consultation"
-          intro="Tell us a little about your matter and we'll be in touch. For anything urgent, call or message us on WhatsApp."
-        />
-      </div>
+    <>
+      <header className="relative overflow-hidden border-b border-line bg-aura">
+        <div className="pointer-events-none absolute inset-0 bg-grid opacity-50" />
+        <Container className="relative pb-14 pt-10">
+          <Breadcrumbs items={[{ name: "Contact", url: "/contact" }]} />
+          <div className="mt-8">
+            <SectionHeading
+              kicker="Get in touch"
+              title="Request a consultation"
+              intro="Tell us a little about your matter and we'll be in touch. For anything urgent, call or message us on WhatsApp."
+            />
+          </div>
+        </Container>
+      </header>
 
-      <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <Container className="grid gap-10 py-16 lg:grid-cols-[minmax(0,1fr)_320px]">
         <Suspense fallback={<div className="text-muted">Loading form…</div>}>
           <ContactForm />
         </Suspense>
@@ -76,7 +81,7 @@ export default function ContactPage() {
             </p>
           </div>
         </aside>
-      </div>
-    </Container>
+      </Container>
+    </>
   );
 }

@@ -44,7 +44,7 @@ export default async function LocationPage({
     .filter((a) => a && a.published);
 
   return (
-    <Container className="py-12">
+    <>
       <JsonLd
         data={graph(
           legalServiceLocationSchema({
@@ -55,36 +55,43 @@ export default async function LocationPage({
           }),
         )}
       />
-      <Breadcrumbs
-        items={[
-          { name: practice?.name ?? "Practices", url: `/practices/${loc.practice}` },
-          { name: `${loc.service} lawyer in ${loc.city}`, url: `/${loc.slug}` },
-        ]}
-      />
 
-      <header className="mt-8 max-w-3xl">
-        <p className="kicker">{loc.city}, Maharashtra</p>
-        <h1 className="mt-3 font-display text-4xl leading-tight text-ink sm:text-5xl">
-          {loc.service} Lawyer in {loc.city}
-        </h1>
-        <p className="mt-5 text-lg leading-relaxed text-muted">
-          {loc.localContext}
-        </p>
-        <div className="mt-7 flex flex-wrap gap-3">
-          <Button
-            href={`/contact?matter=${encodeURIComponent(practice?.matterType ?? "")}`}
-          >
-            Talk to us
-          </Button>
-          {practice && (
-            <Button href={`/practices/${practice.slug}`} variant="outline">
-              About this practice
-            </Button>
-          )}
-        </div>
+      {/* Header band */}
+      <header className="relative overflow-hidden border-b border-line bg-aura">
+        <div className="pointer-events-none absolute inset-0 bg-grid opacity-50" />
+        <Container className="relative pb-14 pt-10">
+          <Breadcrumbs
+            items={[
+              { name: practice?.name ?? "Practices", url: `/practices/${loc.practice}` },
+              { name: `${loc.service} lawyer in ${loc.city}`, url: `/${loc.slug}` },
+            ]}
+          />
+          <div className="mt-8 max-w-3xl">
+            <p className="kicker">{loc.city}, Maharashtra</p>
+            <h1 className="mt-3 font-display text-4xl leading-tight text-ink sm:text-5xl">
+              {loc.service} Lawyer in {loc.city}
+            </h1>
+            <div className="gold-rule mt-5" />
+            <p className="mt-5 text-lg leading-relaxed text-muted">
+              {loc.localContext}
+            </p>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <Button
+                href={`/contact?matter=${encodeURIComponent(practice?.matterType ?? "")}`}
+              >
+                Talk to us
+              </Button>
+              {practice && (
+                <Button href={`/practices/${practice.slug}`} variant="outline">
+                  About this practice
+                </Button>
+              )}
+            </div>
+          </div>
+        </Container>
       </header>
 
-      <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_300px]">
+      <Container className="grid gap-12 py-16 lg:grid-cols-[minmax(0,1fr)_300px]">
         <div className="max-w-3xl">
           <section>
             <h2 className="text-2xl">Where matters are heard</h2>
@@ -172,7 +179,7 @@ export default async function LocationPage({
             </ul>
           </div>
         </aside>
-      </div>
-    </Container>
+      </Container>
+    </>
   );
 }
