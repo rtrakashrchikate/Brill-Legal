@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+/*
+  Brill Legal — design system v2.
+  Direction: Swiss-Modernism + Exaggerated Minimalism + Trust & Authority.
+  Palette: authority navy ink + trust gold on warm ivory.
+  Type: Playfair Display (display) + Inter (UI/body) — "Classic Elegant".
+  Motion: restrained; all reveal animation gated on prefers-reduced-motion.
+*/
+
+@theme {
+  --color-ink: #0c1a2b;          /* authority navy — primary text & dark surfaces */
+  --color-ink-soft: #14283d;
+  --color-paper: #f6f3ec;        /* warm ivory background */
+  --color-paper-card: #fffdf8;   /* card surface */
+  --color-paper-dim: #efe9dd;
+  --color-line: #e1d9c9;         /* hairline borders */
+  --color-line-strong: #cdc2ad;
+  --color-accent: #b08643;       /* trust gold */
+  --color-accent-deep: #8a6831;
+  --color-accent-soft: #d9b877;
+  --color-muted: #5a6675;
+
+  --font-display: var(--font-display), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+
+  --radius: 2px;
+  --shadow-card: 0 1px 2px rgba(12, 26, 43, 0.04), 0 8px 30px rgba(12, 26, 43, 0.06);
+  --shadow-lift: 0 2px 6px rgba(12, 26, 43, 0.06), 0 24px 60px rgba(12, 26, 43, 0.12);
+}
+
+:root {
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv01";
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--color-ink);
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent-deep);
+  outline-offset: 2px;
+}
+
+/* ---------- Editorial kicker / eyebrow ---------- */
+.kicker {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-accent-deep);
+}
+
+/* ---------- Decorative backgrounds ---------- */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(12, 26, 43, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(12, 26, 43, 0.05) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+}
+
+.bg-aura {
+  background:
+    radial-gradient(40rem 28rem at 85% -10%, rgba(176, 134, 67, 0.16), transparent 60%),
+    radial-gradient(36rem 24rem at 0% 10%, rgba(12, 26, 43, 0.06), transparent 60%);
+}
+
+.gold-rule {
+  height: 2px;
+  width: 3rem;
+  background: linear-gradient(90deg, var(--color-accent), transparent);
+}
+
+/* ---------- Long-form article typography ---------- */
+.prose {
+  color: var(--color-ink-soft);
+  font-size: 1.0625rem;
+  line-height: 1.78;
+}
+.prose > * + * { margin-top: 1.15rem; }
+.prose h2 {
+  font-size: 1.7rem;
+  margin-top: 2.6rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--color-line);
+}
+.prose h3 { font-size: 1.28rem; margin-top: 1.85rem; margin-bottom: 0.25rem; }
+.prose ul, .prose ol { padding-left: 1.4rem; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li + li { margin-top: 0.4rem; }
+.prose a {
+  color: var(--color-accent-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s ease;
+}
+.prose a:hover { color: var(--color-ink); }
+.prose strong { color: var(--color-ink); font-weight: 600; }
+.prose blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--color-muted);
+}
+.prose table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.prose th, .prose td { border: 1px solid var(--color-line); padding: 0.55rem 0.8rem; text-align: left; }
+.prose th { background: var(--color-paper-dim); font-weight: 600; }
+
+/* ---------- Card hover lift ---------- */
+.card-lift { transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease; }
+@media (prefers-reduced-motion: no-preference) {
+  .card-lift:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+}
+
+/* ---------- Marquee ---------- */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 38s linear infinite;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee { animation: none; }
+}
+
+/* ---------- Animated gradient text accent ---------- */
+.text-gold {
+  background: linear-gradient(100deg, var(--color-accent-deep), var(--color-accent-soft), var(--color-accent-deep));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

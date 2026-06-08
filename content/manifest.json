@@ -1,0 +1,1352 @@
+[
+  {
+    "slug": "civil-litigation-india-guide",
+    "title": "Civil Litigation in India: A Complete Guide",
+    "type": "pillar",
+    "keyword": "civil litigation India",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-01-05",
+    "related": [
+      "criminal-defence-india-guide",
+      "file-civil-suit-india",
+      "money-recovery-suit-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "file-civil-suit-india",
+    "title": "How to File a Civil Suit in India",
+    "type": "cluster",
+    "keyword": "how to file a civil suit",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-03-21",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "money-recovery-suit-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "money-recovery-suit-india",
+    "title": "Money Recovery Suits: Recovering Unpaid Dues",
+    "type": "cluster",
+    "keyword": "money recovery suit",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-03-26",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "summary-suit-order-37",
+    "title": "Summary Suits under Order XXXVII Explained",
+    "type": "cluster",
+    "keyword": "summary suit",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-05-30",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "injunction-stay-order-india",
+    "title": "Injunctions & Stay Orders: How They Work",
+    "type": "cluster",
+    "keyword": "injunction order",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-06-16",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "criminal-defence-india-guide",
+    "title": "Criminal Defence in India: A Practical Guide",
+    "type": "pillar",
+    "keyword": "criminal lawyer India",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-01-12",
+    "related": [
+      "civil-litigation-india-guide",
+      "file-civil-suit-india",
+      "money-recovery-suit-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "anticipatory-bail-india-guide",
+    "title": "Anticipatory Bail in India: A Practical Guide",
+    "type": "cluster",
+    "keyword": "anticipatory bail",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-06-19",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "bail-vs-anticipatory-bail",
+    "title": "Regular Bail vs Anticipatory Bail",
+    "type": "cluster",
+    "keyword": "difference between bail and anticipatory bail",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-06-22",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "quash-fir-india",
+    "title": "How to Quash an FIR (Section 528 BNSS)",
+    "type": "cluster",
+    "keyword": "how to quash FIR",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-06-25",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "cheque-bounce-section-138-ni-act",
+    "title": "Cheque Bounce under Section 138: Your Options",
+    "type": "cluster",
+    "keyword": "cheque bounce case",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-06-28",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "rights-on-arrest-india",
+    "title": "What to Do If You're Arrested: Your Rights",
+    "type": "cluster",
+    "keyword": "rights when arrested in India",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-01",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "defamation-law-india",
+    "title": "Defamation Law in India: Civil & Criminal",
+    "type": "cluster",
+    "keyword": "defamation case India",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-04",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "writ-petition-india",
+    "title": "Writ Petitions Explained: Types & When to File",
+    "type": "cluster",
+    "keyword": "writ petition",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-07",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "file-pil-india",
+    "title": "How to File a PIL in India",
+    "type": "cluster",
+    "keyword": "how to file a PIL",
+    "practice": "dispute-resolution",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-10",
+    "related": [
+      "civil-litigation-india-guide",
+      "criminal-defence-india-guide",
+      "file-civil-suit-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "white-collar-crime-india",
+    "title": "White-Collar Crime in India: An Overview",
+    "type": "pillar",
+    "keyword": "white collar crime India",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-01-19",
+    "related": [
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do",
+      "money-laundering-offence-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "pmla-enforcement-directorate-explained",
+    "title": "Understanding the PMLA: When the ED Can Act",
+    "type": "cluster",
+    "keyword": "PMLA explained",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-03-31",
+    "related": [
+      "white-collar-crime-india",
+      "ed-summons-what-to-do",
+      "money-laundering-offence-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "ed-summons-what-to-do",
+    "title": "ED Summons: What to Do If You Receive One",
+    "type": "cluster",
+    "keyword": "ED summons",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-04-05",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "money-laundering-offence-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "money-laundering-offence-india",
+    "title": "Money Laundering Offences Explained",
+    "type": "cluster",
+    "keyword": "money laundering law India",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-13",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "economic-offences-wing-eow",
+    "title": "Economic Offences Wing (EOW): How It Works",
+    "type": "cluster",
+    "keyword": "EOW complaint",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-16",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "prevention-of-corruption-act",
+    "title": "The Prevention of Corruption Act Explained",
+    "type": "cluster",
+    "keyword": "prevention of corruption act",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-19",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "bank-fraud-law-india",
+    "title": "Bank Fraud & Cheating: Legal Provisions",
+    "type": "cluster",
+    "keyword": "bank fraud case",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-22",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "corporate-internal-investigations-guide",
+    "title": "Corporate Internal Investigations: A Guide",
+    "type": "cluster",
+    "keyword": "internal investigation",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-25",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "sfio-investigation",
+    "title": "SFIO Investigations under the Companies Act",
+    "type": "cluster",
+    "keyword": "SFIO investigation",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-28",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "sebi-insider-trading-india",
+    "title": "SEBI Enforcement: Insider Trading & Fraud",
+    "type": "cluster",
+    "keyword": "insider trading SEBI",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-07-31",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "pmla-attachment-property",
+    "title": "Attachment of Property under the PMLA",
+    "type": "cluster",
+    "keyword": "PMLA attachment of property",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-08-03",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "bail-economic-offences",
+    "title": "Bail in Economic Offence Cases",
+    "type": "cluster",
+    "keyword": "bail in PMLA cases",
+    "practice": "white-collar",
+    "author": "a-deshpande",
+    "publishDate": "2026-08-06",
+    "related": [
+      "white-collar-crime-india",
+      "pmla-enforcement-directorate-explained",
+      "ed-summons-what-to-do"
+    ],
+    "published": false
+  },
+  {
+    "slug": "rera-maharashtra-guide",
+    "title": "RERA in Maharashtra: A Complete Guide",
+    "type": "pillar",
+    "keyword": "MahaRERA",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-01-26",
+    "related": [
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra",
+      "rera-carpet-area"
+    ],
+    "published": true
+  },
+  {
+    "slug": "file-rera-complaint-maharashtra",
+    "title": "How to File a RERA Complaint in Maharashtra",
+    "type": "cluster",
+    "keyword": "RERA complaint Maharashtra",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-04-10",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "rera-carpet-area"
+    ],
+    "published": true
+  },
+  {
+    "slug": "rera-carpet-area",
+    "title": "RERA Carpet Area Rules Explained",
+    "type": "cluster",
+    "keyword": "carpet area RERA",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-04-15",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": true
+  },
+  {
+    "slug": "builder-delay-possession-rera",
+    "title": "Builder Delay in Possession: Your RERA Remedies",
+    "type": "cluster",
+    "keyword": "builder delay possession",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-09",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "rera-refund-rules",
+    "title": "RERA Refund Rules: Getting Your Money Back",
+    "type": "cluster",
+    "keyword": "RERA refund",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-12",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "buying-property-india-checklist",
+    "title": "Buying Property in India: A Legal Checklist",
+    "type": "pillar",
+    "keyword": "property buying checklist",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-02-02",
+    "related": [
+      "rera-maharashtra-guide",
+      "file-rera-complaint-maharashtra",
+      "rera-carpet-area"
+    ],
+    "published": true
+  },
+  {
+    "slug": "property-title-due-diligence",
+    "title": "Property Title Due Diligence: What to Check",
+    "type": "cluster",
+    "keyword": "title verification property",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-15",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "stamp-duty-maharashtra",
+    "title": "Stamp Duty & Registration in Maharashtra",
+    "type": "cluster",
+    "keyword": "stamp duty Maharashtra",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-18",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "sale-deed-vs-agreement-to-sell",
+    "title": "Sale Deed vs Agreement to Sell",
+    "type": "cluster",
+    "keyword": "sale deed vs agreement to sell",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-21",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "society-redevelopment-guide",
+    "title": "Redevelopment of Housing Societies: A Guide",
+    "type": "cluster",
+    "keyword": "society redevelopment",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-24",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "cooperative-society-disputes",
+    "title": "Cooperative Society Disputes & Remedies",
+    "type": "cluster",
+    "keyword": "cooperative society dispute",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-27",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "nri-property-disputes-india",
+    "title": "NRI Property Disputes in India",
+    "type": "cluster",
+    "keyword": "NRI property dispute",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-08-30",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "power-of-attorney-property",
+    "title": "Power of Attorney for Property, Done Right",
+    "type": "cluster",
+    "keyword": "POA for property",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-09-02",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "tenant-landlord-rights-maharashtra",
+    "title": "Tenant & Landlord Rights in Maharashtra",
+    "type": "cluster",
+    "keyword": "rent agreement law Maharashtra",
+    "practice": "real-estate",
+    "author": "s-iyer",
+    "publishDate": "2026-09-05",
+    "related": [
+      "rera-maharashtra-guide",
+      "buying-property-india-checklist",
+      "file-rera-complaint-maharashtra"
+    ],
+    "published": false
+  },
+  {
+    "slug": "divorce-india-guide",
+    "title": "Divorce in India: Types, Process & Grounds",
+    "type": "pillar",
+    "keyword": "divorce process India",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-02-09",
+    "related": [
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india",
+      "contested-divorce-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "mutual-consent-divorce-india",
+    "title": "Mutual Consent Divorce: Process & Timeline",
+    "type": "cluster",
+    "keyword": "mutual divorce",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-04-20",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "contested-divorce-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "contested-divorce-india",
+    "title": "Contested Divorce: Grounds & Procedure",
+    "type": "cluster",
+    "keyword": "contested divorce",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-04-25",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "child-custody-india",
+    "title": "Child Custody Laws in India",
+    "type": "cluster",
+    "keyword": "child custody law India",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-08",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "alimony-maintenance-india",
+    "title": "Alimony & Maintenance: How It's Decided",
+    "type": "cluster",
+    "keyword": "alimony India",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-11",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "domestic-violence-act-india",
+    "title": "The Domestic Violence Act: Protections & Remedies",
+    "type": "cluster",
+    "keyword": "domestic violence case",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-14",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "nri-divorce-india",
+    "title": "NRI Divorce: Cross-Border Issues",
+    "type": "cluster",
+    "keyword": "NRI divorce",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-17",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "wills-succession-india-guide",
+    "title": "Wills & Succession in India: A Practical Guide",
+    "type": "pillar",
+    "keyword": "how to make a will India",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-02-16",
+    "related": [
+      "divorce-india-guide",
+      "mutual-consent-divorce-india",
+      "contested-divorce-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "valid-will-india",
+    "title": "How to Make a Valid Will in India",
+    "type": "cluster",
+    "keyword": "valid will requirements",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-20",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "probate-process-india",
+    "title": "Probate of a Will: Process Explained",
+    "type": "cluster",
+    "keyword": "probate process India",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-23",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "hindu-succession-act",
+    "title": "The Hindu Succession Act: Who Inherits What",
+    "type": "cluster",
+    "keyword": "Hindu succession act",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-26",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "succession-certificate-india",
+    "title": "Succession Certificate: When You Need One",
+    "type": "cluster",
+    "keyword": "succession certificate",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-09-29",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "estate-planning-trusts-india",
+    "title": "Estate Planning & Private Trusts in India",
+    "type": "cluster",
+    "keyword": "estate planning India",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-10-02",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "prenuptial-agreement-india",
+    "title": "Prenuptial Agreements in India: Are They Valid?",
+    "type": "cluster",
+    "keyword": "prenup India",
+    "practice": "private-client",
+    "author": "r-khan",
+    "publishDate": "2026-10-05",
+    "related": [
+      "divorce-india-guide",
+      "wills-succession-india-guide",
+      "mutual-consent-divorce-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "arbitration-india-beginners-guide",
+    "title": "Arbitration in India: A Beginner's Guide",
+    "type": "pillar",
+    "keyword": "arbitration process India",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-02-23",
+    "related": [
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief",
+      "section-34-challenge-award"
+    ],
+    "published": true
+  },
+  {
+    "slug": "arbitration-clause-drafting",
+    "title": "Drafting an Arbitration Clause: Key Points",
+    "type": "cluster",
+    "keyword": "arbitration clause",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-04-30",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "section-9-arbitration-interim-relief",
+      "section-34-challenge-award"
+    ],
+    "published": true
+  },
+  {
+    "slug": "section-9-arbitration-interim-relief",
+    "title": "Section 9: Interim Relief in Arbitration",
+    "type": "cluster",
+    "keyword": "section 9 arbitration",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-05-05",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-34-challenge-award"
+    ],
+    "published": true
+  },
+  {
+    "slug": "section-34-challenge-award",
+    "title": "Challenging an Arbitral Award (Section 34)",
+    "type": "cluster",
+    "keyword": "section 34 arbitration",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-10-08",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief"
+    ],
+    "published": false
+  },
+  {
+    "slug": "enforcement-arbitral-award-india",
+    "title": "Enforcement of Arbitral Awards in India",
+    "type": "cluster",
+    "keyword": "enforcement of arbitral award",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-10-11",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief"
+    ],
+    "published": false
+  },
+  {
+    "slug": "foreign-award-enforcement-india",
+    "title": "Enforcing Foreign Awards (New York Convention)",
+    "type": "cluster",
+    "keyword": "foreign award enforcement",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-10-14",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief"
+    ],
+    "published": false
+  },
+  {
+    "slug": "institutional-vs-ad-hoc-arbitration",
+    "title": "Institutional vs Ad Hoc Arbitration",
+    "type": "cluster",
+    "keyword": "institutional arbitration",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-10-17",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief"
+    ],
+    "published": false
+  },
+  {
+    "slug": "mediation-act-india",
+    "title": "Mediation in India: The Mediation Act 2023",
+    "type": "cluster",
+    "keyword": "mediation act 2023",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-10-20",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief"
+    ],
+    "published": false
+  },
+  {
+    "slug": "conciliation-india",
+    "title": "Conciliation as a Dispute-Resolution Tool",
+    "type": "cluster",
+    "keyword": "conciliation",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-10-23",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief"
+    ],
+    "published": false
+  },
+  {
+    "slug": "arbitration-vs-litigation",
+    "title": "Arbitration vs Litigation: Which to Choose",
+    "type": "cluster",
+    "keyword": "arbitration vs litigation",
+    "practice": "arbitration",
+    "author": "a-deshpande",
+    "publishDate": "2026-10-26",
+    "related": [
+      "arbitration-india-beginners-guide",
+      "arbitration-clause-drafting",
+      "section-9-arbitration-interim-relief"
+    ],
+    "published": false
+  },
+  {
+    "slug": "starting-business-india-guide",
+    "title": "Starting a Business in India: A Legal Guide",
+    "type": "pillar",
+    "keyword": "how to start a company in India",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-03-02",
+    "related": [
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india",
+      "llp-vs-private-limited"
+    ],
+    "published": true
+  },
+  {
+    "slug": "pvt-ltd-registration-india",
+    "title": "Private Limited Company Registration: Steps",
+    "type": "cluster",
+    "keyword": "company registration India",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-05-10",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "llp-vs-private-limited"
+    ],
+    "published": true
+  },
+  {
+    "slug": "llp-vs-private-limited",
+    "title": "LLP vs Private Limited: Which to Choose",
+    "type": "cluster",
+    "keyword": "LLP vs Pvt Ltd",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-05-15",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": true
+  },
+  {
+    "slug": "founders-agreement-india",
+    "title": "Founders' Agreement: What to Include",
+    "type": "cluster",
+    "keyword": "founders agreement",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-10-29",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "esop-india-guide",
+    "title": "ESOPs in India: A Startup Guide",
+    "type": "cluster",
+    "keyword": "ESOP India",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-01",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "commercial-contracts-guide",
+    "title": "Commercial Contracts: A Practical Guide",
+    "type": "pillar",
+    "keyword": "commercial contract drafting",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-03-09",
+    "related": [
+      "starting-business-india-guide",
+      "pvt-ltd-registration-india",
+      "llp-vs-private-limited"
+    ],
+    "published": true
+  },
+  {
+    "slug": "essential-contract-clauses",
+    "title": "Key Clauses Every Contract Should Have",
+    "type": "cluster",
+    "keyword": "important contract clauses",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-04",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "nda-india-guide",
+    "title": "Non-Disclosure Agreements (NDA): A Guide",
+    "type": "cluster",
+    "keyword": "NDA India",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-07",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "dpdp-act-2023-compliance-checklist",
+    "title": "The DPDP Act 2023: A Compliance Checklist",
+    "type": "cluster",
+    "keyword": "DPDP Act compliance",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-10",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "posh-act-compliance-india",
+    "title": "POSH Act Compliance: What Companies Need",
+    "type": "cluster",
+    "keyword": "POSH compliance",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-13",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "employment-contract-india",
+    "title": "Employment Contracts & Offer Letters",
+    "type": "cluster",
+    "keyword": "employment agreement India",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-16",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "fdi-india-guide",
+    "title": "FDI in India: Routes & Approvals",
+    "type": "cluster",
+    "keyword": "FDI India",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-19",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "shareholders-agreement-india",
+    "title": "Shareholders' Agreements Explained",
+    "type": "cluster",
+    "keyword": "shareholders agreement",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-22",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "trademark-registration-india",
+    "title": "Trademark Registration in India: A Guide",
+    "type": "cluster",
+    "keyword": "trademark registration India",
+    "practice": "corporate",
+    "author": "s-iyer",
+    "publishDate": "2026-11-25",
+    "related": [
+      "starting-business-india-guide",
+      "commercial-contracts-guide",
+      "pvt-ltd-registration-india"
+    ],
+    "published": false
+  },
+  {
+    "slug": "tribunals-india-guide",
+    "title": "Tribunals in India: A Complete Guide",
+    "type": "pillar",
+    "keyword": "tribunals in India",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-03-16",
+    "related": [
+      "court-vs-tribunal-india",
+      "nclt-explained",
+      "ibc-insolvency-guide"
+    ],
+    "published": true
+  },
+  {
+    "slug": "court-vs-tribunal-india",
+    "title": "Court vs Tribunal: Where Your Dispute Belongs",
+    "type": "cluster",
+    "keyword": "court vs tribunal",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-05-20",
+    "related": [
+      "tribunals-india-guide",
+      "nclt-explained",
+      "ibc-insolvency-guide"
+    ],
+    "published": true
+  },
+  {
+    "slug": "nclt-explained",
+    "title": "NCLT: Jurisdiction & Procedure",
+    "type": "cluster",
+    "keyword": "NCLT",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-05-25",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "ibc-insolvency-guide"
+    ],
+    "published": true
+  },
+  {
+    "slug": "ibc-insolvency-guide",
+    "title": "Insolvency under the IBC: A Quick Guide",
+    "type": "cluster",
+    "keyword": "IBC insolvency",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-11-28",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "consumer-complaint-india",
+    "title": "How to File a Consumer Complaint in India",
+    "type": "cluster",
+    "keyword": "consumer complaint",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-01",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "consumer-protection-act-2019",
+    "title": "The Consumer Protection Act 2019: Key Changes",
+    "type": "cluster",
+    "keyword": "consumer protection act 2019",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-04",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "gstat-gst-appellate-tribunal-explained",
+    "title": "GSTAT: India's GST Appellate Tribunal",
+    "type": "cluster",
+    "keyword": "GSTAT",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-07",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "drt-sarfaesi-explained",
+    "title": "DRT & SARFAESI: Debt Recovery Explained",
+    "type": "cluster",
+    "keyword": "SARFAESI act",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-10",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "ngt-explained",
+    "title": "The National Green Tribunal (NGT): How It Works",
+    "type": "cluster",
+    "keyword": "National Green Tribunal",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-13",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "cat-service-matters",
+    "title": "CAT: The Central Administrative Tribunal",
+    "type": "cluster",
+    "keyword": "CAT tribunal",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-16",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "mact-claim-india",
+    "title": "Motor Accident Claims (MACT): How to Claim",
+    "type": "cluster",
+    "keyword": "motor accident claim",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-19",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  },
+  {
+    "slug": "appeal-tribunal-order",
+    "title": "Appealing a Tribunal Order: Your Options",
+    "type": "cluster",
+    "keyword": "appeal against tribunal order",
+    "practice": "tribunal",
+    "author": "s-iyer",
+    "publishDate": "2026-12-22",
+    "related": [
+      "tribunals-india-guide",
+      "court-vs-tribunal-india",
+      "nclt-explained"
+    ],
+    "published": false
+  }
+]
