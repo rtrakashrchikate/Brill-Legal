@@ -4,7 +4,7 @@ import { PracticeCard, ArticleCard } from "@/components/cards";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
-import { practices } from "@/data/practices";
+import { allPractices } from "@/lib/source/structured";
 import { pillars as sourcePillars, publishedArticles } from "@/lib/source/articles";
 
 const forums = [
@@ -20,6 +20,7 @@ const forums = [
 ];
 
 export default async function Home() {
+  const practices = await allPractices();
   const pillars = (await sourcePillars())
     .filter((a) => a.published)
     .slice(0, 6);

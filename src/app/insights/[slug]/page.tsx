@@ -18,7 +18,7 @@ import {
   practicePillar,
 } from "@/lib/source/articles";
 import { practiceMap } from "@/data/practices";
-import { authorOf } from "@/data/people";
+import { authorBySlug } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 import { site } from "@/config/site";
 import { graph, articleSchema, howToSchema } from "@/lib/schema";
@@ -42,7 +42,7 @@ export async function generateMetadata({
     type: "article",
     noindex: !a.published,
     publishedTime: a.publishDate,
-    authors: [authorOf(a.author).name],
+    authors: [(await authorBySlug(a.author)).name],
   });
 }
 
@@ -54,7 +54,7 @@ export default async function ArticlePage({
   if (!article) notFound();
 
   const practice = practiceMap[article.practice];
-  const author = authorOf(article.author);
+  const author = await authorBySlug(article.author);
   const related = await relatedTo(article);
   const pillar = await practicePillar(article.practice);
   const authorUrl = `${site.url}/people/${author.slug}`;

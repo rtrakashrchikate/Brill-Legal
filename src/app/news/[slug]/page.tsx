@@ -3,20 +3,20 @@ import type { Metadata } from "next";
 import { Container } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
-import { news, newsBySlug } from "@/data/news";
+import { allNews, newsBySlug } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return news.map((n) => ({ slug: n.slug }));
+export async function generateStaticParams() {
+  return (await allNews()).map((n) => ({ slug: n.slug }));
 }
 
 export async function generateMetadata({
   params,
 }: PageProps<"/news/[slug]">): Promise<Metadata> {
   const { slug } = await params;
-  const n = newsBySlug(slug);
+  const n = await newsBySlug(slug);
   if (!n) return {};
   return pageMeta({
     title: n.title,
@@ -31,7 +31,7 @@ export default async function NewsItemPage({
   params,
 }: PageProps<"/news/[slug]">) {
   const { slug } = await params;
-  const n = newsBySlug(slug);
+  const n = await newsBySlug(slug);
   if (!n) notFound();
 
   return (

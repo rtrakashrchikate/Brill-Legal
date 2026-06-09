@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { glossary } from "@/data/glossary";
+import { allGlossary } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -12,8 +12,10 @@ export const metadata: Metadata = pageMeta({
   path: "/glossary",
 });
 
-export default function GlossaryPage() {
-  const sorted = [...glossary].sort((a, b) => a.term.localeCompare(b.term));
+export default async function GlossaryPage() {
+  const sorted = [...(await allGlossary())].sort((a, b) =>
+    a.term.localeCompare(b.term),
+  );
   return (
     <Container className="py-12">
       <Breadcrumbs items={[{ name: "Glossary", url: "/glossary" }]} />

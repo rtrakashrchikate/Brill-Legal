@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { news } from "@/data/news";
+import { allNews } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -12,8 +12,10 @@ export const metadata: Metadata = pageMeta({
   path: "/news",
 });
 
-export default function NewsPage() {
-  const sorted = [...news].sort((a, b) => (a.date < b.date ? 1 : -1));
+export default async function NewsPage() {
+  const sorted = [...(await allNews())].sort((a, b) =>
+    a.date < b.date ? 1 : -1,
+  );
   return (
     <Container className="py-12">
       <Breadcrumbs items={[{ name: "News", url: "/news" }]} />

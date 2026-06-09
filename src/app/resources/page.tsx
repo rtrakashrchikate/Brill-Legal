@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { resources } from "@/data/resources";
+import { allResources } from "@/lib/source/structured";
 import { practiceMap } from "@/data/practices";
 import { pageMeta } from "@/lib/seo";
 
@@ -13,7 +13,8 @@ export const metadata: Metadata = pageMeta({
   path: "/resources",
 });
 
-export default function ResourcesPage() {
+export default async function ResourcesPage() {
+  const resources = await allResources();
   return (
     <Container className="py-12">
       <Breadcrumbs items={[{ name: "Resources", url: "/resources" }]} />

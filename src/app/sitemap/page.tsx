@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { practices } from "@/data/practices";
-import { locations } from "@/data/locations";
-import { glossary } from "@/data/glossary";
-import { resources } from "@/data/resources";
-import { people } from "@/data/people";
-import { news } from "@/data/news";
+import {
+  allPractices,
+  allLocations,
+  allGlossary,
+  allResources,
+  allPeople,
+  allNews,
+} from "@/lib/source/structured";
 import { publishedArticles } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 
@@ -42,7 +44,16 @@ function Group({
 }
 
 export default async function HtmlSitemapPage() {
-  const articles = await publishedArticles();
+  const [articles, practices, locations, glossary, resources, people, news] =
+    await Promise.all([
+      publishedArticles(),
+      allPractices(),
+      allLocations(),
+      allGlossary(),
+      allResources(),
+      allPeople(),
+      allNews(),
+    ]);
   return (
     <Container className="py-12">
       <Breadcrumbs items={[{ name: "Sitemap", url: "/sitemap" }]} />
@@ -105,9 +116,10 @@ export default async function HtmlSitemapPage() {
         />
         <Group
           title="People"
-          links={people
-            .filter((p) => p.slug !== "brill-legal")
-            .map((p) => ({ href: `/people/${p.slug}`, label: p.name }))}
+          links={people.map((p) => ({
+            href: `/people/${p.slug}`,
+            label: p.name,
+          }))}
         />
         <Group
           title="News"

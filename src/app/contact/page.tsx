@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContactForm } from "@/components/ContactForm";
-import { site, telLink, waLink } from "@/config/site";
+import { site } from "@/config/site";
+import { getSettings, waLinkFor, telLinkFor } from "@/lib/source/settings";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -13,7 +14,8 @@ export const metadata: Metadata = pageMeta({
   path: "/contact",
 });
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const settings = await getSettings();
   return (
     <>
       <header className="relative overflow-hidden border-b border-line bg-aura">
@@ -40,13 +42,16 @@ export default function ContactPage() {
             <h2 className="text-lg">Direct lines</h2>
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href={telLink()} className="text-accent-deep hover:underline">
-                  Call {site.contact.phone}
+                <a
+                  href={telLinkFor(settings.phoneDigits)}
+                  className="text-accent-deep hover:underline"
+                >
+                  Call {settings.phone}
                 </a>
               </li>
               <li>
                 <a
-                  href={waLink()}
+                  href={waLinkFor(settings.whatsapp, site.whatsappMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-accent-deep hover:underline"
@@ -56,10 +61,10 @@ export default function ContactPage() {
               </li>
               <li>
                 <a
-                  href={`mailto:${site.contact.email}`}
+                  href={`mailto:${settings.email}`}
                   className="text-accent-deep hover:underline"
                 >
-                  {site.contact.email}
+                  {settings.email}
                 </a>
               </li>
             </ul>
@@ -68,12 +73,9 @@ export default function ContactPage() {
           <div className="border border-line bg-paper-card p-6">
             <h2 className="text-lg">Office</h2>
             <address className="mt-3 text-sm not-italic text-muted">
-              {site.name}
+              {settings.name}
               <br />
-              {site.contact.addressLine}
-              <br />
-              {site.contact.locality}, {site.contact.region}{" "}
-              {site.contact.postalCode}
+              {settings.address}
             </address>
             <p className="mt-4 text-sm text-muted">
               Based in {site.baseCity}; serving clients across India by

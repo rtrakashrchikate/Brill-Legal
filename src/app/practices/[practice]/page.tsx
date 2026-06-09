@@ -6,22 +6,21 @@ import { ArticleCard } from "@/components/cards";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
-import { practices, practiceBySlug } from "@/data/practices";
 import { articlesByPractice } from "@/lib/source/articles";
-import { locations } from "@/data/locations";
+import { allPractices, practiceBySlug, allLocations } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return practices.map((p) => ({ practice: p.slug }));
+export async function generateStaticParams() {
+  return (await allPractices()).map((p) => ({ practice: p.slug }));
 }
 
 export async function generateMetadata({
   params,
 }: PageProps<"/practices/[practice]">): Promise<Metadata> {
   const { practice } = await params;
-  const p = practiceBySlug(practice);
+  const p = await practiceBySlug(practice);
   if (!p) return {};
   return pageMeta({
     title: p.name,
@@ -34,14 +33,16 @@ export default async function PracticePage({
   params,
 }: PageProps<"/practices/[practice]">) {
   const { practice } = await params;
-  const p = practiceBySlug(practice);
+  const p = await practiceBySlug(practice);
   if (!p) notFound();
 
   const articles = (await articlesByPractice(p.slug)).filter((a) => a.published);
   const pillars = articles.filter((a) => a.type === "pillar");
   const clusters = articles.filter((a) => a.type === "cluster");
-  const relatedLocations = locations.filter((l) => l.practice === p.slug);
-  const index = practices.findIndex((x) => x.slug === p.slug);
+  const relatedLocations = (await allLocations()).filter(
+    (l) => l.practice === p.slug,
+  );
+  const index = (await allPractices()).findIndex((x) => x.slug === p.slug);
 
   return (
     <>

@@ -5,25 +5,23 @@ import { Container } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
 import { JsonLd } from "@/components/JsonLd";
-import { people, personBySlug } from "@/data/people";
 import { practiceMap } from "@/data/practices";
+import { allPeople, personBySlug } from "@/lib/source/structured";
 import { publishedArticles } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 import { graph, personSchema } from "@/lib/schema";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return people
-    .filter((p) => p.slug !== "brill-legal")
-    .map((p) => ({ slug: p.slug }));
+export async function generateStaticParams() {
+  return (await allPeople()).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
   params,
 }: PageProps<"/people/[slug]">): Promise<Metadata> {
   const { slug } = await params;
-  const p = personBySlug(slug);
+  const p = await personBySlug(slug);
   if (!p) return {};
   return pageMeta({
     title: `${p.name} — ${p.title}`,
@@ -36,7 +34,7 @@ export default async function PersonPage({
   params,
 }: PageProps<"/people/[slug]">) {
   const { slug } = await params;
-  const p = personBySlug(slug);
+  const p = await personBySlug(slug);
   if (!p || p.slug === "brill-legal") notFound();
 
   const authored = (await publishedArticles()).filter(

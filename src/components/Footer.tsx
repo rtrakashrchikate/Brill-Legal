@@ -1,16 +1,18 @@
 import Link from "next/link";
-import { site, telLink, waLink } from "@/config/site";
+import { site } from "@/config/site";
 import { practices } from "@/data/practices";
+import { getSettings, waLinkFor, telLinkFor } from "@/lib/source/settings";
 
-export function Footer() {
+export async function Footer() {
+  const settings = await getSettings();
   return (
     <footer className="mt-24 border-t border-line bg-ink text-paper">
       <div className="mx-auto w-full max-w-6xl px-5 py-16 sm:px-8">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-1">
-            <p className="font-display text-2xl font-semibold">Brill Legal</p>
+            <p className="font-display text-2xl font-semibold">{settings.name}</p>
             <p className="mt-3 text-sm leading-relaxed text-paper/70">
-              {site.tagline}
+              {settings.tagline}
             </p>
             <p className="mt-4 text-sm text-paper/70">
               Practising since {site.practisingSince}.<br />
@@ -65,21 +67,24 @@ export function Footer() {
             </p>
             <ul className="mt-4 space-y-2 text-sm">
               <li>
-                <a href={telLink()} className="text-paper/80 hover:text-paper">
-                  {site.contact.phone}
-                </a>
-              </li>
-              <li>
                 <a
-                  href={`mailto:${site.contact.email}`}
+                  href={telLinkFor(settings.phoneDigits)}
                   className="text-paper/80 hover:text-paper"
                 >
-                  {site.contact.email}
+                  {settings.phone}
                 </a>
               </li>
               <li>
                 <a
-                  href={waLink()}
+                  href={`mailto:${settings.email}`}
+                  className="text-paper/80 hover:text-paper"
+                >
+                  {settings.email}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={waLinkFor(settings.whatsapp, site.whatsappMessage)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-paper/80 hover:text-paper"
@@ -89,7 +94,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href={site.social.linkedin}
+                  href={settings.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-paper/80 hover:text-paper"
@@ -103,9 +108,8 @@ export function Footer() {
 
         <div className="mt-14 border-t border-paper/15 pt-6 text-xs text-paper/50">
           <p>
-            © {new Date().getFullYear()} {site.legalName}. This website is for
-            general information only and is not legal advice. Use of this site
-            does not create a lawyer–client relationship.
+            © {new Date().getFullYear()} {settings.name}.{" "}
+            {settings.footerDisclaimer}
           </p>
         </div>
       </div>

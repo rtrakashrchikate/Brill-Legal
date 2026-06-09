@@ -90,10 +90,15 @@ logged server-side so the form always works.
 | Header/footer/contact NAP  | `siteSettings` options page               |
 | Contact form               | `createEnquiry` → `enquiry` CPT           |
 
-> **Articles are wired end-to-end today.** The other content types have their
-> CPTs, ACF groups and GraphQL exposure ready; flip each page's data source from
-> `@/data/*` to a WP query (mirroring `src/lib/source/articles.ts`) as you move
-> that content into WordPress.
+> **All content types are wired** through `src/lib/source/*` (articles +
+> `structured.ts` for practices, people, locations, glossary, resources, news,
+> and `settings.ts` for the Site Settings options page). Each is WP-first and
+> falls back to the in-repo content, so the site is identical until you populate
+> WordPress — then each type switches over as you add entries. Rich WYSIWYG
+> fields are converted to clean text on the way in (article bodies keep full
+> HTML). The fixed practice taxonomy (the 7 route slugs + the contact form's
+> matter-type dropdown) stays in code by design, so set the `vertical`/`practice`
+> slugs in WordPress to match.
 
 ## SEO ownership
 

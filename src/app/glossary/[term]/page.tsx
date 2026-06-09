@@ -4,22 +4,22 @@ import Link from "next/link";
 import { Container } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
-import { glossary, glossaryBySlug } from "@/data/glossary";
 import { practiceMap } from "@/data/practices";
-import { getArticleBySlug } from "@/lib/content";
+import { allGlossary, glossaryBySlug } from "@/lib/source/structured";
+import { articleBySlug } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return glossary.map((g) => ({ term: g.slug }));
+export async function generateStaticParams() {
+  return (await allGlossary()).map((g) => ({ term: g.slug }));
 }
 
 export async function generateMetadata({
   params,
 }: PageProps<"/glossary/[term]">): Promise<Metadata> {
   const { term } = await params;
-  const g = glossaryBySlug(term);
+  const g = await glossaryBySlug(term);
   if (!g) return {};
   return pageMeta({
     title: `${g.term} — Meaning & Definition`,
@@ -32,12 +32,12 @@ export default async function GlossaryTermPage({
   params,
 }: PageProps<"/glossary/[term]">) {
   const { term } = await params;
-  const g = glossaryBySlug(term);
+  const g = await glossaryBySlug(term);
   if (!g) notFound();
 
   const practice = g.practice ? practiceMap[g.practice] : undefined;
-  const article = g.article ? getArticleBySlug(g.article) : undefined;
-  const related = glossary
+  const article = g.article ? await articleBySlug(g.article) : undefined;
+  const related = (await allGlossary())
     .filter((x) => x.practice === g.practice && x.slug !== g.slug)
     .slice(0, 6);
 

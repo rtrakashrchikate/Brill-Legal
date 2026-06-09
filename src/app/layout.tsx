@@ -8,6 +8,7 @@ import { ContactDock } from "@/components/ContactDock";
 import { Analytics } from "@/components/Analytics";
 import { JsonLd } from "@/components/JsonLd";
 import { graph, organizationSchema, websiteSchema } from "@/lib/schema";
+import { getSettings } from "@/lib/source/settings";
 
 const display = Playfair_Display({
   variable: "--font-display",
@@ -41,17 +42,21 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const settings = await getSettings();
   return (
     <html lang="en" className={`${display.variable} ${sans.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-paper text-ink">
-        <JsonLd data={graph(organizationSchema(), websiteSchema())} />
-        <Header />
+        <JsonLd data={graph(organizationSchema(settings), websiteSchema())} />
+        <Header firmName={settings.name} phone={settings.phone} />
         <main className="flex-1">{children}</main>
         <Footer />
-        <ContactDock />
+        <ContactDock
+          whatsapp={settings.whatsapp}
+          phoneDigits={settings.phoneDigits}
+        />
         <Analytics />
       </body>
     </html>

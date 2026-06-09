@@ -14,10 +14,22 @@ const nav = [
   { href: "/about", label: "About" },
 ];
 
-export function Header() {
+export function Header({
+  firmName = "Brill Legal",
+  phone,
+}: {
+  firmName?: string;
+  phone?: string;
+}) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+
+  const phoneLabel = phone ?? site.contact.phone;
+  const phoneDigits = (phone ?? site.contact.phone).replace(/[^\d]/g, "") || site.contact.phoneDigits;
+  const words = firmName.trim().split(" ");
+  const lead = words.slice(0, -1).join(" ");
+  const tail = words[words.length - 1];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -45,7 +57,8 @@ export function Header() {
           onClick={() => setOpen(false)}
         >
           <span className="font-display text-2xl font-semibold tracking-tight text-ink">
-            Brill <span className="text-accent-deep">Legal</span>
+            {lead ? `${lead} ` : ""}
+            <span className="text-accent-deep">{tail}</span>
           </span>
         </Link>
 
@@ -128,10 +141,10 @@ export function Header() {
               Request a Consultation
             </Link>
             <a
-              href={`tel:+${site.contact.phoneDigits}`}
+              href={`tel:+${phoneDigits}`}
               className="mt-2 text-center text-sm text-muted"
             >
-              Call {site.contact.phone}
+              Call {phoneLabel}
             </a>
           </nav>
         </div>

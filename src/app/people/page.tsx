@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { people } from "@/data/people";
+import { allPeople } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -12,8 +12,8 @@ export const metadata: Metadata = pageMeta({
   path: "/people",
 });
 
-export default function PeoplePage() {
-  const team = people.filter((p) => p.slug !== "brill-legal");
+export default async function PeoplePage() {
+  const team = await allPeople();
   return (
     <Container className="py-12">
       <Breadcrumbs items={[{ name: "People", url: "/people" }]} />

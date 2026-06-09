@@ -6,23 +6,23 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FaqList } from "@/components/FaqList";
 import { CtaBand } from "@/components/CtaBand";
 import { JsonLd } from "@/components/JsonLd";
-import { locations, locationBySlug } from "@/data/locations";
 import { practiceMap } from "@/data/practices";
-import { getArticleBySlug } from "@/lib/content";
+import { allLocations, locationBySlug } from "@/lib/source/structured";
+import { articleBySlug } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 import { graph, legalServiceLocationSchema } from "@/lib/schema";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return locations.map((l) => ({ locationSlug: l.slug }));
+export async function generateStaticParams() {
+  return (await allLocations()).map((l) => ({ locationSlug: l.slug }));
 }
 
 export async function generateMetadata({
   params,
 }: PageProps<"/[locationSlug]">): Promise<Metadata> {
   const { locationSlug } = await params;
-  const loc = locationBySlug(locationSlug);
+  const loc = await locationBySlug(locationSlug);
   if (!loc) return {};
   return pageMeta({
     title: loc.title,
@@ -35,13 +35,13 @@ export default async function LocationPage({
   params,
 }: PageProps<"/[locationSlug]">) {
   const { locationSlug } = await params;
-  const loc = locationBySlug(locationSlug);
+  const loc = await locationBySlug(locationSlug);
   if (!loc) notFound();
 
   const practice = practiceMap[loc.practice];
-  const linkedArticles = loc.articles
-    .map((s) => getArticleBySlug(s))
-    .filter((a) => a && a.published);
+  const locations = await allLocations();
+  const linked = await Promise.all(loc.articles.map((s) => articleBySlug(s)));
+  const linkedArticles = linked.filter((a) => a && a.published);
 
   return (
     <>

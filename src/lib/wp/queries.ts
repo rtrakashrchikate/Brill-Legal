@@ -50,6 +50,123 @@ export const QUERY_ARTICLE_SLUGS = /* GraphQL */ `
   }
 `;
 
+export const QUERY_PRACTICES = /* GraphQL */ `
+  query Practices($first: Int = 20) {
+    practices(first: $first) {
+      nodes {
+        title
+        slug
+        verticals { nodes { slug } }
+        practiceFields {
+          shortLabel
+          heroIntro
+          overview
+          summary
+          matterType
+          orderNo
+          capabilities { item }
+        }
+      }
+    }
+  }
+`;
+
+export const QUERY_PEOPLE = /* GraphQL */ `
+  query People($first: Int = 50) {
+    people(first: $first) {
+      nodes {
+        title
+        slug
+        personFields {
+          roleTitle
+          bio
+          practiceFocus
+          education
+          enrolment
+          displayOrder
+          linkedinUrl
+          practices { nodes { ... on Practice { slug } } }
+        }
+      }
+    }
+  }
+`;
+
+export const QUERY_LOCATIONS = /* GraphQL */ `
+  query Locations($first: Int = 100) {
+    locations(first: $first) {
+      nodes {
+        title
+        slug
+        cities { nodes { slug name } }
+        verticals { nodes { slug } }
+        locationFields {
+          serviceLabel
+          cityLabel
+          localIntro
+          localCourts
+          seoTitle
+          metaDescription
+          relatedPractice { nodes { ... on Practice { slug } } }
+          relatedArticles { nodes { ... on Post { slug } } }
+          faq { question answer }
+        }
+      }
+    }
+  }
+`;
+
+export const QUERY_GLOSSARY = /* GraphQL */ `
+  query Glossary($first: Int = 200) {
+    glossaryTerms(first: $first) {
+      nodes {
+        title
+        slug
+        glossaryFields {
+          definition
+          relatedPractice { nodes { ... on Practice { slug } } }
+          relatedArticle { nodes { ... on Post { slug } } }
+        }
+      }
+    }
+  }
+`;
+
+export const QUERY_RESOURCES = /* GraphQL */ `
+  query Resources($first: Int = 50) {
+    resources(first: $first) {
+      nodes {
+        title
+        slug
+        resourceFields {
+          summary
+          gateEmail
+          items { item }
+          relatedPractice { nodes { ... on Practice { slug } } }
+          relatedArticle { nodes { ... on Post { slug } } }
+        }
+      }
+    }
+  }
+`;
+
+export const QUERY_NEWS = /* GraphQL */ `
+  query News($first: Int = 50) {
+    newsItems(first: $first, where: { orderby: { field: DATE, order: DESC } }) {
+      nodes {
+        title
+        slug
+        content
+        newsFields {
+          summary
+          date
+          category
+        }
+      }
+    }
+  }
+`;
+
 export const QUERY_SITE_SETTINGS = /* GraphQL */ `
   query SiteSettings {
     siteSettings {

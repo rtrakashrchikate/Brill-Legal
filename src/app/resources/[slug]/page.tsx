@@ -4,22 +4,22 @@ import Link from "next/link";
 import { Container } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
-import { resources, resourceBySlug } from "@/data/resources";
 import { practiceMap } from "@/data/practices";
-import { getArticleBySlug } from "@/lib/content";
+import { allResources, resourceBySlug } from "@/lib/source/structured";
+import { articleBySlug } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return resources.map((r) => ({ slug: r.slug }));
+export async function generateStaticParams() {
+  return (await allResources()).map((r) => ({ slug: r.slug }));
 }
 
 export async function generateMetadata({
   params,
 }: PageProps<"/resources/[slug]">): Promise<Metadata> {
   const { slug } = await params;
-  const r = resourceBySlug(slug);
+  const r = await resourceBySlug(slug);
   if (!r) return {};
   return pageMeta({
     title: r.title,
@@ -32,11 +32,11 @@ export default async function ResourcePage({
   params,
 }: PageProps<"/resources/[slug]">) {
   const { slug } = await params;
-  const r = resourceBySlug(slug);
+  const r = await resourceBySlug(slug);
   if (!r) notFound();
 
   const practice = practiceMap[r.practice];
-  const article = r.relatedArticle ? getArticleBySlug(r.relatedArticle) : undefined;
+  const article = r.relatedArticle ? await articleBySlug(r.relatedArticle) : undefined;
 
   return (
     <Container className="py-12">

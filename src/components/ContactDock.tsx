@@ -2,17 +2,26 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { site, telLink, waLink } from "@/config/site";
+import { site } from "@/config/site";
 import { track } from "@/lib/analytics";
 
 /**
  * Floating contact dock — sticky on all pages, appears after a little scroll,
  * hides on the contact page. WhatsApp + Call + Request a Consultation, all
- * GA4-tracked.
+ * GA4-tracked. NAP comes from live settings (props), falling back to config.
  */
-export function ContactDock() {
+export function ContactDock({
+  whatsapp = site.contact.whatsapp,
+  phoneDigits = site.contact.phoneDigits,
+}: {
+  whatsapp?: string;
+  phoneDigits?: string;
+}) {
   const pathname = usePathname();
   const [shown, setShown] = useState(false);
+
+  const waHref = `https://wa.me/${whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`;
+  const telHref = `tel:+${phoneDigits}`;
 
   useEffect(() => {
     const onScroll = () => setShown(window.scrollY > 320);
@@ -31,7 +40,7 @@ export function ContactDock() {
     >
       <div className="mx-auto mb-3 flex w-full max-w-md items-stretch gap-2 px-4 sm:max-w-lg">
         <a
-          href={waLink()}
+          href={waHref}
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => track("click_whatsapp", { location: "dock" })}
@@ -40,7 +49,7 @@ export function ContactDock() {
           WhatsApp
         </a>
         <a
-          href={telLink()}
+          href={telHref}
           onClick={() => track("click_call", { location: "dock" })}
           className="flex flex-1 items-center justify-center gap-2 rounded-[2px] bg-ink-soft px-3 py-3 text-sm font-medium text-paper shadow-lg"
         >

@@ -1,17 +1,29 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/config/site";
-import { practices } from "@/data/practices";
-import { locations } from "@/data/locations";
-import { glossary } from "@/data/glossary";
-import { resources } from "@/data/resources";
-import { people } from "@/data/people";
-import { news } from "@/data/news";
+import {
+  allPractices,
+  allLocations,
+  allGlossary,
+  allResources,
+  allPeople,
+  allNews,
+} from "@/lib/source/structured";
 import { publishedArticles } from "@/lib/source/articles";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = site.url;
   const now = new Date();
   const url = (path: string) => `${base}${path}`;
+
+  const [practices, locations, glossary, resources, people, news] =
+    await Promise.all([
+      allPractices(),
+      allLocations(),
+      allGlossary(),
+      allResources(),
+      allPeople(),
+      allNews(),
+    ]);
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: url("/"), lastModified: now, changeFrequency: "weekly", priority: 1 },
@@ -62,14 +74,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }));
 
-  const peoplePages = people
-    .filter((p) => p.slug !== "brill-legal")
-    .map((p) => ({
-      url: url(`/people/${p.slug}`),
-      lastModified: now,
-      changeFrequency: "yearly" as const,
-      priority: 0.5,
-    }));
+  const peoplePages = people.map((p) => ({
+    url: url(`/people/${p.slug}`),
+    lastModified: now,
+    changeFrequency: "yearly" as const,
+    priority: 0.5,
+  }));
 
   const newsPages = news.map((n) => ({
     url: url(`/news/${n.slug}`),

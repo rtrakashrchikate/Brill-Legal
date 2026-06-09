@@ -155,6 +155,7 @@ add_action('acf/init', function () {
         'show_in_graphql' => 1,
         'graphql_field_name' => 'practiceFields',
         'fields'   => [
+            ['key' => 'field_prac_shortLabel', 'name' => 'shortLabel', 'label' => 'Short Label (e.g. Litigation)', 'type' => 'text'],
             ['key' => 'field_prac_heroIntro', 'name' => 'heroIntro', 'label' => 'Hero Intro', 'type' => 'textarea', 'rows' => 2],
             ['key' => 'field_prac_overview', 'name' => 'overview', 'label' => 'Overview', 'type' => 'wysiwyg'],
             ['key' => 'field_prac_summary', 'name' => 'summary', 'label' => 'Card Summary', 'type' => 'textarea', 'rows' => 2],
@@ -178,7 +179,9 @@ add_action('acf/init', function () {
         'fields'   => [
             ['key' => 'field_per_roleTitle', 'name' => 'roleTitle', 'label' => 'Role Title', 'type' => 'text'],
             ['key' => 'field_per_bio', 'name' => 'bio', 'label' => 'Bio', 'type' => 'textarea', 'rows' => 3],
-            ['key' => 'field_per_practiceFocus', 'name' => 'practiceFocus', 'label' => 'Practice Focus', 'type' => 'textarea', 'rows' => 2],
+            ['key' => 'field_per_practiceFocus', 'name' => 'practiceFocus', 'label' => 'Practice Focus (one per line)', 'type' => 'textarea', 'rows' => 3],
+            ['key' => 'field_per_education', 'name' => 'education', 'label' => 'Education / Credentials (one per line)', 'type' => 'textarea', 'rows' => 3],
+            ['key' => 'field_per_practices', 'name' => 'practices', 'label' => 'Practices', 'type' => 'relationship', 'post_type' => ['practice']],
             ['key' => 'field_per_enrolment', 'name' => 'enrolment', 'label' => 'Enrolment', 'type' => 'text'],
             ['key' => 'field_per_displayOrder', 'name' => 'displayOrder', 'label' => 'Display Order', 'type' => 'number'],
             ['key' => 'field_per_linkedinUrl', 'name' => 'linkedinUrl', 'label' => 'LinkedIn URL', 'type' => 'url'],
@@ -231,9 +234,13 @@ add_action('acf/init', function () {
         'graphql_field_name' => 'resourceFields',
         'fields'   => [
             ['key' => 'field_res_summary', 'name' => 'summary', 'label' => 'Summary', 'type' => 'textarea', 'rows' => 2],
+            ['key' => 'field_res_items', 'name' => 'items', 'label' => 'Checklist Items', 'type' => 'repeater', 'sub_fields' => [
+                ['key' => 'field_res_item', 'name' => 'item', 'label' => 'Item', 'type' => 'text'],
+            ]],
             ['key' => 'field_res_file', 'name' => 'file', 'label' => 'File', 'type' => 'file', 'return_format' => 'url'],
             ['key' => 'field_res_gateEmail', 'name' => 'gateEmail', 'label' => 'Require email?', 'type' => 'true_false', 'ui' => 1],
             ['key' => 'field_res_relatedPractice', 'name' => 'relatedPractice', 'label' => 'Related Practice', 'type' => 'relationship', 'post_type' => ['practice'], 'max' => 1],
+            ['key' => 'field_res_relatedArticle', 'name' => 'relatedArticle', 'label' => 'Related Article', 'type' => 'relationship', 'post_type' => ['post'], 'max' => 1],
             ['key' => 'field_res_seoTitle', 'name' => 'seoTitle', 'label' => 'SEO Title', 'type' => 'text'],
             ['key' => 'field_res_metaDescription', 'name' => 'metaDescription', 'label' => 'Meta Description', 'type' => 'textarea', 'rows' => 2],
         ],

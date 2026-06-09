@@ -4,7 +4,7 @@ import { PracticeCard } from "@/components/cards";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
 import { StaggerGroup, StaggerItem } from "@/components/motion";
-import { practices } from "@/data/practices";
+import { allPractices } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -14,7 +14,8 @@ export const metadata: Metadata = pageMeta({
   path: "/practices",
 });
 
-export default function PracticesPage() {
+export default async function PracticesPage() {
+  const practices = await allPractices();
   return (
     <>
       <header className="relative overflow-hidden border-b border-line bg-aura">

@@ -1,6 +1,7 @@
 import { site } from "@/config/site";
 import type { Article, Faq } from "@/lib/content";
 import type { Person } from "@/data/people";
+import type { Settings } from "@/lib/source/settings";
 
 /**
  * JSON-LD builders. Every page renders the relevant subset via <JsonLd />.
@@ -10,25 +11,28 @@ import type { Person } from "@/data/people";
 const ORG_ID = `${site.url}/#organization`;
 const WEBSITE_ID = `${site.url}/#website`;
 
-export function organizationSchema() {
+/** Pass live settings (WP-overridable) where available; falls back to config. */
+export function organizationSchema(settings?: Settings) {
   return {
     "@type": ["LegalService", "LocalBusiness"],
     "@id": ORG_ID,
-    name: site.name,
+    name: settings?.name ?? site.name,
     url: site.url,
-    telephone: site.contact.phone,
-    email: site.contact.email,
+    telephone: settings?.phone ?? site.contact.phone,
+    email: settings?.email ?? site.contact.email,
     foundingDate: String(site.practisingSince),
     areaServed: ["Pune", "Mumbai", "Maharashtra", "India"],
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: site.contact.addressLine,
-      addressLocality: site.contact.locality,
-      addressRegion: site.contact.region,
-      postalCode: site.contact.postalCode,
-      addressCountry: site.contact.country,
-    },
-    sameAs: [site.social.linkedin],
+    address: settings?.address
+      ? { "@type": "PostalAddress", streetAddress: settings.address, addressCountry: "IN" }
+      : {
+          "@type": "PostalAddress",
+          streetAddress: site.contact.addressLine,
+          addressLocality: site.contact.locality,
+          addressRegion: site.contact.region,
+          postalCode: site.contact.postalCode,
+          addressCountry: site.contact.country,
+        },
+    sameAs: [settings?.linkedin ?? site.social.linkedin],
   };
 }
 
