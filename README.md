@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Brill Legal
 
-## Getting Started
+The website for Brill Legal — a full-service Indian law practice. A Next.js 16
+(App Router, TypeScript, Tailwind v4) front-end with a premium editorial design,
+tasteful motion, a full SEO system, and an **optional headless WordPress**
+content backend (works fully without it).
 
-First, run the development server:
+## Quick start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+No environment variables are required for local dev — the site serves the
+in-repo content under `content/` and `src/data/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What's inside
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Pages:** home, practices (+ detail), insights (+ article), location pages
+  (`/[service]-lawyer-in-[city]`), FAQ hub, glossary, resources, people, news,
+  HTML sitemap, contact, about.
+- **SEO:** full JSON-LD schema suite, XML sitemap + robots, canonicals, content
+  calendar, internal-linking model. The Next.js app is the canonical site.
+- **Design/motion:** authority-navy + trust-gold, Playfair Display + Inter,
+  scroll reveals / staggers / hero word-reveal / count-ups — all respect
+  `prefers-reduced-motion`.
+- **Conversion:** sticky contact dock, contextual CTA bands, matter-pre-filled
+  enquiry form (`/api/enquiry`), WhatsApp/call, GA4 events.
+- **Content engine:** markdown + frontmatter articles with a scheduled-publish
+  calendar; `scripts/gen-manifest.mjs` regenerates the 90-article manifest.
 
-## Learn More
+## Headless WordPress (optional)
 
-To learn more about Next.js, take a look at the following resources:
+Content can be served from WordPress via WPGraphQL. The integration is
+**fallback-first**: unset `WP_GRAPHQL_ENDPOINT` → in-repo content; set it →
+WordPress. See **[`wordpress/README.md`](./wordpress/README.md)** for the CMS
+setup (a single mu-plugin registers everything) and the field → front-end map.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+See **[`DEPLOY.md`](./DEPLOY.md)** for Vercel + domain (brilllegal.in) setup.
+Environment variables are documented in **`.env.example`**.
 
-## Deploy on Vercel
+## Project layout
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/app/          routes (App Router)
+src/components/    UI, motion, schema, conversion surfaces
+src/data/          structured content (practices, people, locations, …)
+src/lib/wp/        WPGraphQL client, queries, mappers
+src/lib/source/    unified WP-first / local-fallback data layer
+content/articles/  markdown guides + manifest
+wordpress/         headless WordPress backend (mu-plugin + docs)
+docs/              authoring spec + content calendar
+```
