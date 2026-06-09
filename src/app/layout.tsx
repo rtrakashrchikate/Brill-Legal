@@ -39,6 +39,12 @@ export const metadata: Metadata = {
     siteName: site.name,
     url: site.url,
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.name} — Indian Law Practice`,
+    description:
+      "A full-service Indian law practice — litigation, white-collar, real estate & RERA, family, arbitration, corporate and tribunal work.",
+  },
   robots: { index: true, follow: true },
 };
 
