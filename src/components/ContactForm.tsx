@@ -19,11 +19,45 @@ export function ContactForm() {
     matterTypes.includes(presetMatter) ? presetMatter : "",
   );
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    track("generate_lead", { method: "contact_form", matter: matter || "unspecified" });
-    setSent(true);
+    setSubmitting(true);
+    setError(null);
+    const fd = new FormData(e.currentTarget);
+    const payload = {
+      fullName: String(fd.get("name") ?? ""),
+      phone: String(fd.get("phone") ?? ""),
+      email: String(fd.get("email") ?? ""),
+      matterType: String(fd.get("matter") ?? ""),
+      message: String(fd.get("message") ?? ""),
+      company: String(fd.get("company") ?? ""), // honeypot
+      sourcePage: typeof window !== "undefined" ? window.location.pathname : "",
+    };
+    try {
+      const res = await fetch("/api/enquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const json = (await res.json()) as { ok: boolean; error?: string };
+      if (!json.ok) throw new Error(json.error || "Something went wrong");
+      track("generate_lead", {
+        method: "contact_form",
+        matter: matter || "unspecified",
+      });
+      setSent(true);
+    } catch (err) {
+      setError(
+        err instanceof Error
+          ? err.message
+          : "We couldn't send your enquiry. Please call or WhatsApp us.",
+      );
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   if (sent) {
@@ -43,6 +77,15 @@ export function ContactForm() {
       onSubmit={onSubmit}
       className="grid gap-4 border border-line bg-paper-card p-6 sm:p-8"
     >
+      {/* Honeypot: hidden from users, catches bots. */}
+      <input
+        type="text"
+        name="company"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden
+        className="hidden"
+      />
       <div className="grid gap-4 sm:grid-cols-2">
         <Field label="Name" name="name" required />
         <Field label="Phone" name="phone" type="tel" required />
@@ -78,11 +121,17 @@ export function ContactForm() {
           className="mt-1 w-full border border-line bg-paper px-3 py-2.5 text-sm"
         />
       </div>
+      {error && (
+        <p className="rounded-[2px] border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700">
+          {error}
+        </p>
+      )}
       <button
         type="submit"
-        className="rounded-[2px] bg-ink px-5 py-3 text-sm font-medium text-paper hover:bg-ink-soft"
+        disabled={submitting}
+        className="rounded-[2px] bg-ink px-5 py-3 text-sm font-medium text-paper transition-colors hover:bg-ink-soft disabled:opacity-60"
       >
-        Request a Consultation
+        {submitting ? "Sending…" : "Request a Consultation"}
       </button>
       <p className="text-xs text-muted">
         Submitting this form does not create a lawyer–client relationship.

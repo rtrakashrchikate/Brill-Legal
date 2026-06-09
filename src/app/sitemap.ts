@@ -6,9 +6,9 @@ import { glossary } from "@/data/glossary";
 import { resources } from "@/data/resources";
 import { people } from "@/data/people";
 import { news } from "@/data/news";
-import { getPublishedArticles } from "@/lib/content";
+import { publishedArticles } from "@/lib/source/articles";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = site.url;
   const now = new Date();
   const url = (path: string) => `${base}${path}`;
@@ -41,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const articlePages = getPublishedArticles().map((a) => ({
+  const articlePages = (await publishedArticles()).map((a) => ({
     url: url(`/insights/${a.slug}`),
     lastModified: new Date(a.publishDate),
     changeFrequency: "monthly" as const,

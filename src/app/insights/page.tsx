@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { InsightsList, type InsightItem } from "@/components/InsightsList";
-import { getPublishedArticles } from "@/lib/content";
+import { publishedArticles } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -13,8 +13,8 @@ export const metadata: Metadata = pageMeta({
   path: "/insights",
 });
 
-export default function InsightsPage() {
-  const items: InsightItem[] = getPublishedArticles().map((a) => ({
+export default async function InsightsPage() {
+  const items: InsightItem[] = (await publishedArticles()).map((a) => ({
     slug: a.slug,
     title: a.title,
     description: a.description,

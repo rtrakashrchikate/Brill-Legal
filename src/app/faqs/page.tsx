@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Container, SectionHeading } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
-import { getAllFaqs } from "@/lib/content";
+import { allFaqs } from "@/lib/source/articles";
 import { practices, practiceMap } from "@/data/practices";
 import { pageMeta } from "@/lib/seo";
 import { graph, faqSchema } from "@/lib/schema";
@@ -15,8 +15,8 @@ export const metadata: Metadata = pageMeta({
   path: "/faqs",
 });
 
-export default function FaqHubPage() {
-  const rows = getAllFaqs();
+export default async function FaqHubPage() {
+  const rows = await allFaqs();
   const byPractice = practices
     .map((p) => ({
       practice: p,

@@ -7,7 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 import { practices, practiceBySlug } from "@/data/practices";
-import { getArticlesByPractice } from "@/lib/content";
+import { articlesByPractice } from "@/lib/source/articles";
 import { locations } from "@/data/locations";
 import { pageMeta } from "@/lib/seo";
 
@@ -37,7 +37,7 @@ export default async function PracticePage({
   const p = practiceBySlug(practice);
   if (!p) notFound();
 
-  const articles = getArticlesByPractice(p.slug).filter((a) => a.published);
+  const articles = (await articlesByPractice(p.slug)).filter((a) => a.published);
   const pillars = articles.filter((a) => a.type === "pillar");
   const clusters = articles.filter((a) => a.type === "cluster");
   const relatedLocations = locations.filter((l) => l.practice === p.slug);

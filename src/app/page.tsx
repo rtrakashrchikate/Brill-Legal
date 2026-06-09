@@ -5,7 +5,7 @@ import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 import { practices } from "@/data/practices";
-import { getPillars, getPublishedArticles } from "@/lib/content";
+import { pillars as sourcePillars, publishedArticles } from "@/lib/source/articles";
 
 const forums = [
   "Bombay High Court",
@@ -19,11 +19,11 @@ const forums = [
   "Supreme Court of India",
 ];
 
-export default function Home() {
-  const pillars = getPillars()
+export default async function Home() {
+  const pillars = (await sourcePillars())
     .filter((a) => a.published)
     .slice(0, 6);
-  const latest = getPublishedArticles().slice(0, 3);
+  const latest = (await publishedArticles()).slice(0, 3);
 
   return (
     <>

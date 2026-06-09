@@ -7,7 +7,7 @@ import { CtaBand } from "@/components/CtaBand";
 import { JsonLd } from "@/components/JsonLd";
 import { people, personBySlug } from "@/data/people";
 import { practiceMap } from "@/data/practices";
-import { getPublishedArticles } from "@/lib/content";
+import { publishedArticles } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 import { graph, personSchema } from "@/lib/schema";
 
@@ -39,7 +39,9 @@ export default async function PersonPage({
   const p = personBySlug(slug);
   if (!p || p.slug === "brill-legal") notFound();
 
-  const authored = getPublishedArticles().filter((a) => a.author === p.slug);
+  const authored = (await publishedArticles()).filter(
+    (a) => a.author === p.slug,
+  );
 
   return (
     <>

@@ -15,7 +15,11 @@ export const site = {
   tagline: "A full-service Indian law practice. Measured counsel, since 2007.",
   practisingSince: 2007,
   // Public-facing base URL (used for canonicals + sitemaps).
-  url: "https://www.brilllegal.in",
+  // Overridable via NEXT_PUBLIC_SITE_URL for staging/preview deploys.
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://brilllegal.in").replace(
+    /\/$/,
+    "",
+  ),
   locale: "en_IN",
   // Real base of operations.
   baseCity: "Pune",

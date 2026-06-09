@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Container } from "@/components/ui";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { Markdown } from "@/components/Markdown";
+import { ArticleBody } from "@/components/ArticleBody";
 import { FaqList } from "@/components/FaqList";
 import { CtaBand } from "@/components/CtaBand";
 import { ArticleCard } from "@/components/cards";
@@ -12,11 +12,11 @@ import { ReadingProgress } from "@/components/ReadingProgress";
 import { ShareRow } from "@/components/ShareRow";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 import {
-  getAllArticles,
-  getArticleBySlug,
-  getRelated,
-  getPracticePillar,
-} from "@/lib/content";
+  articleSlugs,
+  articleBySlug,
+  relatedTo,
+  practicePillar,
+} from "@/lib/source/articles";
 import { practiceMap } from "@/data/practices";
 import { authorOf } from "@/data/people";
 import { pageMeta } from "@/lib/seo";
@@ -25,15 +25,15 @@ import { graph, articleSchema, howToSchema } from "@/lib/schema";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return getAllArticles().map((a) => ({ slug: a.slug }));
+export async function generateStaticParams() {
+  return (await articleSlugs()).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
   params,
 }: PageProps<"/insights/[slug]">): Promise<Metadata> {
   const { slug } = await params;
-  const a = getArticleBySlug(slug);
+  const a = await articleBySlug(slug);
   if (!a) return {};
   return pageMeta({
     title: a.title,
@@ -50,13 +50,13 @@ export default async function ArticlePage({
   params,
 }: PageProps<"/insights/[slug]">) {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const article = await articleBySlug(slug);
   if (!article) notFound();
 
   const practice = practiceMap[article.practice];
   const author = authorOf(article.author);
-  const related = getRelated(article);
-  const pillar = getPracticePillar(article.practice);
+  const related = await relatedTo(article);
+  const pillar = await practicePillar(article.practice);
   const authorUrl = `${site.url}/people/${author.slug}`;
   const dateLabel = new Date(article.publishDate).toLocaleDateString("en-IN", {
     day: "numeric",
@@ -125,7 +125,7 @@ export default async function ArticlePage({
       <Container className="py-14">
         <article className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_280px]">
           <div className="article-body max-w-3xl">
-            <Markdown>{article.body}</Markdown>
+            <ArticleBody article={article} />
 
             <div className="mt-12 border-t border-line pt-6">
               <ShareRow slug={article.slug} title={article.title} />

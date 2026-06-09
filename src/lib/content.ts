@@ -36,6 +36,8 @@ export type ArticleFrontmatter = {
 
 export type Article = ArticleFrontmatter & {
   body: string;
+  /** "markdown" for in-repo content, "html" for WordPress-rendered content. */
+  bodyFormat: "markdown" | "html";
   readingMinutes: number;
   published: boolean;
 };
@@ -73,6 +75,7 @@ export function getAllArticles(): Article[] {
       out.push({
         ...fm,
         body: content,
+        bodyFormat: "markdown",
         readingMinutes: Math.max(1, Math.round(words / 200)),
         published,
       });

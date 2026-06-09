@@ -8,7 +8,7 @@ import { glossary } from "@/data/glossary";
 import { resources } from "@/data/resources";
 import { people } from "@/data/people";
 import { news } from "@/data/news";
-import { getPublishedArticles } from "@/lib/content";
+import { publishedArticles } from "@/lib/source/articles";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata: Metadata = pageMeta({
@@ -41,8 +41,8 @@ function Group({
   );
 }
 
-export default function HtmlSitemapPage() {
-  const articles = getPublishedArticles();
+export default async function HtmlSitemapPage() {
+  const articles = await publishedArticles();
   return (
     <Container className="py-12">
       <Breadcrumbs items={[{ name: "Sitemap", url: "/sitemap" }]} />
