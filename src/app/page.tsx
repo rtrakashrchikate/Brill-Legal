@@ -30,12 +30,12 @@ export default async function Home() {
     <>
       <Hero />
 
-      {/* Forums marquee */}
+      {/* Forums strip */}
       <div className="border-b border-line bg-paper py-5">
         <Container>
           <Marquee
             items={forums.map((f) => (
-              <span key={f} className="font-medium text-ink/70">
+              <span key={f} className="font-medium tracking-wide text-ink/60">
                 {f}
               </span>
             ))}
@@ -64,13 +64,17 @@ export default async function Home() {
       </section>
 
       {/* Established feel band */}
-      <section className="border-y border-line bg-ink text-paper">
-        <Container className="py-20">
+      <section className="bg-wine relative overflow-hidden border-y border-line text-paper">
+        <div className="noise pointer-events-none absolute inset-0" />
+        <Container className="relative py-24">
           <div className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:items-center">
             <Reveal>
-              <p className="kicker text-accent-soft">The firm</p>
-              <h2 className="mt-3 max-w-md font-display text-3xl leading-tight text-paper sm:text-4xl">
-                Substance, executed beautifully.
+              <p className="text-[0.7rem] font-semibold uppercase tracking-[0.25em] text-accent-soft">
+                The firm
+              </p>
+              <h2 className="mt-4 max-w-md font-display text-4xl leading-[1.05] text-paper sm:text-5xl">
+                Substance, executed{" "}
+                <span className="italic text-gold">beautifully</span>.
               </h2>
             </Reveal>
             <Reveal delay={0.1}>
@@ -89,7 +93,7 @@ export default async function Home() {
                 </Link>
                 <Link
                   href="/people"
-                  className="rounded-[2px] bg-accent px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-accent-deep"
+                  className="rounded-[2px] bg-paper px-5 py-3 text-sm font-medium text-accent-deep transition-colors hover:bg-accent-soft hover:text-ink"
                 >
                   Meet our people
                 </Link>
@@ -182,9 +186,11 @@ export default async function Home() {
                 </StaggerGroup>
               </div>
               <Reveal delay={0.1}>
-                <div className="flex h-full flex-col justify-between border border-line bg-ink p-8 text-paper">
+                <div className="bg-wine flex h-full flex-col justify-between border border-line p-8 text-paper">
                   <div>
-                    <p className="kicker text-accent-soft">Resources</p>
+                    <p className="text-[0.7rem] font-semibold uppercase tracking-[0.25em] text-accent-soft">
+                      Resources
+                    </p>
                     <h3 className="mt-3 font-display text-2xl text-paper">
                       Free checklists &amp; guides
                     </h3>
@@ -195,7 +201,7 @@ export default async function Home() {
                   </div>
                   <Link
                     href="/resources"
-                    className="mt-8 rounded-[2px] bg-accent px-5 py-3 text-center text-sm font-medium text-white transition-colors hover:bg-accent-deep"
+                    className="mt-8 rounded-[2px] bg-paper px-5 py-3 text-center text-sm font-medium text-accent-deep transition-colors hover:bg-accent-soft hover:text-ink"
                   >
                     Browse resources
                   </Link>

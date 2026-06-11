@@ -1,7 +1,7 @@
 <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Brill Legal">
-  <rect width="64" height="64" rx="10" fill="#0c1a2b"/>
-  <rect x="3.5" y="3.5" width="57" height="57" rx="8" fill="none" stroke="#b08643" stroke-width="1.5" stroke-opacity="0.6"/>
+  <rect width="64" height="64" rx="10" fill="#621420"/>
+  <rect x="3.5" y="3.5" width="57" height="57" rx="8" fill="none" stroke="#d49aa1" stroke-width="1.5" stroke-opacity="0.55"/>
   <text x="32" y="33" text-anchor="middle" dominant-baseline="central"
         font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
-        font-size="40" font-weight="600" fill="#d9b877">B</text>
+        font-size="40" font-weight="600" fill="#f7f3ed">B</text>
 </svg>

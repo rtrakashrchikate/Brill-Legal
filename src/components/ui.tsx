@@ -74,7 +74,7 @@ export function SectionHeading({
   return (
     <div className="max-w-2xl">
       {kicker && <Kicker>{kicker}</Kicker>}
-      <h2 className="mt-3 font-display text-3xl leading-tight sm:text-4xl">
+      <h2 className="mt-3 font-display text-4xl leading-[1.08] sm:text-5xl">
         {title}
       </h2>
       <div className="gold-rule mt-4" />

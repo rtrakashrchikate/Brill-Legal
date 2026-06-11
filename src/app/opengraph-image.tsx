@@ -6,10 +6,10 @@ export const alt = "Brill Legal — Measured counsel for complex matters";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-const INK = "#0c1a2b";
-const PAPER = "#f6f3ec";
-const GOLD = "#b08643";
-const GOLD_SOFT = "#d9b877";
+const INK = "#1c0d11";
+const PAPER = "#f7f3ed";
+const GOLD = "#8a2232";
+const GOLD_SOFT = "#d49aa1";
 
 export default async function Image() {
   const playfair = await readFile(
@@ -30,7 +30,7 @@ export default async function Image() {
           justifyContent: "space-between",
           background: INK,
           backgroundImage:
-            "radial-gradient(900px 500px at 100% -10%, rgba(176,134,67,0.30), transparent 60%)",
+            "radial-gradient(900px 500px at 100% -10%, rgba(138,34,50,0.55), transparent 60%), radial-gradient(700px 420px at -5% 110%, rgba(98,20,32,0.5), transparent 60%)",
           padding: "72px 80px",
           color: PAPER,
           fontFamily: "Playfair",

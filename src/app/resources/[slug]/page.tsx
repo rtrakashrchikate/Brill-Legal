@@ -79,7 +79,7 @@ export default async function ResourcePage({
         </div>
 
         <aside>
-          <div className="border border-line bg-ink p-7 text-paper">
+          <div className="bg-wine border border-line p-7 text-paper">
             <h2 className="text-xl text-paper">Get the checklist</h2>
             <p className="mt-2 text-sm text-paper/70">
               Leave your email and we&apos;ll send a printable copy — and you can
@@ -95,7 +95,7 @@ export default async function ResourcePage({
               />
               <button
                 type="submit"
-                className="w-full rounded-[2px] bg-accent px-4 py-2.5 text-sm font-medium text-white hover:bg-accent-deep"
+                className="w-full rounded-[2px] bg-paper px-4 py-2.5 text-sm font-medium text-accent-deep transition-colors hover:bg-accent-soft hover:text-ink"
               >
                 Email me the checklist
               </button>

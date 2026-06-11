@@ -1,32 +1,35 @@
 @import "tailwindcss";
 
 /*
-  Brill Legal — design system v2.
-  Direction: Swiss-Modernism + Exaggerated Minimalism + Trust & Authority.
-  Palette: authority navy ink + trust gold on warm ivory.
-  Type: Playfair Display (display) + Inter (UI/body) — "Classic Elegant".
-  Motion: restrained; all reveal animation gated on prefers-reduced-motion.
+  Brill Legal — design system v3 "Oxblood".
+  Brand: dark red (oxblood/wine) on warm bone, near-black ink.
+  Direction: dramatic editorial — oversized serif, dark statement sections,
+  outlined display text, restrained motion. Looks like leather + mahogany,
+  reads like a modern editorial site.
+  Note: legacy utility names (.gold-rule, .text-gold, accent tokens) are kept
+  so the whole site recolors through tokens; their values are now dark red.
 */
 
 @theme {
-  --color-ink: #0c1a2b;          /* authority navy — primary text & dark surfaces */
-  --color-ink-soft: #14283d;
-  --color-paper: #f6f3ec;        /* warm ivory background */
-  --color-paper-card: #fffdf8;   /* card surface */
-  --color-paper-dim: #efe9dd;
-  --color-line: #e1d9c9;         /* hairline borders */
-  --color-line-strong: #cdc2ad;
-  --color-accent: #b08643;       /* trust gold */
-  --color-accent-deep: #8a6831;
-  --color-accent-soft: #d9b877;
-  --color-muted: #5a6675;
+  --color-ink: #181014;          /* near-black with a wine undertone */
+  --color-ink-soft: #271a20;
+  --color-paper: #f7f3ed;        /* warm bone background */
+  --color-paper-card: #fffdf9;   /* card surface */
+  --color-paper-dim: #f0e7df;
+  --color-line: #e6dad1;         /* hairline borders */
+  --color-line-strong: #d0bdb4;
+  --color-accent: #8a2232;       /* oxblood — the brand red */
+  --color-accent-deep: #621420;
+  --color-accent-soft: #d49aa1;  /* rose — red for dark surfaces */
+  --color-wine: #3d0c16;         /* deep wine for dark sections */
+  --color-muted: #6d5a5f;
 
   --font-display: var(--font-display), Georgia, "Times New Roman", serif;
   --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
 
   --radius: 2px;
-  --shadow-card: 0 1px 2px rgba(12, 26, 43, 0.04), 0 8px 30px rgba(12, 26, 43, 0.06);
-  --shadow-lift: 0 2px 6px rgba(12, 26, 43, 0.06), 0 24px 60px rgba(12, 26, 43, 0.12);
+  --shadow-card: 0 1px 2px rgba(24, 16, 20, 0.04), 0 8px 30px rgba(24, 16, 20, 0.07);
+  --shadow-lift: 0 2px 6px rgba(98, 20, 32, 0.08), 0 24px 60px rgba(24, 16, 20, 0.14);
 }
 
 :root {
@@ -34,38 +37,42 @@
   --foreground: var(--color-ink);
 }
 
-* {
-  border-color: var(--color-line);
-}
+/* Base element styles live in @layer base so Tailwind utilities
+   (e.g. text-paper on a dark-hero h1) can override them. */
+@layer base {
+  * {
+    border-color: var(--color-line);
+  }
 
-html {
-  scroll-behavior: smooth;
-  -webkit-tap-highlight-color: transparent;
-}
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
 
-body {
-  background: var(--color-paper);
-  color: var(--color-ink);
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-feature-settings: "ss01", "cv01";
-}
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01", "cv01";
+  }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-display);
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  color: var(--color-ink);
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: var(--color-ink);
+  }
 }
 
 ::selection {
-  background: var(--color-ink);
+  background: var(--color-accent);
   color: var(--color-paper);
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-accent-deep);
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
@@ -73,32 +80,72 @@ h1, h2, h3, h4 {
 .kicker {
   font-family: var(--font-sans);
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.22em;
   font-size: 0.7rem;
   font-weight: 600;
-  color: var(--color-accent-deep);
+  color: var(--color-accent);
 }
 
 /* ---------- Decorative backgrounds ---------- */
 .bg-grid {
   background-image:
-    linear-gradient(to right, rgba(12, 26, 43, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(12, 26, 43, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(24, 16, 20, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(24, 16, 20, 0.05) 1px, transparent 1px);
   background-size: 64px 64px;
   -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
   mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
 }
 
+.bg-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(247, 243, 237, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(247, 243, 237, 0.045) 1px, transparent 1px);
+  background-size: 72px 72px;
+  -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 20%, #000 30%, transparent 100%);
+  mask-image: radial-gradient(ellipse 90% 70% at 50% 20%, #000 30%, transparent 100%);
+}
+
+/* Light page-header aura (inner pages) — now wine-tinted */
 .bg-aura {
   background:
-    radial-gradient(40rem 28rem at 85% -10%, rgba(176, 134, 67, 0.16), transparent 60%),
-    radial-gradient(36rem 24rem at 0% 10%, rgba(12, 26, 43, 0.06), transparent 60%);
+    radial-gradient(40rem 28rem at 85% -10%, rgba(138, 34, 50, 0.12), transparent 60%),
+    radial-gradient(36rem 24rem at 0% 10%, rgba(24, 16, 20, 0.05), transparent 60%);
+}
+
+/* The dark hero / statement surface — near-black into deep wine */
+.bg-hero {
+  background:
+    radial-gradient(60rem 36rem at 88% -20%, rgba(138, 34, 50, 0.55), transparent 62%),
+    radial-gradient(44rem 30rem at -10% 110%, rgba(98, 20, 32, 0.5), transparent 60%),
+    linear-gradient(160deg, #170c10 0%, #20090f 55%, #2c0a12 100%);
+}
+
+.bg-wine {
+  background:
+    radial-gradient(50rem 30rem at 100% 0%, rgba(138, 34, 50, 0.45), transparent 60%),
+    linear-gradient(135deg, #1c0e12 0%, #3d0c16 100%);
+}
+
+/* Film-grain noise overlay (pair with absolute inset-0) */
+.noise {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  opacity: 0.05;
 }
 
 .gold-rule {
   height: 2px;
   width: 3rem;
   background: linear-gradient(90deg, var(--color-accent), transparent);
+}
+
+/* ---------- Outlined display text (the awwwards trick) ---------- */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(138, 34, 50, 0.45);
+}
+.text-outline-dark {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(247, 243, 237, 0.22);
 }
 
 /* ---------- Long-form article typography ---------- */
@@ -121,13 +168,13 @@ h1, h2, h3, h4 {
 .prose ol { list-style: decimal; }
 .prose li + li { margin-top: 0.4rem; }
 .prose a {
-  color: var(--color-accent-deep);
+  color: var(--color-accent);
   text-decoration: underline;
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
   transition: color 0.15s ease;
 }
-.prose a:hover { color: var(--color-ink); }
+.prose a:hover { color: var(--color-accent-deep); }
 .prose strong { color: var(--color-ink); font-weight: 600; }
 .prose blockquote {
   border-left: 3px solid var(--color-accent);
@@ -147,32 +194,37 @@ h1, h2, h3, h4 {
   line-height: 0.78;
   font-weight: 600;
   padding: 0.15rem 0.6rem 0 0;
-  color: var(--color-accent-deep);
+  color: var(--color-accent);
 }
 
 /* ---------- Card hover lift ---------- */
-.card-lift { transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease; }
+.card-lift { transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease; }
 @media (prefers-reduced-motion: no-preference) {
   .card-lift:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
 }
 
-/* ---------- Marquee ---------- */
+/* ---------- Marquees ---------- */
 .marquee {
   display: flex;
   width: max-content;
   animation: marquee 38s linear infinite;
+}
+.marquee-slow {
+  display: flex;
+  width: max-content;
+  animation: marquee 70s linear infinite;
 }
 @keyframes marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .marquee { animation: none; }
+  .marquee, .marquee-slow { animation: none; }
 }
 
-/* ---------- Animated gradient text accent ---------- */
+/* ---------- Gradient text accent (legacy name; now rose-red) ---------- */
 .text-gold {
-  background: linear-gradient(100deg, var(--color-accent-deep), var(--color-accent-soft), var(--color-accent-deep));
+  background: linear-gradient(100deg, #e8b4ba, #c96b76, #e8b4ba);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;

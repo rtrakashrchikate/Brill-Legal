@@ -17,12 +17,15 @@ export function CtaBand({
     ? `/contact?matter=${encodeURIComponent(matterType)}`
     : "/contact";
   return (
-    <section className="my-16 bg-ink text-paper">
-      <Container className="py-12">
+    <section className="bg-wine relative my-16 overflow-hidden text-paper">
+      <div className="noise pointer-events-none absolute inset-0" />
+      <Container className="relative py-12">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
           <div className="max-w-xl">
-            <p className="kicker text-accent">Speak to a lawyer</p>
-            <h2 className="mt-2 text-2xl text-paper sm:text-3xl">
+            <p className="text-[0.7rem] font-semibold uppercase tracking-[0.25em] text-accent-soft">
+              Speak to a lawyer
+            </p>
+            <h2 className="mt-3 font-display text-2xl text-paper sm:text-3xl">
               Talk to us about {matter}.
             </h2>
             <p className="mt-3 text-paper/70">
@@ -33,7 +36,7 @@ export function CtaBand({
           <div className="flex flex-wrap gap-3">
             <Link
               href={contactHref}
-              className="rounded-[2px] bg-accent px-5 py-3 text-sm font-medium text-white hover:bg-accent-deep"
+              className="rounded-[2px] bg-paper px-5 py-3 text-sm font-medium text-accent-deep transition-colors hover:bg-accent-soft hover:text-ink"
             >
               Request a Consultation
             </Link>

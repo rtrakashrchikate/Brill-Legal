@@ -154,8 +154,10 @@ export default async function ArticlePage({
             </div>
 
             {pillar && pillar.slug !== article.slug && (
-              <div className="border border-line bg-ink p-6 text-paper">
-                <p className="kicker text-accent-soft">Start here</p>
+              <div className="bg-wine border border-line p-6 text-paper">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-accent-soft">
+                  Start here
+                </p>
                 <Link
                   href={`/insights/${pillar.slug}`}
                   className="mt-2 block font-display text-lg text-paper hover:text-accent-soft"
