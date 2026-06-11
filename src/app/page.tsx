@@ -6,6 +6,7 @@ import { Marquee } from "@/components/Marquee";
 import { TrustStrip } from "@/components/TrustStrip";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 import { BentoPracticeCards } from "@/components/BentoPracticeCards";
+import { StatBand } from "@/components/StatBand";
 import { allPractices } from "@/lib/source/structured";
 import { pillars as sourcePillars, publishedArticles } from "@/lib/source/articles";
 
@@ -62,6 +63,8 @@ export default async function Home() {
           </div>
         </Container>
       </section>
+
+      <StatBand />
 
       {/* Established feel band */}
       <section className="bg-wine relative overflow-hidden border-y border-line text-paper">
