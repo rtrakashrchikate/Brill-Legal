@@ -219,9 +219,17 @@ export async function Footer() {
 
         {/* ── Bottom bar ─────────────────────────────────────── */}
         <div className="flex flex-col gap-3 border-t border-paper/10 py-7 text-xs text-paper/35 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {new Date().getFullYear()} {settings.name}. All rights reserved.
-          </p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <p>
+              © {new Date().getFullYear()} {settings.name}. All rights reserved.
+            </p>
+            <Link href="/privacy" className="transition-colors hover:text-paper/70">
+              Privacy
+            </Link>
+            <Link href="/terms" className="transition-colors hover:text-paper/70">
+              Terms
+            </Link>
+          </div>
           <p className="max-w-prose leading-relaxed sm:text-right">
             {settings.footerDisclaimer}
           </p>
