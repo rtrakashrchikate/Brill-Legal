@@ -3,6 +3,7 @@ import { Container, SectionHeading } from "@/components/ui";
 import { PracticeCard, ArticleCard } from "@/components/cards";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
+import { TrustStrip } from "@/components/TrustStrip";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 import { allPractices } from "@/lib/source/structured";
 import { pillars as sourcePillars, publishedArticles } from "@/lib/source/articles";
@@ -42,6 +43,8 @@ export default async function Home() {
           />
         </Container>
       </div>
+
+      <TrustStrip />
 
       {/* Practices */}
       <section className="py-24">
