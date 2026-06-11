@@ -10,12 +10,16 @@ import { ArticleCard } from "@/components/cards";
 import { JsonLd } from "@/components/JsonLd";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { ShareRow } from "@/components/ShareRow";
+import { TableOfContents } from "@/components/TableOfContents";
+import { AuthorCard } from "@/components/AuthorCard";
+import { ArticleNav } from "@/components/ArticleNav";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
 import {
   articleSlugs,
   articleBySlug,
   relatedTo,
   practicePillar,
+  publishedArticles,
 } from "@/lib/source/articles";
 import { practiceMap } from "@/data/practices";
 import { authorBySlug } from "@/lib/source/structured";
@@ -57,6 +61,14 @@ export default async function ArticlePage({
   const author = await authorBySlug(article.author);
   const related = await relatedTo(article);
   const pillar = await practicePillar(article.practice);
+
+  // Prev / next within same practice (published, by date ascending)
+  const practiceArticles = (await publishedArticles())
+    .filter((a) => a.practice === article.practice)
+    .sort((a, b) => a.publishDate.localeCompare(b.publishDate));
+  const idx = practiceArticles.findIndex((a) => a.slug === slug);
+  const prevArticle = idx > 0 ? practiceArticles[idx - 1] : null;
+  const nextArticle = idx < practiceArticles.length - 1 ? practiceArticles[idx + 1] : null;
   const authorUrl = `${site.url}/people/${author.slug}`;
   const dateLabel = new Date(article.publishDate).toLocaleDateString("en-IN", {
     day: "numeric",
@@ -131,6 +143,10 @@ export default async function ArticlePage({
               <ShareRow slug={article.slug} title={article.title} />
             </div>
 
+            <AuthorCard author={author} />
+
+            <ArticleNav prev={prevArticle} next={nextArticle} />
+
             <FaqList faqs={article.faqs ?? []} />
 
             <CtaBand
@@ -139,7 +155,10 @@ export default async function ArticlePage({
             />
           </div>
 
-          <aside className="space-y-8 lg:sticky lg:top-28 lg:self-start">
+          <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
+            {/* Sticky ToC — self-hides when article has no ## headings */}
+            <TableOfContents />
+
             <div className="border border-line bg-paper-card p-6 shadow-[var(--shadow-card)]">
               <p className="text-sm font-medium text-ink">Written by</p>
               <Link
