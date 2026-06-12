@@ -4,87 +4,61 @@ slug: "property-title-due-diligence"
 practice: "real-estate"
 type: cluster
 keyword: "property title due diligence India"
-description: "A comprehensive guide to property title due diligence in India — the documents to examine, common title defects, title insurance, and how to obtain a reliable title opinion before purchase."
+description: "What property title due diligence involves, which documents to examine, common title defects in Maharashtra, and how to obtain a lawyer's title opinion."
 author: "a-deshpande"
-publishDate: "2026-01-24"
+publishDate: "2026-01-20"
 related:
   - buying-property-india-checklist
   - stamp-duty-maharashtra
 faqs:
-  - q: "What is a title opinion and who should give one?"
-    a: "A title opinion is a written legal assessment by a qualified lawyer confirming whether the seller has a clear and marketable title to convey. It sets out the documents examined, any defects or caveats noted, and whether the lawyer considers the title safe to purchase. It should be obtained from an independent lawyer — not one recommended by the seller or the developer."
-  - q: "What does a 7/12 extract tell you about a property?"
-    a: "The 7/12 extract (satbara utara) is a revenue record maintained by the Talathi (village revenue officer) in Maharashtra. It records the survey number, area, current ownership, and any rights or encumbrances noted. The 'Rights' column can reveal whether there is a charge, mortgage, or tenancy registered in revenue records. However, it only reflects what has been mutated — a recent purchaser whose name has not yet been mutated will not appear."
+  - q: "What is a 7/12 extract?"
+    a: "The 7/12 extract (Satbara Utara) is a record maintained by the Maharashtra revenue department showing the ownership and cultivation details of agricultural land. It records the owner's name, area, survey number, and any liabilities such as government loans. For agricultural or converted land, the 7/12 is an essential starting document for title diligence."
   - q: "What is title insurance and is it available in India?"
-    a: "Title insurance is a policy that protects a buyer or lender against losses arising from defects in title that were not discovered before purchase — such as a forged document in the chain or an undisclosed heir. Some insurers now offer title insurance products in India. It does not substitute for due diligence, but can provide a financial safety net for risks that remain after a reasonable investigation."
-  - q: "Can agricultural land in Maharashtra be converted for residential use?"
-    a: "Yes, through a formal Non-Agricultural (NA) conversion process under the Maharashtra Land Revenue Code. The landowner applies to the Collector's office for permission to use the land for a non-agricultural purpose. Until the NA order is granted and the land use is changed, constructing a residential building on agricultural land is unlawful. Verify the NA order and the approved layout before purchasing any plot that was formerly agricultural."
+    a: "Title insurance protects a buyer or lender against financial loss arising from defects in title that were not discovered during due diligence — such as undisclosed heirs, fraud, or prior encumbrances. It is available in India through a limited number of insurers. While not yet mainstream, title insurance is increasingly being used in large commercial transactions and housing finance."
+  - q: "How do I check for an undisclosed mortgage?"
+    a: "A mortgage created by deposit of title deeds (equitable mortgage) does not require registration in some states, making it difficult to detect from the encumbrance certificate alone. You can check the Central Registry of Securitisation Asset Reconstruction and Security Interest (CERSAI) for registered equitable mortgages. Asking the seller for a no-objection certificate from their bank and obtaining a current banker's search is also advisable."
+  - q: "What happens if agricultural land is sold without NA conversion?"
+    a: "Under the Maharashtra Land Revenue Code, agricultural land may not be used for non-agricultural purposes without an NA (Non-Agricultural) order from the Collector. A sale of agricultural land for residential or commercial use without NA conversion may be void or voidable, and the buyer could face demolition orders or inability to obtain building permission. Always verify NA status before purchase."
 ---
 
-Title due diligence is the process of independently verifying that the person selling a property actually has the legal right to sell it, and that the property is free from undisclosed claims, encumbrances, or legal infirmities. In India, where land records are maintained across multiple registries — the Sub-Registrar's office, revenue records, municipal records, and court registries — and where informal transactions and verbal arrangements have historically co-existed with formal legal transfers, title due diligence demands systematic effort. Skipping or shortcutting this process is one of the most common and costly mistakes property buyers make.
+Title due diligence is the process of examining all available records, documents, and legal instruments to determine whether the seller has a clear and marketable title to the property they are selling, and whether that title can be transferred to the buyer free from undisclosed claims, encumbrances, or disputes. It is a discipline distinct from — and more comprehensive than — simply confirming RERA registration or checking whether a project has an occupancy certificate. RERA registration tells you that the project complied with regulatory requirements at the time of registration; title due diligence tells you whether the seller actually owns what they are purporting to sell, and whether any third party holds a prior or competing claim to the same property. For any significant property purchase, rigorous title due diligence is not optional — it is the only reliable way to assess whether the buyer will receive what they are paying for.
 
-## What Title Due Diligence Involves
+## The Document Audit: Starting With Revenue Records
 
-At its core, title due diligence answers three questions: Who has owned this property over time? How did each ownership transfer happen? And does anything in that history give a third party a legal claim to the property today?
+The starting point for title due diligence depends on the nature of the land. For agricultural or converted land in Maharashtra, the foundational document is the 7/12 extract — the Satbara Utara — maintained by the tehsildar's office and accessible online through the Maharashtra government's Mahabhulekh portal. The 7/12 extract records the owner's name, the survey number, the area, the nature of possession (owner or cultivator), and any encumbrances such as government loans or restrictions on sale. A careful reading of the 7/12 reveals whether the property is classified as agricultural, whether a Non-Agricultural order has been issued, and whether any government liability attaches to the land.
 
-The process involves collecting and scrutinising the chain of documents that traces ownership from a verifiable root of title to the present seller. The lawyer conducting the search physically or electronically reviews the records at the Sub-Registrar's office, cross-references revenue and municipal records, and searches for court proceedings that might affect the title. The output is a written title opinion setting out what was found, what defects if any exist, and whether the lawyer recommends proceeding with the purchase.
+For urban land, the equivalent is the Property Card — also called the City Survey (CTS) extract — maintained by the City Survey Office. The Property Card records the current and historical ownership of the plot, any sub-divisions, and the occupant's details. Mutation entries — changes in ownership recorded in revenue registers after a sale, inheritance, or partition — form a crucial part of the document chain. The mutation register should be examined alongside the 7/12 or Property Card to verify that ownership changes were consistently reflected across all government records. Discrepancies between the registered documents and revenue records are a significant red flag that warrants further investigation before any purchase proceeds.
 
-## Key Documents to Examine
+## Tracing the Chain of Title Through Registered Documents
 
-### 7/12 Extract (Satbara Utara)
+Once the revenue records establish the starting point, the lawyer must trace the chain of title through every registered instrument — each sale deed, gift deed, partition deed, settlement, release, or court decree through which ownership has passed — from the earliest traceable owner down to the current seller. Every link in this chain must be verified. The lawyer examines whether each instrument was validly executed, properly stamped, registered in the correct sub-registrar's office, and whether the person who transferred had the legal authority to do so at the time.
 
-In Maharashtra, the 7/12 extract is the foundational revenue record for any agricultural or formerly agricultural land. It records the survey or gat number, total area, names of current owners (as mutated in revenue records), and any rights, encumbrances, or tenancy interests noted by the Talathi. It does not capture all encumbrances — only those reflected in the revenue register — but discrepancies between the 7/12 and the sale deed chain are an immediate red flag.
+The chain examination is painstaking precisely because title defects rarely announce themselves. A seller whose father inherited property from a grandfather may not realise — or may not disclose — that there was a second heir who never released their share. A property that was the subject of a court partition decree may have been allotted correctly on paper, but the decree may not have been fully executed, leaving residual rights in the other parties. When examining historical deeds, the lawyer looks not just at what each document says, but at whether the description of the property is consistent across documents, whether the area and boundaries match, and whether any restrictions or covenants imposed in earlier instruments remain binding on the current owner and any successor.
 
-### Registered Sale Deeds and Conveyance Documents
+## The Encumbrance Certificate Search
 
-Every transfer in the chain must be supported by a registered instrument — a sale deed, a gift deed, a partition deed, or a court decree as applicable. Each document should be internally consistent and cross-referencing with the previous link. Gaps in the chain, missing documents, or transfers where the consideration appears nominal warrant careful scrutiny.
+The encumbrance certificate, obtained from the sub-registrar's office, serves as the institutional cross-check on the title chain. It lists every registered transaction affecting the property — every mortgage, every sale, every charge, every release — as recorded by the sub-registrar for the period covered by the certificate. A title search should be accompanied by an EC covering at least thirty years, and ideally going back to the earliest instrument in the chain.
 
-### Encumbrance Certificate
+The critical limitation of the EC is that it reflects only registered transactions. An equitable mortgage — created by deposit of title deeds with a lender — may not appear if it was not registered. Revenue court orders and government dues will not appear. The CERSAI database, which records registered security interests including equitable mortgages, should be checked as a supplementary step. Taken together, the EC, the CERSAI search, and a banker's verification from the seller's existing lender (if any) give the most complete picture of registered financial liabilities affecting the property.
 
-The encumbrance certificate (EC) from the Sub-Registrar's office is a computer-generated record of all registered transactions affecting the property — mortgages, sale deeds, leases, and release deeds — over the period requested. An EC search for the last 30 years is standard. Any outstanding mortgage must be discharged before purchase; any unexplained transaction requires an explanation.
+## Layout Approvals and Building Permissions
 
-### Mutation Entries
+For properties within constructed buildings, the due diligence extends to the building's regulatory history. The sanctioned building plan, the commencement certificate, and the occupation certificate must all be obtained and examined. The sanctioned plan establishes what was legally approved — the number of floors, the FSI consumed, the permissible uses. Construction beyond the sanctioned plan, including additional floors, converted terraces, or encroached common areas, represents an illegal deviation that can attract municipal notices, demolition orders, or regularisation levies. Buyers of flats in irregularly constructed buildings may face difficulty registering the purchase, obtaining home loans, or selling the property later — making this one of the most consequential checks in the entire diligence process.
 
-Mutation is the process of updating revenue and municipal records to reflect a change in ownership. Consistent mutation entries — showing that each successive owner's name was entered after the corresponding transfer — are a positive sign. Absence of mutation after a transfer does not invalidate the title, but it raises questions about possession and can complicate future transfers.
+## Common Title Defects in Maharashtra
 
-### Layout Approvals and Development Permissions
+Maharashtra property transactions present a distinct set of recurring title problems that every buyer's lawyer must actively investigate. An undisclosed mortgage — whether registered or equitable — is the most common defect encountered in secondary market transactions. Co-owners who have not joined the transaction present another significant risk: under the Transfer of Property Act, all co-owners must join in a sale for the transfer to be valid, and a buyer who accepts a deed signed by only some of the co-owners acquires only those co-owners' shares, taking the property subject to the remaining co-owners' rights.
 
-For plots and built property, the approved layout plan sanctioned by the local planning authority (PMRDA, PMC, PCMC, or MIDC as applicable) confirms that the subdivision of land and the construction were done with governmental approval. Plots carved out of a larger survey number without a sanctioned layout are a common source of future disputes.
+Property still registered in the name of a deceased person requires the heirs to complete succession proceedings — whether through probate of a will, a succession certificate, or a registered family arrangement — before any sale is valid. Agricultural land sold without a Non-Agricultural order under the Maharashtra Land Revenue Code presents a specific hazard for buyers intending residential or commercial use. Land ceiling restrictions under the Maharashtra Agricultural Lands (Ceiling on Holdings) Act 1961 may render transfers of large agricultural holdings void if ceiling provisions were not complied with at the time of acquisition. Wakf property — land administered by the Wakf Board — carries special restrictions on alienation and requires specific permissions that cannot be waived by the parties alone. Each of these defects requires targeted investigation and, in most cases, specific curative documentation before a lawyer can render a positive title opinion.
 
-### Prior Title Documents and Revenue History
+## The Lawyer's Title Opinion
 
-For older properties, earlier title deeds — going back to the original allotment, a ceiling surplus order, a grant under a government scheme, or a court sale — establish the foundation on which the current title rests. Any earlier document that is missing, inconsistent, or raises questions about whether the predecessor had authority to transfer should be investigated before proceeding.
+A lawyer's title opinion is a formal written opinion — addressed to the buyer and, where relevant, to the home loan lender — setting out the lawyer's findings from the title search, identifying any defects or conditions, and stating whether the title is clear and marketable for the purpose of the proposed purchase. A well-drafted title opinion distinguishes between absolute bars to purchase (such as a competing ownership claim from an undisclosed heir who has not released their interest) and conditions that must be satisfied before or at completion (such as obtaining an NOC from the seller's existing mortgage lender, or rectifying a registration deficiency). Lenders require a satisfactory title opinion before releasing any housing loan, and buyers should insist on one even when no loan financing is involved.
 
-## Title Defects: Common Problems Found in Indian Property Transactions
-
-### Undisclosed Mortgage or Charge
-
-A property may have been mortgaged to a bank, a non-banking financial company, or a private lender. If the mortgage was registered, it will appear on the EC. If it was not registered — which is possible for certain equitable mortgages created by deposit of title deeds — it may not. The buyer must ask the seller to produce either a certificate of discharge or a statement from the lender confirming no outstanding dues.
-
-### Co-owner Not Joining the Transaction
-
-Where property is jointly owned — whether by family members, co-purchasers, or as HUF property — every co-owner must either execute the sale deed or provide a registered relinquishment deed. A transfer executed by one co-owner without the joinder of others conveys only that co-owner's undivided share, not the entire property. This is a particularly common problem where one member of a family acts as the self-appointed spokesperson and the others later surface with claims.
-
-### Agricultural Land Without NA Conversion
-
-Residential construction on agricultural land without a formal Non-Agricultural (NA) order from the Collector is unlawful under the Maharashtra Land Revenue Code. The structure is technically an unauthorised construction liable to regularisation proceedings or demolition. Buyers should verify the NA order, confirm the land use in the approved layout, and check whether any conditions attached to the NA order have been complied with.
-
-### Forged or Manipulated Documents
-
-Document forgery — particularly in power of attorney chains and older unregistered transfers — does occur. A careful review of the physical documents, cross-referenced with the Sub-Registrar's register, can often identify suspicious instruments. Where doubts persist, forensic document examination may be appropriate.
-
-### Lis Pendens — Pending Litigation
-
-A property that is subject to ongoing litigation — a partition suit, a title dispute, a mortgage enforcement action, or a family settlement challenged before a court — carries risk even if the seller appears to have good title on paper. Revenue records sometimes carry a lis pendens notation; court records must be separately searched. The RERA portal also discloses litigation declared by promoters.
+The difference between a certificate of title — a positive statement that title is clear — and a qualified opinion — which acknowledges specific conditions or risks — matters enormously. A qualified opinion is not a failure; in many transactions it accurately reflects that title can be made good upon satisfaction of identified conditions. Buyers should read the opinion carefully and ask their lawyer to explain any qualification before proceeding.
 
 ## Title Insurance
 
-Title insurance is a relatively new but growing product in India, offered by a small number of general insurers. A title insurance policy protects the insured against financial loss arising from title defects that were not discovered during due diligence — such as a forged document in an older link of the chain, or a claim from an undisclosed heir. It provides a financial backstop rather than a substitute for diligence. Lenders financing high-value transactions increasingly ask for title insurance as an additional layer of protection.
+Title insurance — under which an insurer indemnifies the insured against financial loss from title defects not discovered during due diligence — is available in India through a limited number of insurers, and its use is slowly growing. It is particularly relevant in large commercial transactions, portfolio acquisitions, and transactions involving complex title histories. Title insurance does not replace due diligence; rather, it provides a financial backstop against defects that diligence was unable to reveal. Lenders in some structured finance transactions now require title insurance as a condition of disbursement. For residential buyers, the product is less commonly used but worth exploring where the title history is long or complex.
 
-## The Title Opinion
-
-The written title opinion prepared by the lawyer at the conclusion of due diligence should set out the documents examined, the period of the title chain reviewed, any defects or caveats noted, any conditions that should be imposed on the transaction to address those defects, and a clear recommendation on whether — subject to those conditions — the title is considered safe to purchase. A title opinion obtained from an independent lawyer, rather than one introduced by the seller or developer, provides the buyer with meaningful assurance and a record of the advice received.
-
----
-
-Title due diligence is not a formality — it is the foundation on which safe property ownership rests. The time and cost invested in a thorough investigation before signing any agreement is invariably less than the cost of resolving a title dispute after the transaction has closed. For guidance on conducting due diligence on a specific property or for a title opinion, visit our [Real Estate Practice page](/practices/real-estate).
+A thorough title due diligence exercise, conducted by an experienced property lawyer, is the most reliable investment a buyer can make before committing to any property purchase. Brill Legal's real estate practice offers comprehensive title due diligence services across Maharashtra, including full document audit, encumbrance searches, and written title opinions for buyers and lenders. Learn more at our [real estate practice page](/practices/real-estate).

@@ -4,7 +4,7 @@ slug: "buying-property-india-checklist"
 practice: "real-estate"
 type: cluster
 keyword: "buying property India checklist"
-description: "A practical legal checklist for buying property in India — covering title search, encumbrance certificates, RERA registration, stamp duty, registration, and common traps to avoid."
+description: "A comprehensive checklist for buying property in India — title search, encumbrance certificate, RERA check, stamp duty, and registration."
 author: "a-deshpande"
 publishDate: "2026-01-10"
 related:
@@ -12,74 +12,56 @@ related:
   - rera-maharashtra-guide
   - stamp-duty-maharashtra
 faqs:
-  - q: "How many years of title chain should I check before buying property in India?"
-    a: "A standard title search covers at least 30 years of ownership history, though many lawyers recommend going back further — ideally to the original grant or the last major court-confirmed title. The goal is to identify any break in the chain that could later surface as a competing claim."
-  - q: "Is an encumbrance certificate the same as a clear title?"
-    a: "No. An encumbrance certificate (EC) records only registered transactions — mortgages, sale deeds, and charges formally registered with the sub-registrar. Unregistered encumbrances, oral family partitions, or court attachments may not appear on the EC. It is one important document, but not a substitute for a full title opinion."
-  - q: "What is a GPA sale and why is it risky?"
-    a: "A General Power of Attorney (GPA) sale is a transaction where the seller gives the buyer a power of attorney and an agreement to sell instead of a registered sale deed. The Supreme Court in Suraj Lamp & Industries (2011) clarified that GPA sales do not confer good title. Buyers in such transactions remain vulnerable to claims by the original owner or their legal heirs."
-  - q: "Do I need to verify RERA registration before booking a flat?"
-    a: "Yes. Under the Real Estate (Regulation and Development) Act 2016, a promoter cannot advertise, market, book, or sell any apartment, plot, or building without first registering the project with the relevant RERA authority. In Maharashtra this is MahaRERA. Purchasing in an unregistered project limits your remedies significantly."
+  - q: "What is a 7-point title search?"
+    a: "A 7-point title search verifies the chain of ownership over the past 30 years by examining all sale deeds, gift deeds, partition deeds, court decrees, and other instruments registered against the property. It checks that each transfer was valid, that no gaps exist in the ownership chain, and that the seller derives clear and marketable title from the previous owner."
+  - q: "Is RERA registration mandatory for all projects?"
+    a: "Under the Real Estate (Regulation and Development) Act 2016, RERA registration is mandatory for residential and commercial projects where the land area exceeds 500 square metres or the number of units exceeds eight, including proposed phases. Smaller projects fall below the threshold, but buyers should still verify local municipal approvals. In Maharashtra, the regulator is MahaRERA."
+  - q: "What is an encumbrance certificate and why is it important?"
+    a: "An encumbrance certificate (EC) is issued by the sub-registrar's office and records all registered transactions affecting a property — mortgages, sale deeds, releases, and attachments — over a specified period. It does not capture unregistered liabilities or revenue records encumbrances, so it must be read alongside mutation records and the seller's title documents."
+  - q: "Can I buy property through a General Power of Attorney?"
+    a: "The Supreme Court in Suraj Lamp & Industries v. State of Haryana (2011) held that GPA-based sales do not confer valid title. A GPA transaction does not transfer ownership and cannot be used as a substitute for a registered sale deed. Buyers relying solely on a GPA risk losing both the property and the purchase price if the title is challenged."
 ---
 
-Buying property in India is one of the most significant financial decisions most families will make, and the legal groundwork that precedes signing any agreement is just as important as the price negotiation. Procedural gaps — an unverified title, an undisclosed mortgage, or a missing approval — can expose a buyer to years of litigation or outright loss of the property. This guide walks through the key legal steps every buyer should complete before committing to a purchase.
+Buying property in India is one of the largest financial decisions most people will ever make, yet the legal process surrounding it remains poorly understood by most buyers. The complexity is not accidental — property law in India draws on the Transfer of Property Act 1882, the Registration Act 1908, the Maharashtra Co-operative Societies Act (for apartment buildings), the Real Estate (Regulation and Development) Act 2016, and a web of state-level revenue and municipal laws. A transaction that appears straightforward on the surface can conceal title defects, regulatory violations, or financial encumbrances that only careful legal scrutiny will reveal. Compressing or skipping due diligence in order to close a deal quickly is among the most expensive mistakes a property buyer can make.
 
-## Step 1: Conduct a Seven-Point Title Search
+## Understanding Title and Ownership: The 7-Point Title Search
 
-The starting point for any property transaction is a thorough examination of the title chain. A proper title search involves verifying at least seven critical links:
+The 7-point title search is the foundation of every property due diligence exercise. It involves examining the complete chain of ownership over a minimum of thirty years — tracing the property from its earliest traceable owner to the present seller through every recorded instrument along the way. The documents reviewed include sale deeds, gift deeds, partition deeds, settlement deeds, court decrees, succession certificates, probated wills, and any other instrument through which title has passed or been claimed. For each transfer, the lawyer must confirm that the transferor had the legal right to transfer, that the instrument was properly executed and registered, and that no competing claim arises from that period.
 
-1. **Original ownership documents** — the root of title, whether a sale deed, a government grant, or an allotment order
-2. **Successive conveyance deeds** — every transfer from the root to the present seller
-3. **Partition deeds or family settlement agreements** — particularly relevant where Hindu Undivided Family (HUF) property or ancestral land is involved
-4. **Court orders or decrees** — any probate, succession certificate, or court-sanctioned transfer in the chain
-5. **Revenue records** — the 7/12 extract (satbara utara) in Maharashtra, confirming the current recorded owner and any noting of rights
-6. **Mutation entries** — confirming the seller's name appears correctly in municipal or revenue records
-7. **Power of attorney documents** — verifying whether the person executing the deed actually has authority to do so
+Gaps in the chain of title are particularly dangerous. If a property passed from a deceased owner to their heirs, but no succession certificate, probate, or registered release deed exists to formalise that inheritance, there is a break in the chain — and a latent risk that heirs who were not included in the eventual sale may one day assert their rights. Similarly, if a transfer was made under a court decree, the buyer's lawyer must verify that the decree was final, that all parties to the suit were properly before the court, and that the decree was not subsequently varied or appealed. The title search also checks whether any registered attachment, injunction, or lis pendens — a notation of pending litigation — affects the property.
 
-This exercise should be conducted by a qualified lawyer, not merely by reviewing a summary provided by the seller's broker. A detailed account of what title due diligence involves is set out in our companion guide on [property title due diligence](/articles/real-estate/property-title-due-diligence).
+## The Encumbrance Certificate
 
-## Step 2: Obtain and Analyse the Encumbrance Certificate
+The encumbrance certificate (EC) is issued by the sub-registrar's office and documents all registered transactions affecting a property over the period requested. A buyer should generally seek an EC covering at least thirty years, though available records may not always extend that far. The EC will show every registered mortgage, sale deed, gift deed, release deed, and similar instrument — providing an independent cross-check against the documents produced by the seller.
 
-An encumbrance certificate (EC) issued by the office of the Sub-Registrar of Assurances records all registered transactions affecting the property over a specified period — typically the last 30 years. It reveals registered mortgages, sale deeds, leases, and charges. If the EC discloses an outstanding mortgage, the seller must provide a discharge or redemption certificate from the lender before the transaction can safely proceed. An EC with nil encumbrances gives comfort but must be read alongside the full title documents — the EC does not capture unregistered interests or informal family arrangements.
+It is important to understand what the EC does not cover. It captures only registered transactions. A mortgage created by deposit of title deeds — sometimes called an equitable mortgage — may not appear on the EC if it was not registered. Revenue court proceedings, government land acquisition notifications, or liabilities recorded in mutation registers will similarly not appear. The EC is therefore a necessary starting point, but it must be read alongside a full examination of the seller's documents, the mutation register, and — where relevant — a search of the Central Registry of Securitisation Asset Reconstruction and Security Interest (CERSAI) for unregistered equitable mortgages.
 
-## Step 3: Verify Approved Plans and Occupancy Certificate
+## RERA Registration: Checking Your Project
 
-For any built structure, confirm that construction has been carried out in accordance with plans approved by the relevant local authority — in Pune, the Pune Municipal Corporation (PMC) or Pimpri-Chinchwad Municipal Corporation (PCMC). Unapproved construction or deviations from sanctioned plans attract demolition notices and regularisation levies. For completed buildings, check whether an Occupancy Certificate (OC) or Completion Certificate has been issued. Without an OC, the building is technically unauthorised for habitation, and utility connections can be refused by the service provider.
+For any new or under-construction property in Maharashtra, verifying the project's registration with MahaRERA is a non-negotiable step. The Real Estate (Regulation and Development) Act 2016 requires promoters to register projects exceeding the prescribed thresholds before advertising, booking, or selling units. MahaRERA's portal — maharera.mahaonline.gov.in — is publicly accessible and contains the registration certificate, the sanctioned plan, the commencement certificate, the declared completion date, the list of approvals obtained, and the project's escrow account details. All of this information must be cross-checked against what the builder's sales team and brochures have represented.
 
-## Step 4: Check RERA Registration
+The registration certificate tells a buyer several critical things: when the project is legally required to complete, what amenities and specifications were declared at registration, and whether any phases of the project carry separate registrations. Buying from a project that is not registered — or whose registration has lapsed — leaves the buyer outside the protection of RERA and dependent entirely on civil litigation if things go wrong. Without RERA registration there is no statutory interest obligation on the builder for delay, no mandatory escrow protection for payments, and no adjudicating authority with the power to award prompt relief.
 
-If you are buying from a developer — whether a flat in an under-construction project, a villa in a township, or a plot in a layout — the project must be registered with MahaRERA. You can verify registration on the MahaRERA website using the project name or registration number. The registration page discloses the approved plans, promised delivery dates, litigation history declared by the promoter, and the quarterly updates on project progress. Purchasing in an unregistered project significantly curtails your statutory remedies under the RERA framework.
+## Approved Plans and Municipal Approvals
 
-## Step 5: Obtain Society NOC for Resale Flats
+A building's legal validity rests on a chain of municipal approvals: the commencement certificate (CC), which authorises construction to begin; the occupancy certificate (OC), which certifies that the completed building was constructed in accordance with the sanctioned plan and is fit for occupation; and the sanctioned layout plan, which specifies the number of floors, the floor space index (FSI) consumed, and the approved uses of each part of the building.
 
-When buying a resale flat in a registered cooperative housing society, you will need a No Objection Certificate (NOC) from the society confirming there are no outstanding dues — maintenance charges, water charges, or special levies — against the flat. The society must also consent to the transfer of membership. Under the Maharashtra Cooperative Societies Act, some societies charge a transfer fee and have waiting periods. Overlooking this step can leave the buyer inheriting arrears or facing a delayed membership transfer.
+One of the most persistent problems in older buildings and projects developed by smaller builders is construction beyond the sanctioned floors or the permitted FSI. A flat on a floor that was not sanctioned does not have a legal existence in the municipal records — it may not receive utility connections in its own right, and a buyer who purchases such a flat may find themselves unable to obtain a home loan or register the property. Always verify that the floor on which your proposed flat sits is within the sanctioned plan and that the OC has been issued for the building as a whole.
 
-## Step 6: Calculate and Arrange Stamp Duty
+## Society NOC and Existing Liabilities
 
-Under the Maharashtra Stamp Act 1958, stamp duty on a sale deed is calculated on the higher of the agreement value or the Ready Reckoner (Annual Statement of Rates) value published by the Inspector General of Registration. Residential property in Pune attracts stamp duty of 6% for male buyers and 5% for female buyers, plus applicable cess and local body charges. Underpayment renders the document inadmissible in evidence and attracts penalties that can be a multiple of the deficient amount. Arrange stamp duty payment through the e-SBTR (Electronic Secured Bank and Treasury Receipt) system or authorised franking before the deed is presented for registration. A detailed breakdown of Maharashtra stamp duty rates is covered in our [stamp duty guide](/articles/real-estate/stamp-duty-maharashtra).
+If the property is in a co-operative housing society, the buyer requires a no-objection certificate from the society before the transfer of the share certificate and membership can be completed. The NOC confirms that the seller has no outstanding dues — maintenance, sinking fund, repair fund, or special levies — and that the society has no objection to the proposed transfer. Buyers sometimes discover after purchase that the society has been issuing levy notices or has initiated proceedings against the flat. Obtaining the NOC before the final payment is made protects the buyer from inheriting these liabilities.
 
-## Step 7: Register the Sale Deed at the Sub-Registrar's Office
+## Stamp Duty and Registration
 
-Registration of the sale deed under the Registration Act 1908 is mandatory for all transfers of immovable property. Both parties — or their duly authorised attorneys — must appear before the Sub-Registrar, present original identity documents, and pay the applicable registration fee. The registered deed is returned with the Sub-Registrar's endorsement, and the transaction is entered in the public register. Possession should only be handed over after registration, not merely on execution of the deed.
+Stamp duty in Maharashtra is calculated on the higher of the agreement value or the ready reckoner rate applicable to the property's locality, floor, and type. An inadequately stamped document is inadmissible in evidence and liable to be impounded. Registration at the sub-registrar's office is a separate legal requirement under the Registration Act 1908 — a sale deed that is not registered does not confer valid title on the buyer. The complete process, current rates, and the e-stamping procedure are covered in detail in our guide to [stamp duty in Maharashtra](/articles/real-estate/stamp-duty-maharashtra).
 
-## Step 8: Post-Registration Possession Checklist
+## Possession Checklist
 
-Once registration is complete, the following steps should follow before the transaction is considered fully closed:
-
-- Collect all original title documents from the seller or, if a mortgage was discharged, from the lending institution
-- Obtain all approved plan sets, the OC or Completion Certificate, and any structural warranties
-- Transfer utility connections (electricity, water, gas) to your name with the relevant service providers
-- Obtain the share certificate from the housing society and complete the membership transfer process
-- Update mutation records with the local body and in revenue records so that your name appears as the current owner
+Before taking possession, a buyer should verify that the occupancy certificate has been issued for the specific floor and wing, that all utilities — electricity, water, gas — are connected and functional, and that the carpet area matches the registered agreement for sale. A snag inspection — a walk-through with a contractor or architect to identify construction defects, unfinished work, or specification deviations — should be conducted and documented before handing over the final payment or signing the possession letter. Any items left incomplete must be recorded in writing with agreed timelines for rectification.
 
 ## Common Traps to Avoid
 
-**GPA sales** remain prevalent in secondary markets despite the Supreme Court's ruling in *Suraj Lamp & Industries v. State of Haryana* (2011) that such transactions do not transfer title. Always insist on a registered sale deed.
+Several transaction structures that remain in use in the Indian property market carry serious legal risks. General Power of Attorney sales — where the seller transfers possession and collects payment through a GPA rather than a registered sale deed — do not convey legal title. The Supreme Court in Suraj Lamp & Industries v. State of Haryana (2011) held such transactions void for the purpose of conveying ownership. Agricultural land that has not received a Non-Agricultural (NA) order from the Collector under the Maharashtra Land Revenue Code cannot lawfully be used for residential or commercial construction — buying such land without the NA order exposes the buyer to demolition notices and the inability to obtain building permissions. Properties with a lis pendens notation — indicating pending litigation over title or possession — should be avoided until the litigation is resolved. Purchasing a property still registered in the name of a deceased person requires verification that all legal heirs have completed succession proceedings and have consented to the sale.
 
-**Agricultural land without NA conversion** is another frequent problem. Land that has not been formally converted from agricultural to non-agricultural (NA) use by order of the Collector cannot lawfully be used for residential construction. Verify the NA order before purchasing any plot that was previously classified as agricultural.
-
-**Undisclosed co-owners** — particularly legal heirs of a deceased prior owner who have not formally joined in the transaction — can emerge later to challenge the sale. Ensure that all persons with any interest in the property execute the deed or provide a registered release deed relinquishing their share.
-
----
-
-Buying property involves navigating multiple overlapping legal frameworks — the Transfer of Property Act 1882, the Registration Act 1908, the Maharashtra Stamp Act 1958, RERA 2016, and cooperative society laws. Professional legal advice before you sign any booking form or agreement for sale can prevent far costlier problems later. To discuss the due diligence process for a specific property, visit our [Real Estate Practice page](/practices/real-estate).
+Navigating each of these issues requires specific legal expertise and careful document review. Brill Legal's real estate practice assists buyers with comprehensive title due diligence, RERA compliance verification, agreement review, and end-to-end transaction support across Maharashtra. Visit our [real estate practice page](/practices/real-estate) to learn more about how we can assist you.

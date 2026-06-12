@@ -1,72 +1,81 @@
 ---
-title: "Mutual Consent Divorce in India: The Process and What Must Be Agreed"
+title: "Mutual Consent Divorce in India: Procedure, Terms, and Timelines"
 slug: "mutual-consent-divorce-india"
 practice: "private-client"
 type: cluster
-keyword: "mutual consent divorce India Section 13B HMA"
-description: "A practical guide to mutual consent divorce under Section 13B of the Hindu Marriage Act and Section 28 of the Special Marriage Act — the two-motion procedure, waiver of the cooling-off period, what the parties must agree on, and NRI considerations."
+keyword: "mutual consent divorce India"
+description: "A practical guide to mutual consent divorce under Section 13B of the Hindu Marriage Act and Section 28 of the Special Marriage Act, covering the two-motion procedure, cooling-off period waiver, settlement terms, and special considerations for NRI couples."
 author: "a-deshpande"
-publishDate: "2026-02-25"
+publishDate: "2026-04-20"
 related:
   - divorce-india-guide
   - child-custody-india
   - alimony-maintenance-india
 faqs:
-  - q: "What must the parties agree on before filing for mutual consent divorce?"
-    a: "At minimum, both parties must agree that the marriage has broken down irretrievably and that they consent to divorce. In practice, the terms — permanent alimony, division of assets, and if children are involved, custody and access arrangements — should be fully agreed before the first motion is filed, so that neither party withdraws consent before the second motion."
-  - q: "Can the cooling-off period be waived?"
-    a: "Yes. The Supreme Court in Amardeep Singh v. Harveen Kaur (2017) held that the six-month cooling-off period under Section 13B HMA can be waived by the court where the parties have been living separately for more than 18 months, the terms are settled, and there is no possibility of reconciliation. The Family Court assesses each case on its facts."
-  - q: "What happens if one party withdraws consent before the second motion?"
-    a: "If either party withdraws consent before the second motion and the second motion is not moved, the petition fails. In Suman Singh v. Sanjay Singh the Supreme Court clarified that consent must subsist at the time of the second motion. This is why settling all terms before the first motion is filed is so important."
-  - q: "Do NRI couples need to appear in court personally?"
-    a: "Personal appearance is ordinarily required at both motions, though some courts permit appearance through a Power of Attorney holder in limited circumstances, and appearances may sometimes be permitted via video conferencing. The rules vary between Family Courts. We advise on what is required for your court."
+  - q: "Can the cooling-off period in a mutual consent divorce be waived?"
+    a: "Yes. The Supreme Court in Amardeep Singh v. Harveen Kaur held that the six-month cooling-off period under Section 13B(2) HMA is directory and not mandatory, and can be waived if the court is satisfied that the parties have been living separately for a long time and the marriage has irretrievably broken down."
+  - q: "What must be settled before filing for mutual consent divorce?"
+    a: "The parties must agree on division of matrimonial assets and property, permanent alimony or maintenance (or its waiver), child custody, visitation arrangements, and return of jewellery and personal belongings. These terms are incorporated in the settlement deed."
+  - q: "Can NRI couples obtain mutual consent divorce in India?"
+    a: "Yes, provided at least one party is domiciled in India or the marriage was solemnised in India. NRI parties who cannot travel may explore divorce by mutual consent under the applicable law in their country of residence, though Indian recognition of foreign divorces depends on the circumstances."
+  - q: "How long does mutual consent divorce take in practice?"
+    a: "Without a waiver of the cooling-off period, the minimum period is six months from the first motion. With a waiver, proceedings can be concluded within six to eight weeks of filing, subject to court availability."
 ---
 
-Mutual consent divorce is the agreed dissolution of a marriage — both parties have decided the marriage is over and are willing to say so jointly to the court, having settled the consequences between themselves. It is the most straightforward route to divorce when the underlying decision is mutual and the terms can be worked out in advance.
+Mutual consent divorce is the agreed dissolution of a marriage. Both parties have decided independently that the marriage has ended and are willing to say so jointly before a court, having worked out the consequences between themselves. It is the most straightforward route to divorce available in Indian law when the decision is genuinely mutual and the terms covering property, maintenance, and any children can be settled in advance.
 
-## The legal framework
+## The Legal Framework
 
-For Hindus, Buddhists, Sikhs and Jains, Section 13B of the Hindu Marriage Act 1955 governs mutual consent divorce. For marriages registered under the Special Marriage Act 1954, Section 28 is the equivalent provision. The Christian Divorce Act and personal laws for other communities have their own variants. This guide focuses on the HMA framework, which covers the majority of matters.
+For Hindus, Buddhists, Sikhs, and Jains, mutual consent divorce is governed by Section 13B of the Hindu Marriage Act, 1955. For marriages registered under the Special Marriage Act, 1954, the equivalent provision is Section 28. The Divorce Act, 1869 and the Indian Christian Marriage Act provide separate routes for Christian marriages. This guide focuses on the Section 13B HMA framework, which covers the largest number of family law matters.
 
-## The preconditions
+## Eligibility
 
-The petition can only be filed if:
+A petition for mutual consent divorce under Section 13B can only be presented if the parties have been living separately for at least one year before the petition is filed. This is a statutory floor: the period cannot be shortened by agreement. Living separately does not necessarily require residing in different buildings throughout the year. Courts have accepted separation within the same household where the parties can demonstrate that matrimonial cohabitation had ceased, though this remains a more contested position in some Family Courts.
 
-- The parties have been **living separately for at least one year** before the petition is presented. This is a statutory minimum; the parties do not need to have been living in different cities — separate bedrooms with no matrimonial cohabitation can suffice, though this is contested in some courts.
-- Both parties **consent** to the divorce.
-- They have **not been able to live together** and agree that the marriage has broken down.
+Both parties must freely consent to the divorce. The consent must be informed and voluntary: pressure, coercion, or inducement in obtaining consent can be raised as a ground for challenging the proceedings. Courts are alert to situations, particularly in matrimonial disputes with a power imbalance, where consent is not freely given.
 
-Courts do not inquire deeply into why the marriage broke down — there is no fault, no proof of cruelty or desertion required. The mutual agreement is the central fact.
+## The Two-Motion Procedure
 
-## The two-motion procedure
+### First Motion
 
-### First motion
-The parties file a joint petition before the Family Court of competent jurisdiction. Both spouses appear personally, confirm their statements, and the petition is recorded. The court then formally passes an order recording the first motion.
+The parties file a joint petition before the Family Court of competent jurisdiction, which is ordinarily the court within whose jurisdiction the parties last resided together, or within whose jurisdiction the wife currently resides. Both spouses appear personally at the first motion hearing. Their statements are recorded, and the court passes an order noting the first motion and setting the date for the second motion.
 
-At this stage, the **six-month cooling-off period** begins. The law intends this gap as an opportunity for reconciliation. In practice, where the parties have already been separated for a significant time and the terms are settled, this period serves mainly as a procedural pause.
+At the first motion stage, the court typically satisfies itself that both parties understand the nature of the proceedings and that their consent is genuine. The six-month cooling-off period begins from the date of the first motion order.
 
-### Waiver of the cooling-off period
-Following *Amardeep Singh v. Harveen Kaur* (2017), the Supreme Court held that the six-month period is not mandatory in every case and that the Family Court has discretion to waive it. The conditions: the parties have been living separately for more than 18 months at the time the first motion is filed, there is no possibility of reconciliation, and continuing the period would cause unnecessary hardship. Courts in Pune and Mumbai routinely consider waiver applications; the outcome depends on the court's calendar and the strength of the case made.
+### The Cooling-Off Period and Its Waiver
 
-### Second motion
-Between six months and 18 months after the first motion (or immediately after waiver), both parties appear again and confirm that their consent is subsisting and that the terms agreed remain acceptable. The court then passes the decree of divorce.
+Section 13B(2) provides that the second motion cannot be moved earlier than six months after the first motion, and must be moved no later than eighteen months after it. The statutory intention is to give the parties an opportunity for reflection and possible reconciliation.
 
-The gap between first and second motion is the vulnerable period. If either party withdraws consent — because the terms are no longer acceptable, because reconciliation is attempted, or because one party is using the consent as leverage — the petition fails.
+The Supreme Court in Amardeep Singh v. Harveen Kaur (2017) held that this six-month period is directory rather than mandatory, and that the Family Court has discretion to waive it. The conditions for waiver are that the parties have been living separately for more than eighteen months at the time the first motion is filed, there is no possibility of reconciliation, and compelling the parties to wait through the cooling-off period would cause them unnecessary hardship. Where a waiver application is made on these grounds, courts in Pune and Mumbai consider it on a case-by-case basis. A well-presented waiver application supported by the parties' affidavits explaining the length of separation and the settled state of the terms can significantly shorten the overall timeline.
 
-## What must be agreed before filing
+### Second Motion
 
-The terms of the settlement are typically documented in a Memorandum of Understanding or a Consent Terms document filed before or at the second motion. The principal areas:
+Between six months and eighteen months after the first motion (or immediately following a successful waiver), both parties appear again before the Family Court, confirm that their consent is unaltered, and confirm that the agreed terms remain acceptable. The court is satisfied that consent is subsisting and passes the decree of divorce.
 
-**Maintenance and alimony**: Whether any permanent alimony is payable, by whom, the amount, and whether it is a lump sum or periodic. The court is not bound by the parties' agreement if it appears grossly unfair, but in practice courts respect settled terms.
+The interval between the first and second motion is the procedurally vulnerable period. If either party withdraws consent before the second motion is moved, the petition fails and cannot be revived on the basis of the same first motion. The Supreme Court in Suman Singh v. Sanjay Singh confirmed that consent must exist at the time of the second motion and cannot be treated as continuing indefinitely. This is why it is important to ensure that all terms are genuinely agreed before the first motion is filed rather than leaving negotiation to run during the waiting period.
 
-**Property and assets**: Division of the matrimonial home, joint bank accounts, investments, and other assets. Documents of transfer (relinquishment deeds, sale proceeds allocation) should be prepared to execute simultaneously with or immediately after the decree.
+## What Must Be Agreed Before Filing
 
-**Custody and access**: Where children are involved, agreed custody arrangements (primary residence, visitation schedule, holiday access, school decisions) should be clear and specific. The court examines child custody terms independently for the child's welfare, even in a consent divorce — agreed terms are persuasive but not conclusive.
+The agreed terms are documented in a Memorandum of Understanding or Consent Terms, which is placed before the court at the second motion or annexed to the joint petition. The principal areas requiring agreement are as follows.
 
-**Return of stridhan and documents**: The return of jewellery, personal documents, and property.
+### Maintenance and Alimony
 
-## NRI considerations
+Whether any permanent alimony is payable, by whom, in what amount, and in what form (lump sum or periodic). The parties may also agree that no maintenance will be paid by either side. The Family Court has the power to examine whether the agreed maintenance terms are fair, particularly where one party appears financially dependent, but in practice the court generally accepts terms that both parties have freely agreed to with legal advice.
 
-Where one or both parties reside abroad, jurisdiction must be established — ordinarily at the last matrimonial home or where the marriage was solemnised. Personal appearance can be a practical difficulty; the rules on Power of Attorney and video conferencing appearances vary between Family Courts. We advise NRI clients specifically on what their court requires and on the recognition of the Indian decree in the country of residence.
+### Division of Matrimonial Assets and Property
 
-Our [family law practice](/practices/private-client) handles mutual consent divorce from terms negotiation through both motions and final decree.
+The matrimonial home, joint bank accounts, investments, vehicles, and other jointly held or claimed assets must be allocated between the parties. Where the matrimonial home is jointly owned, the parties may agree on a sale and division of proceeds, or on one party acquiring the other's share. Transfer documents, relinquishment deeds, and any required registrations should be prepared to execute simultaneously with or immediately after the decree.
+
+### Child Custody and Visitation
+
+Where the marriage has produced children, agreed custody arrangements, including primary residence, visitation schedules, holiday access, and decision-making authority over education and healthcare, must be specified clearly and practically. The Family Court independently evaluates child custody terms even in a consent divorce: the welfare of the child is the paramount consideration, and terms that do not serve the child's interests will not be automatically accepted simply because the parents have agreed to them.
+
+### Return of Personal Property
+
+The return of the wife's stridhan, jewellery, personal documents, and other personal belongings should be specified in the consent terms, both to resolve any present dispute and to avoid future claims.
+
+## NRI Considerations
+
+Where one or both parties reside abroad, jurisdictional questions must be addressed carefully. Indian courts generally accept jurisdiction on the basis of the last matrimonial home in India or the place where the marriage was solemnised. Personal appearance at both motions is ordinarily required, though some Family Courts permit appearance through a Power of Attorney holder in limited circumstances, and video conferencing appearances have been permitted in certain courts since the COVID-19 period. NRI parties should also verify whether the Indian decree will be recognised in their country of residence, as recognition depends on the private international law of that jurisdiction.
+
+For more on how our team handles mutual consent divorce from initial negotiation through both motions and final decree, visit our [Private Client practice page](/practices/private-client).
