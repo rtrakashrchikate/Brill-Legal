@@ -1,87 +1,69 @@
 ---
-title: "How to File a RERA Complaint in Maharashtra (MahaRERA): A Step-by-Step Guide"
+title: "How to File a RERA Complaint in Maharashtra: A Step-by-Step Guide"
 slug: "file-rera-complaint-maharashtra"
 practice: "real-estate"
 type: cluster
-keyword: "file RERA complaint Maharashtra MahaRERA"
-description: "A step-by-step guide to filing a complaint with MahaRERA — covering who can complain, the online process, fees, hearing procedure, interim relief, MREAT appeals, and enforcement of orders."
+keyword: "how to file RERA complaint Maharashtra"
+description: "A step-by-step guide to filing a complaint with MahaRERA — registration check, Form A, fees, hearings, interim relief, appeals to MREAT."
 author: "a-deshpande"
-publishDate: "2026-02-21"
+publishDate: "2026-02-15"
 related:
   - rera-maharashtra-guide
   - builder-delay-possession-rera
   - rera-refund-rules
 faqs:
   - q: "Who can file a complaint with MahaRERA?"
-    a: "Any allottee (homebuyer) who has an agreement for sale with a registered promoter or developer can file a complaint with MahaRERA. An association of allottees can also file a collective complaint. Additionally, any person aggrieved by a promoter's failure to comply with the RERA Act or MahaRERA orders can approach the authority."
+    a: "Any aggrieved person — including an allottee, a real estate agent, or any person affected by a RERA-registered project — may file a complaint with MahaRERA. The most common complainants are homebuyers who have booked units in registered projects and are facing delay, deficiency, or misrepresentation by the promoter."
   - q: "What is the filing fee for a MahaRERA complaint?"
-    a: "The complaint fee is ₹5,000 for individual allottees filing online through the MahaRERA portal. The fee is payable electronically. Fees for associations of allottees or certain other categories may differ. The fee is not refunded even if the complaint is dismissed."
-  - q: "How long does a MahaRERA complaint take to resolve?"
-    a: "MahaRERA is required under the RERA Act to dispose of complaints within 60 days of filing. In practice, timelines vary depending on the complexity of the matter, the number of hearings required, and current caseload. Simple cases involving admitted delays can sometimes be resolved in two to three months; contested cases or those requiring detailed evidence may take longer."
-  - q: "Can I get an interim stay against further sales by the builder while my case is pending?"
-    a: "Yes. MahaRERA has the power to grant interim relief, including staying further bookings or sales in a project, appointing a receiver to manage the escrow account, or directing the promoter to stop specified activities pending the outcome of a complaint. Interim applications must be specifically filed and supported with reasons why the relief is urgently needed."
+    a: "MahaRERA prescribes a filing fee for complaints, which is nominal compared to court fees. The fee is payable online at the time of submission. Fees may be revised, so check the current fee schedule on the MahaRERA website (maharera.mahaonline.gov.in) before filing."
+  - q: "Can MahaRERA stay the sale of units in a project?"
+    a: "Yes. MahaRERA has the power to pass interim orders including staying the sale of further units in a project where there are serious complaints of delay, fraud, or fund diversion. This is intended to protect existing allottees whose funds may be at risk if the promoter continues to collect money without completing the existing project."
+  - q: "What is the MREAT and how do I appeal?"
+    a: "The Maharashtra Real Estate Appellate Tribunal (MREAT) hears appeals against orders of MahaRERA. An appeal must be filed within 60 days of the MahaRERA order, though the Tribunal may condone delay for sufficient cause. The MREAT sits in Mumbai and operates under Section 43 of the RERA Act."
 ---
 
-When a developer delays possession, misrepresents a project, or fails to deliver what was promised, homebuyers in Maharashtra have a dedicated regulatory forum available to them — the Maharashtra Real Estate Regulatory Authority, known as MahaRERA. Established under the Real Estate (Regulation and Development) Act 2016, MahaRERA has processed thousands of complaints since its inception in 2017 and has become one of the more active RERA authorities in the country. Understanding how the complaint process works can help homebuyers make informed decisions about whether and how to proceed.
+MahaRERA — the Maharashtra Real Estate Regulatory Authority — is the statutory body established under the Real Estate (Regulation and Development) Act 2016 to regulate the real estate sector in Maharashtra. It is among the most active and well-staffed RERA authorities in India, and for homebuyers who have experienced delay, deficiency of construction, or misrepresentation from a builder, it offers a relatively accessible and cost-effective alternative to conventional litigation. Understanding how the complaint process works — and how to navigate it effectively — can significantly improve an allottee's prospects of obtaining a favourable order.
 
-## Step 1: Verify the Project's RERA Registration
+## Before You File: Checking Project Registration
 
-Before filing a complaint, confirm that the project is registered with MahaRERA. Visit the MahaRERA website (maharera.mahaonline.gov.in) and search by project name, promoter name, or registration number. The project registration page will show the registered completion date, approved plans, declared litigation, and quarterly updates filed by the promoter. An unregistered project is itself a violation of the RERA Act, and a complaint about the failure to register can be separately filed.
+The first step before filing any complaint is to verify that the project in question is registered with MahaRERA. This is done on the MahaRERA portal at maharera.mahaonline.gov.in, which is publicly accessible and searchable by project name, promoter name, or registration number. The project page contains a wealth of information: the registration certificate itself, the declared completion date, the list of approvals uploaded by the promoter, the sanctioned plan, the escrow account details, and the number of units booked and sold. This page is the buyer's primary reference document when building a complaint.
 
-## Step 2: Identify the Cause of Action
+If the project is unregistered — either because it fell below the RERA threshold or because the promoter failed to register in violation of the Act — MahaRERA's jurisdiction is limited. An unregistered promoter can face penalties under RERA, but an allottee's claim for delay, interest, or refund would generally need to be pursued before the consumer forum or through civil litigation. In some cases, the allottee may file a complaint against the promoter for failure to register, which itself is a RERA violation. Where the project is registered, however, the RERA route is usually faster and more targeted than the alternatives.
 
-MahaRERA can be approached for a range of complaints, including:
+## Grounds for Filing a Complaint
 
-- Delay in handing over possession beyond the date specified in the registered agreement for sale
-- Failure to complete construction in accordance with approved plans
-- Misrepresentation about the project, the amenities, or the area of the flat
-- Non-refund of the amount paid with interest in cases where the buyer is entitled to withdraw
-- Failure to form the cooperative society or association of allottees as required
-- Breach of any other obligation under the RERA Act or the agreement for sale
+The RERA Act and the Maharashtra RERA Rules provide a range of grounds on which an allottee may file a complaint. The most common is delay in possession beyond the date declared in the agreement for sale or the RERA registration — a ground that entitles the allottee to either a full refund with interest under Section 18(1) or interest for the period of delay if they choose to continue in the project. Other grounds include deficiency in the construction, amenities, or specifications promised in the brochure or agreement; structural defects discovered within five years of possession, which the promoter is obligated to rectify; material misrepresentation or false information provided in the prospectus, application form, or advertisement; failure to execute and register the agreement for sale; and violation of the conditions of RERA registration itself.
 
-The cause of action must be clearly articulated in the complaint — a vague grievance is harder to adjudicate and may delay relief.
+An allottee may also file a complaint for failure by the promoter to form a resident welfare association or co-operative housing society within the period specified by RERA, or for diversion of funds collected from allottees away from the designated escrow account. Each of these grounds requires specific documentation to substantiate, and the complaint should clearly identify which RERA provision has been violated.
 
-## Step 3: Prepare and File Form A Online
+## Step 1: Gathering Documents
 
-Complaints are filed online through the MahaRERA portal using the prescribed Form A. The complainant must create an account on the portal (or log in using an existing account) and complete the form, which requires:
+A well-prepared complaint begins with a complete document file. The core documents are the agreement for sale (or agreement to sale, as it may be titled) registered with the sub-registrar, all payment receipts issued by the promoter corresponding to each instalment paid, all written correspondence with the builder — emails, letters, WhatsApp messages if relevant — and the project's page on the MahaRERA portal. Where the complaint involves a brochure or advertisement that misrepresented specifications or amenities, copies of those materials should be preserved. If the complaint concerns structural defects, a professional inspection report or contractor's assessment adds weight to the claim.
 
-- Personal details of the complainant (name, address, PAN)
-- Details of the project and registration number
-- Details of the agreement for sale (date, flat number, floor, agreed price, possession date)
-- A statement of the complaint — what happened, what was agreed, and how the promoter has defaulted
-- The relief claimed — whether interest for delay, possession, refund, or compensation
-- Supporting documents uploaded as PDFs (agreement for sale, payment receipts, correspondence with the promoter, possession letter if any, and any other relevant evidence)
+The agreement for sale is particularly important because it specifies the agreed possession date and the specifications promised. Any gap between what was agreed in writing and what has been delivered — whether in terms of timing, area, or amenities — is the foundation of the complaint. Calculating the precise interest claimed under RERA (typically SBI MCLR plus 2%, compounded monthly) on each instalment from the date of default requires the payment receipts and their dates.
 
-The filing fee of ₹5,000 is paid electronically at the time of submission.
+## Step 2: Filing Form A Online
 
-## Step 4: Service on the Opposite Party and First Hearing
+The complaint before MahaRERA is filed using Form A, which is available on the MahaRERA portal. The complainant must first register on the portal using a valid email address and mobile number. Once registered, the Form A is filled in online: it requires the complainant's details, the project registration number, the promoter's details, a concise statement of facts, the specific reliefs sought, and the legal provisions relied upon. Supporting documents — the agreement for sale, payment receipts, correspondence, and the MahaRERA project printout — are uploaded as attachments. The filing fee is paid online at the time of submission. Upon successful filing, the portal generates a complaint number and an acknowledgment, which should be saved.
 
-Once the complaint is filed and accepted by the system, MahaRERA issues a notice to the promoter (opposite party). The promoter is given an opportunity to file a written reply. The first hearing is typically scheduled within weeks of filing, though actual timelines vary. Hearings before MahaRERA are conducted in person at the Mumbai office or, increasingly, through video conference — the latter has expanded access for complainants based outside Mumbai.
+## Step 3: Service on the Opposite Party
 
-At the hearing, both parties appear (through lawyers or in person) and present their case. MahaRERA may conduct several rounds of hearings to allow evidence, submissions, and arguments before passing an order.
+After the complaint is filed, MahaRERA arranges for notice to be served on the promoter (the opposite party) through the portal and by registered post to the address on record. The promoter is given a prescribed period — typically a few weeks — to file their written reply. If the promoter does not respond within the time allowed, the authority may proceed to hear the complaint ex parte, though in practice MahaRERA generally allows some latitude for the promoter to participate before passing a final order.
 
-## Step 5: Interim Relief — Stay of Further Sales or Other Directions
+## Step 4: Hearings Before the Adjudicating Officer or Authority
 
-If there is an urgent need to prevent the promoter from causing further prejudice to allottees while the complaint is pending — for instance, continued booking of flats in a project that is years behind schedule — an interim application can be filed alongside or after the main complaint. MahaRERA has the statutory power to pass interim orders, including:
+Once the reply is filed — or the time for reply has expired — the complaint is listed for hearing before the adjudicating officer (for claims of compensation under Section 71) or the MahaRERA Authority (for complaints under other sections). Hearings are conducted in virtual mode for most matters, with the parties accessing the hearing through the portal's video conferencing facility. At the hearing, each party has the opportunity to present their case, respond to arguments, and submit additional documents. The complainant should be prepared to explain the facts clearly, present the key documents, and make specific submissions on the relief sought — including a precise calculation of the interest claimed.
 
-- Staying further advertisements, marketing, or sale of units in the project
-- Directing the promoter to deposit disputed amounts in the escrow account
-- Appointing a receiver or administrator for the project in appropriate cases
+## Interim Relief: Staying the Project or Freezing Accounts
 
-The test for interim relief is whether irreparable harm will result if relief is not granted immediately, balanced against the likely outcome of the main complaint.
+The RERA Act, under Sections 36 to 38, empowers MahaRERA to pass interim orders pending final disposal of a complaint. An allottee who is concerned that the promoter may dissipate collected funds or continue selling units in a delayed project can apply for an interim order to stay further sales, direct the promoter to deposit funds in the project escrow account, or freeze the promoter's withdrawal rights from the escrow. Such applications require a showing of urgency and a prima facie case, and are supported by the documents gathered at the earlier stage. Interim orders can significantly change the dynamics of the proceeding and are worth exploring in appropriate cases.
 
-## Step 6: The Order
+## The MahaRERA Order
 
-After hearing both sides, MahaRERA passes a written order. In delay cases, orders commonly direct the promoter to pay interest under Section 18 of the RERA Act at the prescribed rate (currently calculated at the SBI's Marginal Cost of Funds based Lending Rate plus 2%) on the amount paid from the date on which possession was due until actual possession. In appropriate cases, MahaRERA directs refund of the amount paid with interest. The order may also include directions for the promoter to complete specified work or provide specific amenities.
+After hearing both parties, MahaRERA passes a written order. Depending on the nature of the complaint and the reliefs sought, the order may direct the promoter to pay interest for the period of delay, to refund the amounts paid with interest, to rectify specified deficiencies within a fixed timeline, or to complete and hand over possession by a revised date. Orders become enforceable as decrees of a civil court, and non-compliance by the promoter triggers execution proceedings.
 
-## Step 7: Appeals to MREAT
+## Appealing to MREAT
 
-Any person aggrieved by an order of MahaRERA — whether the allottee or the promoter — may appeal to the Maharashtra Real Estate Appellate Tribunal (MREAT) within 60 days of the order. MREAT sits in Mumbai and functions as the second tier of adjudication under the RERA framework. Appeals must be accompanied by a pre-deposit of a percentage of the disputed amount as directed by the Tribunal. Further appeal from MREAT lies to the High Court on questions of law.
+A party aggrieved by a MahaRERA order — whether the allottee or the promoter — may appeal to the Maharashtra Real Estate Appellate Tribunal (MREAT) within sixty days of the order, though the Tribunal may condone delay for sufficient cause. The MREAT sits in Mumbai and can uphold, modify, or set aside the MahaRERA order. Appeals from the MREAT lie to the High Court. Choosing whether to appeal — and whether to appeal promptly or negotiate a settlement in the interim — requires a careful assessment of the order's strengths and weaknesses.
 
-## Step 8: Enforcement of MahaRERA Orders
-
-An order of MahaRERA is enforceable as a decree of a civil court. If the promoter does not comply voluntarily within the time stipulated, the allottee can approach MahaRERA for recovery, which can involve attachment of the promoter's assets, recovery through the revenue collector as arrears of land revenue, or application for issuance of a distress warrant. Enforcement remains an area where practical persistence is sometimes required, particularly against promoters who are in financial difficulty.
-
----
-
-The MahaRERA complaint mechanism is one of the most accessible and time-bound dispute resolution processes available to homebuyers in Maharashtra. Filing a well-structured complaint with proper documentation significantly improves the prospects of a timely and favourable order. For assistance with RERA complaints, interim applications, or enforcement proceedings, visit our [Real Estate Practice page](/practices/real-estate).
+For expert assistance navigating a MahaRERA complaint — from initial assessment through to enforcement of the order — visit our [real estate practice page](/practices/real-estate) to learn how Brill Legal can help.

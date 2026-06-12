@@ -1,75 +1,61 @@
 ---
-title: "Builder Delay in Possession: Your Rights Under RERA and How to Claim Interest"
+title: "Builder Delay in Possession: Your Rights Under RERA Section 18"
 slug: "builder-delay-possession-rera"
 practice: "real-estate"
 type: cluster
 keyword: "builder delay possession RERA interest refund"
-description: "A guide to homebuyer rights under RERA Section 18 when a builder delays possession — covering the right to interest versus refund, how interest is calculated, project extensions, force majeure claims, and what MahaRERA actually awards."
+description: "How RERA Section 18 protects homebuyers facing delayed possession — interest calculation, refund rights, force majeure claims, and what MahaRERA typically awards."
 author: "a-deshpande"
-publishDate: "2026-03-07"
+publishDate: "2026-03-01"
 related:
   - rera-maharashtra-guide
   - file-rera-complaint-maharashtra
   - rera-refund-rules
 faqs:
-  - q: "What is the interest rate for builder delay under RERA?"
-    a: "Section 18 of the RERA Act 2016 prescribes that the promoter must pay interest on the amount paid by the allottee at a rate equal to the State Bank of India's Marginal Cost of Funds based Lending Rate (MCLR) plus 2%. MahaRERA applies this rate from the date possession was due (as stated in the registered agreement for sale) until the date possession is actually given or the refund is paid."
-  - q: "Can a builder extend the possession date by invoking force majeure?"
-    a: "Yes, but within limits. Section 6 of the RERA Act allows a promoter to apply for an extension of the registration period in cases of natural calamity, war, or any other circumstances as notified by the appropriate government. MahaRERA adjudicates such applications and grants extensions only on demonstrated grounds. Builders have frequently cited COVID-19 as a force majeure basis; RERA authorities have taken varied approaches to the extent of such extensions, and the burden of proving genuine force majeure lies on the promoter."
-  - q: "Should I claim a refund or continue with the project and claim interest?"
-    a: "This depends on your financial situation, the stage of construction, and the credibility of the builder's completion timeline. If the project is substantially complete and the delay is measured in months, continuing and claiming interest may be more practical. If the project is significantly incomplete, the builder appears financially distressed, or years have passed beyond the promised date, a refund application may better protect your investment. A lawyer experienced in RERA matters can help assess the specific facts."
-  - q: "What if the builder has already extended the project registration with MahaRERA?"
-    a: "A project registration extension granted by MahaRERA adjusts the revised completion date for regulatory compliance purposes, but it does not extinguish an allottee's right to claim interest for the period of delay under Section 18. The allottee's rights accrue from the date in the agreement for sale — not from the extended registration date — unless the allottee specifically agreed in writing to a revised possession date."
+  - q: "What interest rate does RERA provide for delayed possession?"
+    a: "Under Section 18 of the RERA Act, the interest payable by the promoter for delay is the same rate as payable by an allottee in case of default — typically specified in the agreement for sale but subject to the RERA Rules. In Maharashtra, this is generally the State Bank of India's marginal cost-based lending rate (MCLR) plus 2%, compounded monthly. The exact rate in the applicable rules should be confirmed at the time of filing."
+  - q: "Can I get a full refund if the builder delays possession?"
+    a: "Yes. Section 18(1) of the RERA Act gives an allottee the right to withdraw from the project and receive a full refund of the amount paid, along with interest and compensation, if the promoter fails to complete or hand over possession by the agreed date. Alternatively, the allottee may choose to stay in the project and claim interest for the period of delay until possession is handed over."
+  - q: "What is a valid force majeure claim under RERA?"
+    a: "RERA Section 6 allows promoters to seek extension of the project registration period due to force majeure — defined as acts of war, flood, drought, fire, cyclone, earthquake, or other calamities caused by nature. Courts and MahaRERA have generally not accepted routine delays such as labour shortages, general economic slowdowns, or material price increases as force majeure. The COVID-19 pandemic was granted a specific regulatory extension in Maharashtra."
+  - q: "How long does a MahaRERA delay case take?"
+    a: "Timelines vary depending on complexity, the number of allottees involved, and the current case load at MahaRERA. Straightforward delay cases heard by the Adjudicating Officer can reach an order stage within six to twelve months from filing. Cases involving large projects or contested issues may take longer. MahaRERA has moved to conciliation-first processes for certain categories of complaints, which can expedite resolution."
 ---
 
-Delayed possession is the most common complaint filed with RERA authorities across India. Homebuyers who have waited years beyond their contractual possession date — often while paying rent elsewhere and servicing a home loan — have a specific statutory right under Section 18 of the Real Estate (Regulation and Development) Act 2016. Understanding what that right entails, how interest is calculated, what arguments builders raise in response, and what RERA authorities typically award in practice is essential for any homebuyer considering a complaint.
+The problem of builder delay in India is not new, but it reached a scale in the decade preceding RERA that made legislative intervention unavoidable. Thousands of homebuyers across Maharashtra and other states paid the bulk of the purchase price for apartments that were years — in some cases more than a decade — past the promised possession date, with no effective legal mechanism for redress short of expensive civil litigation. The Real Estate (Regulation and Development) Act 2016, and particularly Section 18, was intended to address this directly by giving buyers a statutory right to interest and refund that does not depend on proving fraud or bad faith — only delay.
 
-## Section 18 of the RERA Act: The Core Right
+## Section 18: The Allottee's Two Choices
 
-Section 18 of the RERA Act 2016 provides a homebuyer with two options when a promoter fails to complete construction or hand over possession by the date agreed in the registered agreement for sale:
+Section 18 of the RERA Act presents an allottee who is facing delayed possession with two distinct choices, and the decision between them is one of the most consequential that a buyer will make. The first choice is to withdraw from the project entirely. Under Section 18(1), if the promoter fails to complete construction or fails to hand over possession on or before the date specified in the agreement for sale, an allottee who wishes to withdraw is entitled to a full refund of the entire amount paid — including the booking amount and all subsequent instalments — along with interest calculated at the applicable rate from the date of each payment until the date of refund, and compensation for any loss suffered. This option is designed for allottees who have lost confidence in the project's completion, or who simply do not wish to continue waiting indefinitely.
 
-**Option 1 — Withdraw from the project and claim a full refund:** The allottee can choose to exit the project entirely and claim back the entire amount paid, together with interest at the prescribed rate and compensation as determined by the authority.
-
-**Option 2 — Continue with the project and claim interest during the delay:** If the allottee chooses to remain invested in the project — waiting for possession — the promoter must pay interest on the amounts paid from the date possession was due until the date of actual handover.
-
-The choice between these two options is the allottee's to make. An allottee cannot be compelled to continue with a delayed project, but neither can the promoter force a refund if the buyer wishes to retain the flat and simply receive compensation for the waiting period.
+The second choice is to remain in the project without withdrawing, but to claim interest for every month of delay from the agreed possession date until the date actual possession is handed over. Under this route, the allottee does not exit the transaction but receives a running interest payment — or more practically, an order from MahaRERA directing the promoter to pay accumulated interest as a lump sum. This option suits allottees whose project is genuinely under construction and appears likely to complete within a reasonable period, or those who have invested in a location where the property's value makes continued commitment worthwhile.
 
 ## How Interest Is Calculated
 
-The prescribed interest rate under Section 18 is the SBI's Marginal Cost of Funds based Lending Rate (MCLR) plus 2 percentage points. MahaRERA applies this rate to the total amount paid — that is, all instalments actually received by the promoter, not merely the booking amount — from the date on which possession was contractually due until the date on which possession is actually delivered (or, in a refund case, until the date of actual refund).
+The interest rate prescribed under the Maharashtra RERA Rules is the State Bank of India's marginal cost-based lending rate (MCLR) plus 2%, compounded monthly. This rate applies to the amounts actually paid by the allottee — not the total consideration or the balance remaining — and runs from the date on which each payment was made, if the allottee is exiting the project, or from the agreed possession date, if the allottee is staying and claiming delay interest. The compounding feature is significant: over a delay of three to five years, interest at MCLR plus 2% compounded monthly accumulates to a substantial sum relative to the principal paid.
 
-Practically, this means that on a flat where ₹80 lakh has been paid and possession is three years overdue, the interest component can be a substantial sum — often in the range of several lakhs per year depending on prevailing MCLR rates. This is why the calculation is central to the complaint: the pleadings should clearly set out the amounts paid, the dates of payment, and the agreed possession date.
+When drafting a complaint before MahaRERA, the calculation of interest should be presented as a tabular statement showing each instalment, the date of payment, the amount paid, and the interest running from the appropriate trigger date to the date of filing. This structured presentation makes it straightforward for the adjudicating officer to verify the arithmetic and form the basis of the eventual order.
 
-## Project Registration Extensions and Their Effect
+## What Triggers the Right: When Is the Builder in Default?
 
-Under Section 6 of the RERA Act, a promoter facing genuine hardship can apply to the RERA authority for an extension of the project registration period. Extensions have been granted in various circumstances — labour disruptions, raw material shortages, legal challenges to project approvals, and the COVID-19 pandemic, which saw MahaRERA grant blanket extensions in 2020–21.
+The trigger for Section 18 rights is the promoter's failure to hand over possession on or before the date specified in the agreement for sale. Identifying that date requires a careful reading of the registered agreement. Some agreements specify a fixed calendar date; others specify a period from the date of execution, or from the date of commencement of construction, or from the date of receipt of a specific approval. Where the agreement uses a conditional or floating date, the buyer's lawyer must determine when that condition was met and compute the resulting possession deadline.
 
-A critical point is that an extension of project registration does not override the agreement for sale. If the registered agreement states possession by March 2023 and MahaRERA extends the project registration to December 2025, the allottee's right to interest under Section 18 still accrues from March 2023 — the date in the contract — unless the allottee separately agreed in writing to amend the possession date. Builders sometimes conflate the extension of regulatory registration with a waiver of contractual obligations; RERA authorities have generally rejected this conflation.
+Agreements also often contain grace period clauses — typically allowing the promoter an additional six months beyond the declared date before the allottee can formally complain of delay. These clauses are permissible under RERA to the extent they are clearly disclosed, and a complaint filed before the grace period expires may be premature. However, MahaRERA has consistently held that grace periods cannot be stacked or extended indefinitely through informal communications, and a promoter who continues to miss revised dates cannot rely on grace period provisions to defeat the allottee's claim.
 
-## Force Majeure Claims by Builders
+## Builder Defences: Force Majeure and Extensions
 
-Promoters defending delay complaints frequently invoke force majeure — arguing that circumstances beyond their control prevented timely completion. Under RERA, force majeure is a narrow exception. Section 6 limits it to natural calamities and circumstances specifically notified by the appropriate government. Ordinary commercial difficulties — labour problems, funding shortfalls, cost overruns, or regulatory delays — are not force majeure under RERA even if they might be under a contract law analysis.
+Promoters facing Section 18 claims frequently assert force majeure — the argument that the delay was caused by circumstances beyond their control that entitle them to an extension of time under Section 6 of the RERA Act. Section 6 defines force majeure as acts of war, flood, drought, fire, cyclone, earthquake, or other calamities caused by nature affecting the project. The definition is deliberately narrow. MahaRERA and the courts have consistently held that routine construction challenges — labour shortages, subcontractor failures, material price increases, or general market downturns — do not qualify as force majeure under RERA, no matter how severe their impact on the project's economics.
 
-MahaRERA's track record on force majeure is instructive: while extensions were liberally granted during the COVID-19 period, attempts to apply force majeure to pre-pandemic delays or to delays that merely coincide with external events have been largely unsuccessful.
+The COVID-19 pandemic was treated differently: the Maharashtra government and MahaRERA issued specific orders extending the registration period and the deemed completion dates for RERA-registered projects to account for the lockdown period. These COVID extensions were time-bound and project-specific, and do not provide a continuing defence against delay claims for the period after the extension expired. A promoter who argues force majeure must demonstrate a direct causal link between the qualifying event and the specific period of delay claimed — a burden that most routine delay cases cannot satisfy.
 
 ## What MahaRERA Actually Awards in Practice
 
-In straightforward delay cases — where the agreement for sale is registered, the possession date is clearly stated, the buyer has paid the majority of the flat cost, and the builder has not denied the delay — MahaRERA's orders are typically predictable. The authority awards interest under Section 18 at MCLR plus 2% on the amounts paid, from the contractual possession date to the date of the order, and directs that interest continue to accrue at the same rate until actual possession. In cases where possession is not imminent and the buyer seeks a refund, MahaRERA orders the refund with full interest.
+While each case turns on its own facts and the authority does not guarantee any particular outcome, MahaRERA has established a reasonably consistent approach to delay cases over its years of operation. In straightforward cases where the agreed possession date has passed and the project is still incomplete, the authority typically awards interest at the prescribed rate on the amounts paid for the period of delay. Where the allottee seeks a full refund and the project is significantly delayed or appears unlikely to complete, orders directing refund with interest are also common. Compensation under Section 18(3) — for loss caused by the promoter's false representation — requires separate evidence of the representation and the resulting loss, and is awarded less routinely than interest.
 
-Compensation for mental distress, inconvenience, and other indirect losses is available under Section 18 read with Section 71(3) but is rarely awarded in large amounts in ordinary delay cases — it tends to be reserved for situations involving misrepresentation, structural defects, or particularly egregious conduct by the promoter.
+Practical enforcement — actually receiving the money after an order — can be a separate challenge if the promoter has limited liquid assets. In such cases, the allottee may need to pursue execution proceedings, which can include attachment of the promoter's unsold inventory in the project.
 
-## Drafting the Complaint
+## Drafting and Filing Your Section 18 Complaint
 
-A well-drafted MahaRERA complaint in a delay case should:
+A well-prepared Section 18 complaint includes the registered agreement for sale, all payment receipts with dates and amounts, the MahaRERA project registration page printout confirming the declared completion date, any correspondence in which the builder acknowledged delay or gave revised timelines, and a clear tabular calculation of the interest claimed. The complaint should state unambiguously which of the two Section 18 options the allottee is exercising — withdrawal and full refund, or continuation with delay interest — as this shapes the reliefs sought and the order that MahaRERA can pass.
 
-- Attach the registered agreement for sale and clearly identify the agreed possession date
-- List all payments made with dates and amounts, supported by receipts or bank statements
-- Calculate the interest claimed using the MCLR rate applicable at the relevant time
-- Address any letters or correspondence from the builder about revised timelines
-- Specifically state whether the complainant seeks a refund (Option 1) or continued possession with interest (Option 2) — RERA authorities need this clearly stated to frame an appropriate order
-
-Ambiguity in what relief is being sought can result in orders that are difficult to execute or that do not fully address the complainant's needs.
-
----
-
-Section 18 of the RERA Act gives homebuyers a concrete and enforceable right against builder delay — one that does not depend on proving negligence or malicious intent, only on demonstrating that the contractual date was not met. The process, however, benefits significantly from careful preparation and structured complaint drafting. For advice on your specific situation or assistance filing a MahaRERA complaint, visit our [Real Estate Practice page](/practices/real-estate).
+Whether and how to exercise RERA rights depends on the specific facts of each project and each buyer's circumstances. For a detailed assessment of your Section 18 claim and practical guidance through the MahaRERA process, visit our [real estate practice page](/practices/real-estate).

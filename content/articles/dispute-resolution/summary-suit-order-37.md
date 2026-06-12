@@ -1,73 +1,74 @@
 ---
-title: "Summary Suits Under Order XXXVII CPC: Fast-Track Debt Recovery"
+title: "Summary Suits Under Order XXXVII CPC: A Fast-Track to Recovery"
 slug: "summary-suit-order-37"
 practice: "dispute-resolution"
 type: cluster
 keyword: "summary suit Order 37 CPC India"
-description: "A guide to Order XXXVII CPC summary suits — which debts qualify, how the leave-to-defend process works, conditional vs unconditional leave, and when this route is faster than an ordinary civil suit."
+description: "A guide to summary suits under Order XXXVII of the Code of Civil Procedure, covering eligible debt instruments, the expedited procedure, leave to defend standards, and when to prefer this route over a regular suit."
 author: "a-deshpande"
-publishDate: "2026-03-05"
+publishDate: "2026-03-30"
 related:
   - money-recovery-suit-india
   - cheque-bounce-section-138-ni-act
-  - civil-litigation-india-guide
 faqs:
-  - q: "What debts qualify for a summary suit?"
-    a: "Order XXXVII applies to suits upon bills of exchange, hundis and promissory notes, and to suits where the plaintiff seeks to recover a debt or liquidated demand arising on a written contract, an enactment, or a guarantee. A 'liquidated demand' means a fixed, ascertainable sum — not an estimate of damages."
-  - q: "What is 'leave to defend' and how does the defendant get it?"
-    a: "In a summary suit, the defendant has no automatic right to file a defence. They must apply for leave to defend, showing the court that they have a real defence on the merits (not a frivolous one). The court may grant unconditional leave (full hearing), conditional leave (defendant deposits a sum as condition), or refuse leave (decree enters immediately)."
-  - q: "If leave to defend is refused, does the defendant lose everything?"
-    a: "A decree is entered against them for the sum claimed plus interest and costs. The defendant can appeal, but the appellate court applies the same standard — whether there is a real triable issue. An appeal without a credible defence typically fails."
-  - q: "Is a summary suit always faster than an ordinary suit?"
-    a: "It is faster where the defendant has no real defence — the leave-to-defend stage filters out hopeless defences quickly. Where the defendant has a genuine dispute on the facts, and the court grants unconditional leave, the suit proceeds on the ordinary track and the speed advantage is largely lost."
+  - q: "Which documents qualify for a summary suit under Order XXXVII CPC?"
+    a: "Order XXXVII CPC applies to suits on bills of exchange, hundies, promissory notes, and to suits where the plaintiff seeks recovery of a debt or liquidated demand arising on a written contract, an enactment, or a guarantee."
+  - q: "What must a defendant show to get leave to defend?"
+    a: "The defendant must disclose a defence that is not frivolous or vexatious and raises a triable question of fact or law. If the defence appears conditional or doubtful, the court may grant conditional leave requiring the defendant to deposit a sum."
+  - q: "How quickly can a plaintiff get a decree in a summary suit?"
+    a: "If the defendant does not apply for leave to defend within the prescribed period (typically ten days after service of summons), the plaintiff is entitled to a decree without further proceedings. This can result in a decree within weeks of filing."
+  - q: "Can a summary suit be converted to a regular suit?"
+    a: "Yes. If the defendant obtains unconditional leave to defend, the suit proceeds as an ordinary suit with full pleadings and trial."
 ---
 
-Order XXXVII of the Code of Civil Procedure carves out a category of debt recovery cases and puts them on a fast track. The core idea is simple: for certain types of debt — principally negotiable instruments and liquidated sums under written contracts — the law presumes that the defendant owes the money unless they can show a court, at the threshold, that there is a real dispute. If they cannot, there is no trial; the plaintiff gets a decree promptly.
+Order XXXVII of the Code of Civil Procedure, 1908 exists because certain categories of debt have a distinctive characteristic: the liability is usually clear on the face of a document, and allowing the debtor the same procedural latitude as a defendant in a complex factual dispute simply enables delay rather than serving any legitimate purpose. The summary suit procedure strips away that latitude. The debtor must come to court at the threshold and explain, with some substance, why they should be allowed to defend. If they cannot, the creditor gets a decree quickly.
 
-## The qualifying categories
+## Purpose and Scope
 
-A summary suit is available for:
+The summary suit procedure was introduced to give holders of negotiable instruments and creditors under written contracts a faster route to a decree, without sacrificing the defendant's right to defend where a genuine dispute exists. The mechanism is a reversal of the ordinary starting point: in a regular suit, the defendant has an automatic right to file a written statement. In a summary suit, that right must be earned by demonstrating a real defence.
 
-1. **Negotiable instruments** — bills of exchange, hundis, and promissory notes. These are instruments of commerce whose very purpose is to be readily enforceable.
-2. **Liquidated demands under written contracts** — a sum fixed and ascertainable on the face of the contract, as opposed to a claim for damages that requires quantification. Unpaid invoices under a supply contract, outstanding loan repayments under a loan agreement, rent arrears under a lease — these are typical.
-3. **Claims under an enactment** where the sum is liquidated.
-4. **Guarantees** — where a guarantor has agreed in writing to pay a specific sum.
+The procedure is available in the High Courts and in courts that have been specifically notified to exercise Order XXXVII jurisdiction. Not every civil court has this jurisdiction, and confirming the availability of the procedure in the chosen forum is a preliminary step before filing.
 
-The limitation is that the claim must be for money — not property, not specific performance, not a declaration.
+## Eligible Instruments and Claims
 
-## The process
+Order XXXVII applies to two categories of claim. The first is suits on negotiable instruments: bills of exchange, hundies, and promissory notes. These are instruments of commerce whose entire purpose is ready enforceability, and the law treats a holder seeking payment on them as entitled to quick relief unless a genuine dispute is raised.
 
-The plaintiff files the plaint in the summary suit format, along with the written contract or instrument. The defendant is served and cannot file a written statement as of right. Instead, they must appear before the court and apply for leave to defend within a prescribed period (typically 10 days of service).
+The second category is suits where the plaintiff seeks recovery of a debt or liquidated demand arising on a written contract, an enactment, or a guarantee. A liquidated demand is a sum that is fixed and certain, ascertainable on the face of the document itself, without the need for assessment or estimation. Unpaid invoices under a supply agreement with fixed unit prices, outstanding instalments under a loan agreement specifying repayment amounts, and rent arrears under a lease specifying the rent payable are all liquidated demands. A claim for general damages arising from breach of contract, which requires the court to assess the quantum of loss, is not a liquidated demand and falls outside Order XXXVII.
 
-If the defendant does not apply for leave in time, the plaintiff is entitled to judgment immediately.
+The requirement that the claim arise on a written contract, an enactment, or a guarantee is strictly applied. An oral agreement, however clearly proved, does not support a summary suit. The written document is not only evidentiary but is a jurisdictional requirement for the procedure.
 
-## Leave to defend: the decisive stage
+## The Expedited Procedure
 
-The application for leave to defend is where the suit is effectively decided. The defendant must show the court that they have a **real defence on the merits** — not a manufactured one, not a technical objection, not a request for more time to investigate.
+The plaintiff files the plaint in the summary suit format, attaching the relevant instrument or contract and an affidavit verifying the claim. Special summons are issued to the defendant, directing appearance within a specified period, typically ten days from service. The summons notifies the defendant that they cannot file a written statement as of right and must instead apply for leave to defend.
 
-Courts have developed a spectrum of responses:
+If the defendant does not appear within the prescribed period, or appears but does not apply for leave to defend, the plaintiff is entitled to judgment immediately, without further proceedings. This is the first significant time advantage of the summary suit: a non-contesting defendant produces a decree within weeks of filing rather than after months or years of a full trial.
 
-### Unconditional leave
-Where the defendant raises a genuine triable issue — a dispute about whether the contract was performed, a counter-claim, a set-off, or a genuine question of law — the court grants unconditional leave. The suit then proceeds as an ordinary suit, with full pleadings and trial.
+## Leave to Defend: The Decisive Stage
 
-### Conditional leave
-Where the defence appears weak or is of doubtful merit, the court may grant leave subject to a condition — typically depositing the claimed amount, or part of it, in court or as security. This allows the defendant to argue but discourages purely dilatory applications.
+The leave to defend application is where the summary suit is effectively decided. The defendant files an affidavit setting out the defence and must satisfy the court that there is a real dispute on the merits, not merely a desire for more time or a tactical objection.
 
-### Refusal of leave
-Where the defence is clearly sham, untenable, or wholly unsupported by material, the court refuses leave. A decree is entered for the plaintiff on the spot.
+### Unconditional Leave
 
-## When the summary suit works best
+Where the defendant raises a genuine triable issue of fact or law, a credible counter-claim, a dispute about whether the underlying obligation was performed, or a question about the validity of the instrument, the court grants unconditional leave to defend. The suit then proceeds as an ordinary civil suit with full pleadings, issues, evidence, and trial. The plaintiff's speed advantage is lost, but the defendant's right to contest the claim is preserved.
 
-The summary suit is most effective where:
+### Conditional Leave
 
-- The underlying document (promissory note, loan agreement, invoice acknowledgment) is unambiguous
-- The defendant's only response is a request for time or a vague denial
-- The relationship has broken down and the defendant is using litigation as delay
+Where the defence raised appears weak, doubtful, or conditional, the court has the power to grant leave to defend subject to a condition, most commonly a requirement that the defendant deposit the claimed sum, or a portion of it, in court or as security. This approach allows the defendant to argue their case but prevents purely dilatory applications from frustrating a creditor whose position appears strong. The amount of the deposit is set with reference to the apparent strength of the defence and the nature of the claim.
 
-It is less useful where there is a genuine commercial dispute about quality, delivery, or performance — in those cases the court grants unconditional leave and the advantage of the Order XXXVII track is largely lost.
+### Refusal of Leave
 
-## The relationship with cheque bounce
+Where the defence disclosed in the affidavit is clearly sham, untenable, or wholly unsupported by any material, the court refuses leave and enters a decree for the plaintiff. An appeal against a refusal of leave applies the same standard: the appellate court asks whether there is a real triable issue. A bare denial or a vague assertion of payment without supporting evidence does not qualify.
 
-A cheque that has been dishonoured gives rise to both a criminal complaint under Section 138 of the Negotiable Instruments Act and a civil summary suit for recovery. The two can run in parallel. The criminal route carries the threat of imprisonment (up to two years) and is often the practical pressure point for recovery; the civil summary suit directly enforces the debt. Our [guide to cheque bounce cases](/insights/cheque-bounce-section-138-ni-act) explains the criminal route.
+## When to Prefer Summary Suit Over Regular Suit
 
-Our [civil litigation practice](/practices/dispute-resolution) advises on which recovery route best fits the creditor's position and the debtor's likely response.
+The summary suit delivers its intended advantages most clearly in specific situations. Where the underlying document, whether a promissory note, a written loan agreement, or an invoice acknowledgment, is clear and unambiguous, and the defendant's only real position is a wish for delay, the summary suit efficiently exposes the absence of a genuine defence. Where the defendant is known to use litigation as a delaying mechanism, the requirement to demonstrate a real defence at the threshold removes one layer of procedural delay that a regular suit would otherwise permit.
+
+The procedure is less useful where the parties have a genuine factual dispute about quality, delivery, performance of services, or the circumstances in which the instrument was created. In those cases, unconditional leave is likely to be granted and the suit will proceed on the ordinary track in any event. Filing as a summary suit in those circumstances adds no meaningful advantage and may introduce confusion about applicable timelines.
+
+## Relationship with Other Recovery Routes
+
+A summary suit for recovery of a dishonoured cheque amount sits alongside the criminal remedy under Section 138 of the Negotiable Instruments Act. The two proceedings are independent and can be pursued simultaneously. The criminal complaint applies direct pressure through the threat of conviction and imprisonment. The civil summary suit enforces the underlying debt. Where recovery is the primary objective, combining both routes is a commonly used and effective strategy.
+
+For suits in commercial courts, the Commercial Courts Act, 2015 also provides a summary judgment mechanism for commercial disputes that goes beyond the traditional Order XXXVII categories. Where the dispute qualifies as a commercial dispute of the specified value, the commercial court summary judgment procedure may be an alternative worth considering alongside the Order XXXVII route.
+
+For more on how our team advises on civil money recovery and summary suit strategy, visit our [Dispute Resolution practice page](/practices/dispute-resolution).

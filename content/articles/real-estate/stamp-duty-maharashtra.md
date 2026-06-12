@@ -1,78 +1,62 @@
 ---
-title: "Stamp Duty on Property in Maharashtra: Rates, Calculation, and Registration"
+title: "Stamp Duty on Property in Maharashtra: Rates, Calculation, and Process"
 slug: "stamp-duty-maharashtra"
 practice: "real-estate"
 type: cluster
 keyword: "stamp duty Maharashtra property"
-description: "A practical guide to stamp duty on property transactions in Maharashtra — covering rates for residential, commercial, gift, and partition instruments, the Ready Reckoner, adjudication, penalties, e-stamping, and registration requirements."
+description: "A guide to stamp duty in Maharashtra — rates for residential and commercial property, ready reckoner values, adjudication, penalties, and the e-stamping process."
 author: "a-deshpande"
-publishDate: "2026-02-07"
+publishDate: "2026-02-01"
 related:
   - buying-property-india-checklist
   - property-title-due-diligence
 faqs:
-  - q: "What is the Ready Reckoner rate and how does it affect stamp duty?"
-    a: "The Ready Reckoner (Annual Statement of Rates) is a government-prescribed minimum value for property in each locality, published annually by the Inspector General of Registration and Stamps, Maharashtra. Stamp duty is charged on the higher of the actual agreement value or the Ready Reckoner value. If you purchase a flat for ₹80 lakh but the Ready Reckoner value for that property is ₹90 lakh, stamp duty is calculated on ₹90 lakh."
-  - q: "What happens if stamp duty is underpaid on a property document?"
-    a: "Under the Maharashtra Stamp Act 1958, a document that is insufficiently stamped is inadmissible as evidence in any court or before any public authority until the deficient stamp duty and a penalty are paid. The penalty for under-stamping can be up to ten times the deficit. The document can be adjudicated at any time to pay the proper duty and penalty, but buyers carry this risk as long as the deficiency exists."
-  - q: "Is stamp duty different for female buyers in Maharashtra?"
-    a: "Yes. The Maharashtra government has historically offered a concession of 1% on stamp duty for female buyers on residential property purchases. This means a female buyer pays 5% stamp duty on residential property in municipal areas instead of 6%. The concession is available when the property is purchased solely in a woman's name, or in joint names where a woman is the first purchaser."
-  - q: "What is adjudication and when is it needed?"
-    a: "Adjudication is a process under Section 31 of the Maharashtra Stamp Act where the Collector of Stamps determines the proper stamp duty payable on a document when there is a doubt about the applicable rate or valuation. It is commonly used for complex transactions, composite agreements, or where the parties want a formal determination of duty before registration to avoid subsequent deficiency proceedings."
+  - q: "What is the stamp duty rate on a residential flat in Maharashtra?"
+    a: "As of the current schedule under the Maharashtra Stamp Act, stamp duty on a residential flat is generally 5% of the agreement value or the ready reckoner rate, whichever is higher, plus a 1% local body tax in municipal areas and 1% metro cess in certain zones. Rates can change with the state budget, so verify the current schedule with the Inspector General of Registration before executing any document."
+  - q: "What is the ready reckoner rate?"
+    a: "The ready reckoner rate (also called the Annual Statement of Rates or ASR) is the minimum value notified by the Maharashtra government for different localities and property types. Stamp duty and registration fees are calculated on this value or the actual transaction value, whichever is higher. Ready reckoner rates are revised annually and vary significantly by location, floor, and property type."
+  - q: "What is the penalty for under-stamping a document?"
+    a: "Under the Maharashtra Stamp Act, an inadequately stamped document can be impounded by any public officer or court. The Collector may levy a penalty of up to ten times the deficient stamp duty on instruments that were intentionally under-stamped. The document remains inadmissible in evidence until the deficiency and penalty are paid."
+  - q: "Is e-stamping valid in Maharashtra?"
+    a: "Yes. Maharashtra accepts e-stamping through the Stock Holding Corporation of India (SHCIL) authorised collection centres. An e-stamp certificate carries a unique certificate number and can be verified online. For property transactions, the stamp paper or e-stamp must match the transaction value and the correct article of the Maharashtra Stamp Act."
 ---
 
-Every document that effects a transfer of immovable property in Maharashtra attracts stamp duty under the Maharashtra Stamp Act 1958. Stamp duty is a state subject — rates differ from state to state — and Maharashtra's framework is among the more detailed in the country, with specific rates for different types of instruments, surcharges tied to the type of property and location, and a government-set minimum valuation (the Ready Reckoner) that caps downward negotiation of the taxable value. Understanding how stamp duty is calculated, and ensuring it is paid correctly, is a non-negotiable part of any property transaction.
+Stamp duty is a state tax levied on instruments — legal documents that create, transfer, or extinguish rights in property. In Maharashtra, stamp duty is governed by the Maharashtra Stamp Act 1958, which specifies the rate applicable to each type of instrument and the consequences of inadequate stamping. The significance of stamp duty extends beyond its revenue function: a document that is not properly stamped is inadmissible as evidence in any court or public office in India, rendering it legally worthless in any dispute. For a buyer, paying the correct stamp duty at the time of execution is therefore not simply a compliance obligation — it is a prerequisite to the document being legally effective and enforceable.
 
-## The Legal Framework
+## Who Pays Stamp Duty and When
 
-The Maharashtra Stamp Act 1958 and the Registration Act 1908 work in tandem. The Stamp Act prescribes the duty payable on various instruments; the Registration Act requires that instruments relating to immovable property above a threshold value be registered at the Sub-Registrar's office. A document presented for registration that is insufficiently stamped will be returned — and a document that is not registered, when registration is compulsory, does not confer the rights it purports to create.
+Under standard practice in Maharashtra, the buyer bears the stamp duty liability on a sale transaction, though the parties are free to agree otherwise in their agreement for sale. The critical rule is that stamp duty must be paid before or at the time of execution of the document — the moment the parties sign it. A document that is executed first and stamped later is technically an unstamped instrument for the intervening period, creating legal risk. In practice, buyers acquire the appropriate stamp paper or e-stamp before the document is drafted onto it, ensuring that execution and proper stamping coincide. Where registration immediately follows signing — as in most property transactions — the sub-registrar will verify adequate stamping before accepting the document for registration.
 
-## Stamp Duty Rates for Common Transactions
+## Stamp Duty Rates by Transaction Type
 
-### Residential Property Sale
+Maharashtra imposes different stamp duty rates depending on the nature of the instrument and the parties involved. For a standard residential sale, the applicable rate is typically 5% of the market value of the property, plus a local body surcharge where applicable and a metro cess in eligible municipal areas — bringing the effective rate in cities like Mumbai to approximately 6% to 7% of the property's value. Commercial property transactions attract a similar base rate, with variations depending on the location and type of commercial use. Gift deeds between immediate family members — such as a parent gifting property to a child or a gift between spouses — attract a concessional rate lower than that applied to gifts between unrelated parties.
 
-For residential property in municipal corporation areas in Maharashtra (including Pune, Mumbai, Nashik, and Nagpur), stamp duty is levied at 6% of the transaction value or Ready Reckoner value, whichever is higher, for male buyers. Female buyers receive a 1% concession, bringing their effective rate to 5%. On top of the stamp duty, a 1% Local Body Tax (LBT) applies, plus 1% Metro Cess in notified metro areas. The registration fee is 1% of the transaction value, subject to a cap of ₹30,000 in most cases.
+Partition deeds, which divide jointly held property among co-owners, attract duty at a rate applied to the value of the separated share — not the entire property. Leave and licence agreements, the standard form for residential and commercial rentals in Maharashtra, attract stamp duty calculated on the aggregate of the total licence fees, the security deposit, and any other consideration, at rates specified in the Schedule to the Act. Wills are generally exempt from stamp duty in Maharashtra, though the probate or letter of administration process through a competent court attracts court fees that are distinct from stamp duty. Because rates are periodically revised through the state budget and government notifications, the precise current rates should always be verified with the Inspector General of Registration or a qualified property lawyer before executing any document.
 
-For properties in gram panchayat areas, the stamp duty rate is lower — currently 3% — reflecting the lower level of municipal infrastructure.
+## The Ready Reckoner Rate: How Valuation Works
 
-### Commercial Property Sale
+The ready reckoner rate — formally published as the Annual Statement of Rates (ASR) — is the Maharashtra government's annually notified minimum market value for properties in each locality, classified by property type (residential apartment, residential plot, commercial unit, industrial land) and by location down to the level of individual streets or wards. Stamp duty is calculated on the higher of two values: the actual consideration stated in the document or the ready reckoner value for that specific property.
 
-Commercial properties attract the same base stamp duty rate as residential properties (6% in municipal areas), but the Ready Reckoner rates for commercial property are typically higher than for residential, meaning the effective tax base is often larger.
+Ready reckoner rates are accessible on the Inspector General of Registration's website and are searchable by taluka, village or city, and survey or CTS number. The rates vary dramatically across Maharashtra — a flat in South Mumbai may carry a ready reckoner rate many times higher than a comparable flat in the outer suburbs or in a smaller city. For buildings above a certain number of floors, the ASR incorporates a floor-rise factor — the value notionally increases with each floor above a base level, reflecting the premium attached to higher floors in residential markets. When computing stamp duty before executing an agreement for sale, the buyer's lawyer must calculate the ready reckoner value of the specific flat using the applicable ASR rates and floor-rise factors, then compare that figure against the agreed purchase price to determine the higher — and therefore the correct basis for duty calculation.
 
-### Gift Deed
+## Registration Fees
 
-A gift of immovable property between blood relatives — parents, children, siblings, spouses — attracts a nominal stamp duty of ₹200 in Maharashtra, provided the gift is made without any monetary consideration and between the recognised family members. Gifts to unrelated persons attract the full stamp duty rate applicable to a sale. Misclassifying a commercial transaction as a gift between relatives to save stamp duty is treated as stamp duty evasion.
+Registration fees under the Registration Act 1908 are a separate charge, distinct from stamp duty, payable at the time of registration of the document at the sub-registrar's office. In Maharashtra, registration fees are calculated as a percentage of the document value, subject to a prescribed cap that is periodically revised. Registration fees are generally significantly lower than stamp duty as a proportion of the transaction value, but they are a mandatory additional cost that buyers must account for in their transaction budgets. Where the document is registered in the same transaction as execution, both stamp duty and registration fees are typically settled together at the sub-registrar's office.
 
-### Will
+## The Adjudication Process
 
-A Will does not require stamping under the Maharashtra Stamp Act and is not compulsorily registerable, though registration is strongly advisable to prevent disputes after the testator's death.
-
-### Partition Deed
-
-A partition deed among co-owners of property attracts stamp duty at the rate applicable to the property type, but only on the value of the shares separated — that is, on the portions passing to persons other than the party who already held that share. The calculation can be complex where multiple properties and multiple heirs are involved, and adjudication is often advisable.
-
-## The Ready Reckoner Rate
-
-The Annual Statement of Rates — commonly known as the Ready Reckoner — is published each year by the Inspector General of Registration and Stamps (IGR) and sets a minimum per-square-metre or per-square-foot value for property in each locality. These values are regularly revised upward. Stamp duty is calculated on the higher of the actual consideration stated in the agreement or the Ready Reckoner value of the property.
-
-This has an important practical implication: even if a buyer negotiates a lower sale price, the stamp duty will be calculated on the government's minimum valuation if that is higher. A property being sold at a distress price, or between related parties at a concessional price, will still attract stamp duty based on the Ready Reckoner figure. Buyers should check the applicable Ready Reckoner rate on the IGR Maharashtra website before finalising budgets.
-
-## Adjudication of Stamp Duty
-
-Where there is genuine uncertainty about the applicable duty — for instance, on a composite agreement for sale of a flat along with a car parking space, or on a development agreement that includes multiple instruments — either party may apply to the Collector of Stamps for an adjudication order under Section 31 of the Maharashtra Stamp Act. The Collector determines the correct duty payable. Adjudication provides certainty and protects against subsequent deficiency proceedings, though it adds time to the transaction process.
+Adjudication is a process by which the Collector of Stamps — or a delegated officer — makes a binding determination of the correct stamp duty payable on a document before it is registered. A party who is uncertain about the applicable stamp duty, or who wants a definitive determination before execution, may submit the instrument to the Collector for adjudication. The Collector will examine the instrument, the nature of the transaction, and the applicable articles of the Maharashtra Stamp Act, and issue a formal order specifying the duty payable. This process is particularly useful in complex transactions — such as transfers involving multiple property types, composite instruments covering both movable and immovable assets, or unusual consideration structures — where the correct article and rate are not straightforward. An adjudication order provides certainty and protects against a subsequent under-stamping finding by any authority or court.
 
 ## Penalties for Under-Stamping
 
-The consequences of paying insufficient stamp duty are serious. An insufficiently stamped document is inadmissible as evidence in any proceedings — courts, tribunals, or government offices — until the deficient duty plus penalty is paid. The penalty for instruments presented after a delay or found to be deficient on inspection is up to ten times the deficit amount. There is no time limit within which a document must be adjudicated to pay proper duty, meaning the risk travels with the document and can surface decades later.
+The consequences of inadequate stamping are serious and should not be underestimated. Any public officer — including a judge, registrar, or government official — who encounters an under-stamped document is required by law to impound it and refer it to the Collector for determination of the deficient duty. Until the deficiency is paid, along with any applicable interest, the document is inadmissible in any proceeding. More significantly, the Collector has the power to levy a penalty of up to ten times the amount of the deficient duty on instruments that were intentionally under-stamped. Given the high values involved in property transactions, this penalty can be substantial. The risk of deliberate under-stamping — including the practice of recording a consideration in the agreement lower than the actual price paid — has been substantially reduced by the ready reckoner system, which imposes a floor on the value for stamp duty purposes regardless of what the parties state.
 
-## The E-Stamping and E-SBTR Process
+## The E-Stamping Process in Maharashtra
 
-Maharashtra has largely moved to electronic stamping. The primary mechanism is the e-SBTR (Electronic Secured Bank and Treasury Receipt), generated through authorised banks by remitting stamp duty directly to the government. The e-SBTR is presented at the Sub-Registrar's office at the time of registration as proof of stamp duty payment. Franking (physical stamp impression by authorised machines) remains available through authorised banks and sub-registrar offices for lower-value instruments, but e-SBTR is now standard for property transactions.
+Maharashtra has adopted e-stamping as a recognised method of paying stamp duty, implemented through authorised collection centres of the Stock Holding Corporation of India (SHCIL). The process requires the party to visit an authorised SHCIL centre — or access designated online channels — and provide details of the proposed transaction: the nature of the instrument, the parties' names, the property address, and the stamp duty amount calculated in accordance with the applicable rates. The SHCIL centre issues an e-stamp certificate bearing a unique certificate number, which can be independently verified online. The document is then drafted on paper and the e-stamp certificate is affixed or referenced. For property transactions, the e-stamp certificate must precisely match the instrument — discrepancies in value, instrument type, or party details will be detected at the registration stage and may require the process to be repeated.
 
-## Registration Under the Registration Act 1908
+## The Registration Process
 
-After stamp duty is paid, the sale deed (or other compulsorily registerable instrument) is presented at the office of the Sub-Registrar of Assurances in whose jurisdiction the property is situated. Both parties or their duly authorised attorneys attend in person, present original identity documents (Aadhaar, PAN, passport as applicable), and the document is admitted to registration. The Sub-Registrar endorses the document, retains a copy in the official register, and returns the original. The registered document is the primary evidence of the transaction and is what gives it effect against third parties.
+Registration of the sale deed or agreement for sale at the sub-registrar's office is the final step in completing the legal transfer of property. Parties must book an appointment with the relevant sub-registrar — jurisdiction is determined by the property's location, not the parties' residence — and attend in person, or through a duly authorised power of attorney holder in limited circumstances. The sub-registrar will verify the identity of all parties through Aadhaar-based biometric authentication, confirm that the document is properly stamped at the correct value, and register the document in the official record. A registered document receives a unique document number, and the parties receive a certified copy after a short processing period. Only a registered sale deed transfers legal ownership of immovable property in India — no amount of possession, payment, or private agreement can substitute for registration under the Registration Act 1908.
 
----
-
-Calculating stamp duty correctly — accounting for Ready Reckoner values, applicable surcharges, and the right instrument classification — requires careful analysis before a deed is presented for registration. Errors are difficult and expensive to remedy after the fact. For assistance with stamp duty calculation, adjudication queries, or registration of property transactions in Pune and Maharashtra, visit our [Real Estate Practice page](/practices/real-estate).
+For a complete understanding of the property purchase process in Maharashtra — from title due diligence through to possession — visit our [real estate practice page](/practices/real-estate) to learn how Brill Legal can assist at every stage.

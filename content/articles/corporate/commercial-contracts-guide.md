@@ -1,73 +1,85 @@
 ---
-title: "Commercial Contracts in India: Key Clauses and What to Watch"
+title: "Commercial Contracts in India: Key Clauses and Drafting Essentials"
 slug: "commercial-contracts-guide"
 practice: "corporate"
 type: cluster
-keyword: "commercial contracts India key clauses"
-description: "A practical guide to the clauses that matter in every commercial contract — scope, payment, IP ownership, confidentiality, limitation of liability, indemnity, termination, and governing law — with the red flags to spot in vendor and client paper."
+keyword: "commercial contracts India drafting"
+description: "A practical guide to drafting and reviewing commercial contracts in India, covering essential clauses, common red flags in vendor and client paper, and a structured review process for businesses."
 author: "a-deshpande"
-publishDate: "2026-03-22"
+publishDate: "2026-05-30"
 related:
   - starting-business-india-guide
   - shareholders-agreement-india
   - arbitration-india-beginners-guide
 faqs:
-  - q: "Which governing law and dispute resolution clause should an Indian business use?"
-    a: "For domestic contracts, Indian law with arbitration (seat in India) or courts at the relevant commercial hub is standard. For international contracts, the governing law depends on the counterpart's jurisdiction and the relationship; arbitration with a neutral seat (Singapore is common for India-facing contracts) is worth considering. The clause must name the seat explicitly."
-  - q: "What is the difference between an indemnity and a limitation of liability clause?"
-    a: "An indemnity is a promise to compensate the other party for specified losses (often losses arising from a third-party claim). A limitation of liability clause caps the maximum amount one party can claim from the other. Both can coexist — an indemnity may be carved out from the general liability cap, which is a critical negotiating point."
-  - q: "When does copyright or IP in work created under a contract belong to the contractor?"
-    a: "Under the Copyright Act, copyright in original work vests in its author by default. A contract for services does not automatically transfer copyright to the client — an express assignment clause is required. Without it, the contractor owns the IP and the client has a licence at best. This is a common oversight in vendor and developer agreements."
-  - q: "Is a limitation of liability clause enforceable in India?"
-    a: "Generally yes, for commercial contracts between parties of roughly equal bargaining power. The Indian Contract Act allows parties to limit liability by agreement. However, clauses purporting to exclude liability for fraud or wilful misconduct are unlikely to be upheld, and consumer protection law may limit such clauses in consumer-facing contracts."
+  - q: "Is a contract valid in India if it is not on stamp paper?"
+    a: "A contract need not be on stamp paper to be legally valid and enforceable between the parties. However, an unstamped or insufficiently stamped document cannot be admitted as evidence in court until the deficit stamp duty and penalty are paid, which can cause delays in enforcement."
+  - q: "What is the difference between an indemnity clause and a limitation of liability clause?"
+    a: "An indemnity clause requires one party to compensate the other for specified losses or third-party claims. A limitation of liability clause caps the maximum amount one party can recover from the other, regardless of the nature of the claim."
+  - q: "Can Indian law parties agree to foreign governing law?"
+    a: "Parties in international commercial contracts can generally agree to a foreign governing law. However, courts may decline to apply foreign law provisions that are contrary to Indian public policy or mandatory statutory provisions such as labour law."
+  - q: "What should I look for in a vendor's standard terms?"
+    a: "Pay particular attention to automatic renewal clauses, unilateral price revision rights, broad indemnity obligations imposed on the customer, limitations on the vendor's liability that are disproportionately low, restrictive IP ownership clauses, and dispute resolution clauses that require litigation in a distant jurisdiction."
 ---
 
-A commercial contract is the framework within which a business relationship operates. It allocates risk, defines what each side must do and when, and specifies what happens when things go wrong. Reviewing a contract — whether drafting your own or responding to the other side's paper — requires knowing which clauses carry the real risk and which are standard.
+A commercial contract is the framework within which a business relationship operates. It allocates risk between the parties, defines what each side is expected to do and by when, and specifies what happens when things do not go as planned. The Indian Contract Act, 1872 establishes the basic requirements for a valid contract: offer, acceptance, consideration, capacity of the parties, free consent, and a lawful object. Beyond these statutory requirements, the practical value of a written contract lies in the specific clauses that address the realities of the relationship it governs.
 
-## Scope of work and deliverables
+## Why Written Contracts Matter
 
-The scope clause is the most important clause in any services contract and the most frequently overlooked. It should state precisely what is to be delivered, by when, and to what standard. Vagueness is a dispute waiting to happen — "reasonable endeavours" and "best efforts" mean different things; "completion" without a specification invites argument.
+Oral agreements are binding in Indian law if they satisfy the elements of a valid contract. But proving the terms of an oral agreement in a dispute is expensive, uncertain, and often impossible. A written contract provides evidence of what was agreed, removes ambiguity about the scope of obligations, enables a party to enforce specific remedies rather than relying on general damages, and sets expectations that reduce the likelihood of disputes arising in the first place.
 
-Where the scope is likely to evolve, a clear change-control mechanism (who can request changes, how they are approved, how they affect price and timeline) prevents the gradual accumulation of undocumented scope creep into a debt that neither side anticipated.
+For stamp duty purposes, many commercial contracts need to be executed on appropriately stamped paper under the applicable state Stamp Act. An unstamped or insufficiently stamped document cannot be admitted as evidence in court proceedings until the deficit duty and the applicable penalty are paid. While this does not make the contract unenforceable, it creates a procedural obstacle at precisely the moment it is most inconvenient.
 
-## Payment terms
+## Scope of Work and Deliverables
 
-The payment clause should specify the trigger for payment (invoice, milestone, delivery), the payment period, what happens on dispute about an invoice, and the consequence of late payment. Under the Micro, Small and Medium Enterprises Development (MSMED) Act, suppliers registered as MSMEs have a statutory right to interest on late payment — currently at three times the bank rate — which applies regardless of what the contract says.
+The scope clause is the most important clause in any services contract and the most frequently overlooked. It should state precisely what is to be delivered, by when, and to what standard. Phrases like "reasonable endeavours" and "best efforts" mean different things to different parties: reasonable endeavours requires a party to take those steps that a reasonable person in their position would take, while best efforts sets a higher standard. Neither phrase is a substitute for specific deliverables and timelines.
 
-For high-value engagements, retentions (a percentage held back pending final acceptance), advance payments, and escrow arrangements all introduce complexity that requires explicit drafting.
+A clear change-control mechanism is equally important. In long-running engagements, the scope of work evolves. Without a documented process for agreeing changes (who can request them, how they are approved, and how they affect price and timeline), undocumented variations accumulate into a gap between what was contracted and what was delivered, and that gap is the source of most commercial disputes.
 
-## Intellectual property and ownership
+## Payment Terms
 
-Unless the contract says otherwise, IP created by a contractor vests in the contractor — not the client. This means a software developer, a designer, or a consultant retains copyright in what they produce. A contract for services without an IP assignment clause leaves the client with a licence, not ownership.
+The payment clause should specify the trigger for payment (invoice, milestone completion, or delivery), the payment period from the trigger event, what happens when an invoice is disputed, and the consequence of late payment. Under the Micro, Small and Medium Enterprises Development Act, suppliers registered as MSMEs have a statutory entitlement to interest on late payments at three times the Reserve Bank of India's bank rate. This applies regardless of what the contract provides, and businesses dealing with MSME vendors should be aware of this mandatory obligation.
 
-The assignment clause should specify exactly what is being assigned (current work and future work arising from the engagement), confirm that moral rights are waived to the extent permitted, and deal with pre-existing IP (tools and methodologies the contractor brings to the work, which they will not assign but will licence for the purpose of the contract).
+For high-value engagements, advance payment, progress payments against milestones, retention amounts held back pending final acceptance, and escrow arrangements each require explicit drafting. The conditions under which retentions are released and the timelines for acceptance testing should be unambiguous.
+
+## Intellectual Property Ownership
+
+The default position under the Copyright Act, 1957 is that copyright in an original work vests in its author. A contract for services does not automatically transfer copyright to the client: an express written assignment is required. Without a properly drafted assignment clause, a software developer, designer, or creative professional retains the copyright in what they produce under contract, and the client has at best an implied licence.
+
+The IP clause should specify exactly what is being assigned (all work product created under the engagement and any future work arising from it), confirm that moral rights are waived to the extent the law permits, and address pre-existing IP: tools, methodologies, and background IP that the contractor brings to the engagement and will not assign, but will licence to the client for the purpose of using the deliverables. Failing to distinguish between assigned work product and licensed background IP is a common source of post-engagement disputes, particularly in technology and creative services.
 
 ## Confidentiality
 
-A confidentiality or non-disclosure clause protects information shared in the course of the commercial relationship. It should define what is confidential (information marked as such, or information of specified categories, or both), what obligations the receiving party bears (not to disclose, to use only for specified purposes, to store with appropriate care), and how long the obligations last after the contract ends.
+A confidentiality clause protects information shared in the course of the commercial relationship. It should define what constitutes confidential information (whether by marking, by category, or by both), specify the obligations of the receiving party (not to disclose, to use only for the purposes of the contract, to store with appropriate security measures), and state how long the obligations persist after the contract ends. Perpetual confidentiality obligations are sometimes resisted but are often justified for genuinely sensitive trade secrets and proprietary information.
 
-Exceptions — information already in the public domain, independently developed, or required to be disclosed by law — are standard and reasonable. The clause should also address the return or destruction of confidential information on termination.
+Standard exceptions apply to information that is already in the public domain, information independently developed by the receiving party without using the discloser's information, and information that must be disclosed under law or court order. The clause should also address the return or certified destruction of confidential information and materials at the end of the relationship.
 
-## Limitation of liability
+## Limitation of Liability
 
-Almost every commercial contract between businesses of comparable sophistication contains a limitation of liability clause. It typically caps total liability at a multiple of the fees paid under the contract (often one year's fees, or the total contract value), and excludes consequential and indirect loss entirely.
+Every commercial contract between businesses of comparable sophistication contains a limitation of liability clause. It typically caps total liability at a multiple of the fees paid under the contract (often one year's fees or the total contract value), and excludes liability for consequential, indirect, special, or punitive loss entirely.
 
-The key negotiating points: what is excluded from the cap (typically fraud, wilful misconduct, death and personal injury, and often confidentiality and IP breaches), whether the cap applies to both sides equally or only to the service provider, and whether there is a separate, higher cap for specific categories of serious breach.
+The key issues in negotiation are what is carved out from the cap, whether the cap applies equally to both parties or only to the service provider, and whether there is a separate higher cap for specific categories such as fraud, wilful default, or serious data breach. Clauses carving fraud and wilful misconduct out of any cap are effectively mandatory: Indian courts are unlikely to enforce a limitation that purports to excuse deliberate wrongdoing.
 
-## Indemnity clauses
+## Indemnity Clauses
 
-An indemnity is an obligation to compensate the other party for a specific category of loss, often loss arising from a third-party claim. IP indemnities (the service provider indemnifies the client if the delivered work infringes someone's IP) and data indemnities (indemnity for losses arising from a data breach caused by the indemnifier's failure) are common.
+An indemnity is a contractual promise to compensate the other party for a specific category of loss, often a loss arising from a third-party claim. IP indemnities, under which the service provider compensates the client for any third-party IP infringement claim arising from the delivered work, and data indemnities, covering losses arising from a data breach caused by the indemnifying party, are common examples.
 
-Indemnities are typically carved out from the general liability cap, making them potentially unlimited in exposure. Their scope should be read carefully — and the risk assessed — before acceptance.
+Indemnities typically sit outside the general liability cap, making them potentially unlimited in exposure. Their scope should be read with care. Broad indemnities in vendor standard terms, covering all and any losses arising from the client's use of the product or service, deserve particular scrutiny before acceptance.
 
-## Termination
+## Term and Termination
 
-Contracts should specify the grounds for termination: for cause (material breach, insolvency), and for convenience (either party may end on notice). The consequences of each type of termination differ: termination for cause typically entitles the innocent party to damages; termination for convenience typically involves payment only for work done to the termination date.
+The term clause specifies the duration of the contract and the consequences of its expiry. Automatic renewal clauses, which extend the contract for further periods unless notice of non-renewal is given within a specified window, are common in vendor standard terms and frequently cause problems when a party misses the notice window. Where an automatic renewal clause is present, diarising the notice deadline before execution is a practical safeguard.
 
-Where a long-term contract is at stake, termination for convenience by the client raises the question of recovery for sunk costs and lost profit. These should be specifically addressed in the contract rather than left to general law.
+Termination rights should distinguish between termination for cause, which arises on material breach or insolvency and entitles the innocent party to damages, and termination for convenience, which allows a party to end the contract on notice without needing a reason. The notice period for termination for convenience should reflect the genuine lead time required to transition to an alternative, and the consequences of each type of termination (accrued fees, work in progress, return of materials) should be explicitly addressed.
 
-## Governing law and dispute resolution
+## Governing Law and Dispute Resolution
 
-Every commercial contract should specify: (a) which law governs the contract's interpretation and validity, and (b) how disputes are resolved (courts of a specified jurisdiction, or arbitration with a specified seat and rules). Absent clear specification, these questions become the first dispute — before the underlying one is even addressed.
+Every commercial contract should specify the governing law and the dispute resolution mechanism. For domestic contracts, Indian law and arbitration with a seat in a major Indian city, or exclusive jurisdiction of the courts of a specified city, are standard choices. For international contracts, the governing law and seat of arbitration depend on the counterparty's jurisdiction and the nature of the relationship. Singapore is a common seat for India-facing international arbitration due to its neutrality, enforceability of awards, and familiarity with cross-border commercial disputes.
 
-For contracts where performance crosses state borders, or where one party is outside India, arbitration with a clear seat clause is worth considering. Our [arbitration practice](/practices/arbitration) and [corporate practice](/practices/corporate) advise on appropriate clause structures for different commercial relationships.
+The arbitration clause should specify the arbitral institution or ad hoc procedure, the number of arbitrators, the seat, the language, and whether the award is final and binding. Absent a clear seat designation, jurisdictional disputes about which country's courts supervise the arbitration are common and expensive.
+
+## A Structured Review Process
+
+Effective contract review follows three stages. The commercial review addresses whether the scope, pricing, and timelines reflect the actual commercial agreement reached in negotiations. The legal review assesses allocation of risk through the liability, indemnity, IP, and termination provisions and identifies clauses that are unusual, unbalanced, or potentially unenforceable. The negotiation prioritisation stage ranks the issues identified in the legal review by significance and likelihood of the counterparty agreeing to change them, which allows the negotiation to focus on the provisions that matter most.
+
+For more on how our team assists with commercial contract drafting and review, visit our [Corporate practice page](/practices/corporate).
