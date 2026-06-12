@@ -1,64 +1,88 @@
 ---
-title: "Injunctions and Stay Orders in Indian Courts: How They Work"
+title: "Injunctions and Stay Orders in India: How Courts Protect Your Rights"
 slug: "injunction-stay-order-india"
 practice: "dispute-resolution"
 type: cluster
-keyword: "injunction stay order India civil court"
-description: "A practical guide to temporary and permanent injunctions in Indian civil litigation — the three-part test, ad-interim and ex-parte orders, mandatory injunctions, and how breaches are enforced."
+keyword: "injunction stay order India"
+description: "A guide to temporary and permanent injunctions in India, covering the three-part test, ad-interim and ex-parte orders, mandatory injunctions, and the consequences of breach."
 author: "a-deshpande"
-publishDate: "2026-02-05"
+publishDate: "2026-03-05"
 related:
   - file-civil-suit-india
   - civil-litigation-india-guide
-  - money-recovery-suit-india
 faqs:
-  - q: "What is the difference between a temporary and a permanent injunction?"
-    a: "A temporary (or interim) injunction operates during the pendency of the suit to preserve the status quo. A permanent injunction is granted at the end of the trial as part of the final decree, restraining the defendant from doing the act complained of. An interlocutory injunction and a temporary injunction are the same thing."
-  - q: "What does a court look for when granting an injunction?"
-    a: "The court applies a three-part test: whether the applicant has a prima facie case (not a final view — just enough to warrant protection), whether the balance of convenience favours the grant, and whether the applicant will suffer irreparable harm if the injunction is refused. All three must generally be satisfied."
-  - q: "Can an injunction be obtained without notifying the other side?"
-    a: "Yes — an ad-interim ex-parte injunction can be granted on the applicant's application alone, without hearing the defendant, where there is urgency and the court is satisfied that delay would defeat the purpose. The defendant is heard shortly after, and the court decides whether to continue, modify or vacate it."
-  - q: "What happens if the defendant breaches an injunction?"
-    a: "Breach of an injunction is contempt of court. The plaintiff may file a contempt application; the court may impose a fine, attachment of property, or in serious cases commit the contemnor to civil prison. Breach by a company exposes its responsible officers."
+  - q: "What is the difference between a temporary injunction and a permanent injunction?"
+    a: "A temporary injunction is granted during the pendency of a suit to maintain the status quo. A permanent injunction is a final relief granted after trial, restraining the defendant from doing or continuing an act permanently."
+  - q: "What is an ex-parte injunction and when is it granted?"
+    a: "An ex-parte injunction is granted without hearing the other party when the applicant demonstrates urgency and that giving notice would defeat the purpose of the order."
+  - q: "What happens if a party breaches an injunction order?"
+    a: "Breach of an injunction is contempt of court under the Contempt of Courts Act, 1971, punishable by simple imprisonment up to six months, a fine of up to two thousand rupees, or both."
+  - q: "Can an injunction be granted in a purely monetary dispute?"
+    a: "Generally, courts do not grant injunctions where monetary compensation would be an adequate remedy. However, in cases involving unique assets, trade secrets, or irreplaceable property, injunctive relief remains available."
 ---
 
-An injunction is a court order telling someone to stop doing something (or, in some cases, to do something). In civil litigation, it is often the most practically important order a court can make — because by the time a final judgment arrives, the harm may already be irreversible. Property sold to a third party, assets transferred, confidential information disclosed — these cannot be easily undone by a money decree. An injunction intervenes before the harm crystallises.
+An injunction is a court order directing a party to stop doing something or, in certain cases, to do something. In civil litigation, it is often the most practically significant order a court can make, because by the time a final judgment arrives after years of proceedings, the harm may already be irreversible. Property transferred to a third party, confidential information disclosed, or trade secrets exposed cannot be undone by a money decree. An injunction intervenes before the harm becomes permanent.
 
-## The legal framework
+## The Legal Framework
 
-Injunctions in civil suits are governed by the Specific Relief Act 1963 (Sections 36–42) and the Code of Civil Procedure (Order XXXIX). The Specific Relief Act draws the distinction between temporary and permanent injunctions; Order XXXIX governs the procedural path to a temporary injunction during the pendency of a suit.
+Injunctions in Indian civil suits are governed by two bodies of law. The Specific Relief Act, 1963 (Sections 36 to 42) draws the foundational distinction between temporary and permanent injunctions and sets out the circumstances in which each is available. The Code of Civil Procedure, 1908 (Order XXXIX) governs the procedural path to a temporary injunction during the pendency of a suit. Together, these provisions give courts broad and flexible powers to protect parties while their rights are being determined.
 
-## The three-part test
+## The Three-Part Test
 
-Every application for a temporary injunction is tested against three requirements, drawn from *American Cyanamid* as adapted by Indian courts:
+Every application for a temporary injunction is evaluated against three requirements, which Indian courts have applied consistently over many decades.
 
-### Prima facie case
-The applicant must show that there is a serious question to be tried — not that they will certainly succeed, but that their claim is not frivolous and has a reasonable prospect. The court does not decide the merits at this stage; it makes a provisional assessment of whether the case is arguable.
+### Prima Facie Case
 
-### Balance of convenience
-If the injunction is refused and the applicant eventually succeeds, how difficult will it be to restore the position? Conversely, if the injunction is granted and the defendant eventually succeeds, how inconvenient will the restraint have been? The court weighs these competing inconveniences and grants the injunction to whichever side bears the greater hardship from a wrong decision.
+The applicant must demonstrate that there is a serious question to be tried. This is not a requirement to prove the case at the interlocutory stage: the court does not decide the merits finally. It asks only whether the claim is arguable and not frivolous, and whether the applicant appears to have rights that deserve protection pending a final determination.
 
-### Irreparable harm
-The harm apprehended must be of a kind that cannot be adequately compensated in money. Where damages would make the applicant whole, an injunction is usually not granted. Injunctive relief is exceptional relief for exceptional harm — to property, goodwill, trade secrets, or rights that cannot be quantified.
+### Balance of Convenience
 
-## Types of injunction
+If the injunction is refused and the applicant ultimately succeeds at trial, how difficult will it be to restore the position to what it was? Conversely, if the injunction is granted and the defendant ultimately succeeds, how seriously will the restraint have affected them? The court weighs these competing inconveniences. The injunction is granted in favour of the party who would suffer the greater hardship from an incorrect decision at the interlocutory stage.
 
-### Temporary (interlocutory) injunction
-Granted during the pendency of the suit to maintain the status quo. It can restrain the defendant from selling, transferring, encumbering, or otherwise dealing with property; from continuing a nuisance; from using intellectual property without licence; from making disclosures; or from any other act that would defeat the plaintiff's eventual relief.
+### Irreparable Harm
 
-### Ad-interim and ex-parte injunction
-Where there is extreme urgency, the court may grant an injunction without hearing the other side (*ex parte*) on the same day the application is made. The defendant is then served and the court hears both sides before deciding whether to continue the order. Obtaining an ex-parte injunction requires full and frank disclosure of all material facts — suppression of adverse material can lead to the order being vacated.
+The harm threatened must be of a kind that cannot be adequately compensated in money. Where damages would make the applicant whole, a court will generally decline to grant an injunction: the final judgment can cure the loss. Injunctive relief is reserved for harm that is genuinely irreparable, such as the destruction of unique property, the breach of a confidentiality obligation, the infringement of intellectual property rights, or the loss of goodwill that cannot be measured in financial terms.
 
-### Mandatory injunction
-Most injunctions are prohibitory — they tell the defendant to stop something. A mandatory injunction tells the defendant to do something (restore a demolished wall, reinstate a cancelled registration). Courts grant these more sparingly because they impose a positive obligation and their breach raises complex enforcement questions.
+## Types of Injunction
 
-### Permanent injunction
-Granted at the conclusion of the trial where the plaintiff has established the right to be protected and that a prohibitory order is warranted. It is part of the final decree and binds the defendant permanently.
+### Temporary (Interlocutory) Injunction
 
-## Practical considerations
+A temporary injunction is granted during the pendency of the suit to preserve the status quo. It can restrain the defendant from selling, transferring, or creating encumbrances over disputed property, from continuing a nuisance, from using intellectual property without authorisation, from making disclosures in breach of a confidentiality agreement, or from any act that would defeat the final relief the plaintiff seeks.
 
-Injunctions come with conditions. The applicant is typically required to give an undertaking as to damages — a promise that if the injunction is ultimately found to have been wrongly granted, the applicant will compensate the defendant for the harm suffered during the injunction. Courts may also impose conditions on the defendant (such as maintaining accounts, reporting transactions, or keeping assets intact) as an alternative to a full restraint.
+Temporary injunctions are the most commonly sought form of injunctive relief and are the practical battleground in many commercial disputes. The hearing is interlocutory: the court hears both sides (unless urgency justifies an ex-parte order) and makes a provisional decision pending final adjudication.
 
-The application must be made promptly. Delay in seeking an injunction — particularly where the applicant knew of the threatened act and waited — is held against them on the balance of convenience. Courts read delay as evidence that the harm is not truly urgent.
+### Ad-Interim and Ex-Parte Injunctions
 
-Our [civil litigation practice](/practices/dispute-resolution) advises on injunction strategy, application drafting, and representation at emergency hearings.
+Where urgency is genuine and giving notice to the other side would defeat the purpose of the order, the court may grant an ad-interim injunction without hearing the defendant. Such an order is made on the same day the application is filed, based solely on the applicant's submissions. The defendant is then served, and the court holds a contested hearing to decide whether to continue, modify, or vacate the order.
+
+Obtaining an ex-parte injunction carries a heavy obligation of candour. The applicant must make full and frank disclosure of all material facts, including facts adverse to their case. Suppression of material information is a ground for the court to vacate the ex-parte order even if it would otherwise have been justified.
+
+### Mandatory Injunctions
+
+Most injunctions are prohibitory in character: they tell the defendant to stop doing something. A mandatory injunction requires the defendant to take a positive action, such as restoring a demolished structure, reinstating an illegally cancelled registration, or delivering possession of specific property.
+
+Courts grant mandatory injunctions more sparingly than prohibitory injunctions, for two reasons. First, they impose a positive obligation on the defendant, which is more intrusive than a prohibition. Second, enforcement of a mandatory injunction raises more complex questions if the defendant does not comply. The threshold for a mandatory injunction is correspondingly higher: the applicant must show a higher degree of assurance that they will succeed at trial before the court will compel positive action at the interlocutory stage.
+
+### Permanent Injunction
+
+A permanent injunction is the final relief granted at the conclusion of a trial, after the court has heard all evidence and decided the case on its merits. It restrains the defendant permanently from doing the act found to be wrongful. Unlike a temporary injunction, a permanent injunction is conclusive and is enforced as part of the decree.
+
+## Local Inspection and Preservation Orders
+
+Indian courts have the power under the CPC to appoint a court commissioner to inspect property, seize documents, or preserve evidence. This power serves a function similar to what in other jurisdictions is called an Anton Piller order: it allows urgent preservation of evidence before a defendant can destroy or remove it. The commissioner operates under court supervision and the collected material is placed before the court.
+
+This remedy is particularly relevant in intellectual property matters, in disputes over physical assets, and in cases where there is credible evidence that a party is about to destroy relevant documents or items.
+
+## Consequences of Breach
+
+A party who violates an injunction order commits contempt of court under the Contempt of Courts Act, 1971. On an application by the aggrieved party, the court may impose a fine not exceeding two thousand rupees, simple imprisonment for a term not exceeding six months, or both. Where the contemnor is a company, the directors and officers responsible for the breach are personally liable. Courts take breach of injunction orders seriously, and repeated or wilful breaches attract progressively harsher consequences.
+
+The aggrieved party must file a contempt application setting out the specific acts of breach. The court examines whether the order was clear, whether the respondent had knowledge of the order, and whether the breach was deliberate. Accidental or technical non-compliance is treated differently from a wilful disregard of the court's direction.
+
+## Practical Considerations
+
+Injunctions are granted with conditions. The applicant is typically required to give an undertaking as to damages, promising to compensate the defendant for harm suffered during the period of the injunction if the injunction is ultimately found to have been wrongly granted. Courts may also impose conditions on the defendant as an alternative to a full restraint, such as maintaining accounts, reporting transactions, or preserving assets in their current form.
+
+Delay in applying for an injunction weakens the case for urgency. Courts read unexplained delay as evidence that the harm apprehended is not truly immediate, and this affects the balance of convenience analysis. An applicant who knew of the threatened act and waited weeks before approaching the court will find the injunction harder to obtain than one who moved promptly.
+
+For more on how our team handles injunction applications and civil interim proceedings, visit our [Dispute Resolution practice page](/practices/dispute-resolution).
