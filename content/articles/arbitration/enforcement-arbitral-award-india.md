@@ -1,90 +1,64 @@
 ---
-title: "Enforcing an Arbitral Award in India: Domestic and Foreign Awards"
+title: "Enforcing Arbitral Awards in India: Domestic and Foreign Awards"
 slug: "enforcement-arbitral-award-india"
 practice: "arbitration"
 type: cluster
-keyword: "enforce arbitral award India domestic foreign"
-description: "A practical guide to enforcing arbitral awards in India — covering domestic award enforcement as a decree, Section 34 challenges and their grounds, foreign award enforcement under the New York Convention, grounds to resist enforcement, and practical steps."
+keyword: "enforcement arbitral award India"
+description: "How to enforce domestic and foreign arbitral awards in India — execution as a decree, Section 34 challenge grounds, New York Convention awards, and public policy grounds to resist enforcement."
 author: "a-deshpande"
-publishDate: "2026-05-16"
+publishDate: "2026-05-15"
 related:
   - arbitration-india-beginners-guide
   - section-9-arbitration-interim-relief
 faqs:
-  - q: "How is a domestic arbitral award enforced in India?"
-    a: "Once the period for filing a Section 34 challenge has elapsed (three months from receipt of the award, plus a further 30 days' condonable delay), or once any challenge has been dismissed, a domestic arbitral award is enforceable as if it were a decree of a civil court. The award holder files an execution petition before the appropriate court — the court at the seat of arbitration or a court that has jurisdiction over the award debtor's assets — and the court proceeds to execute it like any civil decree."
-  - q: "What are the grounds for setting aside a domestic arbitral award under Section 34?"
-    a: "Section 34 of the Arbitration and Conciliation Act provides that a domestic award may be set aside if: the party was under some incapacity; the arbitration agreement was not valid under the applicable law; proper notice was not given or the party was otherwise unable to present its case; the award deals with matters beyond the scope of the arbitration agreement; the composition of the tribunal was improper; the subject matter of the dispute is not capable of settlement by arbitration under Indian law; or the award is in conflict with the public policy of India. The public policy ground has been significantly narrowed by amendment and judicial interpretation — it now covers fraud, corruption, and violations of fundamental policy of Indian law, not general dissatisfaction with the outcome."
-  - q: "What is the difference between a New York Convention country and a reciprocating country for foreign award enforcement?"
-    a: "India enforces foreign arbitral awards from countries that are signatories to the New York Convention (1958) and have been notified by the Central Government as 'reciprocating territories' for this purpose. Awards from notified countries are enforceable under Part II of the Arbitration Act. Awards from countries that are not so notified must be enforced through ordinary civil court proceedings as foreign judgments, which is a longer and less certain process."
-  - q: "Can a party challenge a foreign award on the merits before an Indian court?"
-    a: "No. The grounds for resisting enforcement of a foreign award under Section 48 of the Arbitration Act are narrow and do not include a merits review. An Indian court cannot re-examine whether the tribunal reached the correct factual or legal conclusions. Resistance is limited to procedural grounds (invalidity of the agreement, lack of notice, excess of jurisdiction, improper composition) and the broader public policy ground."
+  - q: "How long does it take to enforce an arbitral award in India?"
+    a: "For domestic awards where no Section 34 challenge is filed (or once the challenge period expires), an execution petition can proceed relatively efficiently in commercial courts. However, if the award-debtor files a Section 34 challenge, enforcement is typically stayed until the challenge is decided. Section 34 proceedings can take one to several years depending on the complexity and court calendar. Practical enforcement through an execution petition after the challenge stage can add further time. Overall, contested enforcement often takes multiple years."
+  - q: "What are the grounds under Section 34 to challenge an award?"
+    a: "Section 34 provides limited grounds to set aside a domestic award: incapacity of a party, invalidity of the arbitration agreement, lack of notice or inability to present one's case, the award deals with matters outside the arbitral reference, the tribunal's composition or procedure was improper, the subject matter is not arbitrable, or enforcement would be contrary to the public policy of India. Courts do not review the merits of the award — they examine only these specified grounds."
+  - q: "Is an Indian court's review of an award on its merits?"
+    a: "No. Indian courts exercising jurisdiction under Section 34 (challenge) or Section 48 (enforcement of foreign awards) do not re-examine the merits of the dispute. They do not substitute their own finding of fact or law for that of the arbitrator. The review is limited to the specific grounds provided in the statute. This principle — minimal judicial intervention — is a cornerstone of the Arbitration and Conciliation Act 1996 and reflects the UNCITRAL Model Law."
+  - q: "What is the public policy ground to resist enforcement of a foreign award?"
+    a: "Under Section 48(2)(b), a foreign award may be refused enforcement if it is contrary to the public policy of India. The 2015 Amendment narrowed this ground significantly: it now covers only awards that are contrary to the fundamental policy of Indian law, the interests of India, or justice and morality. Mere error of law or conflict with Indian statutes is not sufficient — the violation must go to a fundamental principle. The Supreme Court in Vijay Karia v. Prysmian Cavi (2020) reinforced this narrow interpretation."
 ---
 
-Obtaining an arbitral award is a significant achievement in a commercial dispute — but an award on paper is only as valuable as the party's ability to enforce it. The enforcement of arbitral awards in India, both domestic and foreign, is a mature and generally reliable process, though it involves specific procedural steps and is subject to challenge mechanisms that the enforcing party must navigate. This guide explains the key steps for enforcement, the grounds on which awards can be challenged or resisted, and practical considerations for the enforcement strategy.
+Winning an arbitration and enforcing the award are two distinct challenges, and experienced counsel approach them as such. An arbitral award — whether domestic or foreign — is the product of the tribunal's deliberation and represents the legal determination of the parties' rights. But the award does not enforce itself: converting it into a concrete financial or injunctive result requires navigating a further set of legal processes, each of which can be contested by the award-debtor. Understanding the enforcement framework — what the award-creditor must do, what the award-debtor can legitimately resist, and how long the process is likely to take — is essential for any party entering arbitration with the expectation of actually receiving what they are awarded.
 
-## Domestic Award Enforcement: The Decree Mechanism
+## Domestic Awards: The Decree Route
 
-A domestic arbitral award — that is, an award made in an arbitration seated in India between parties that are not both foreign — is enforceable as if it were a decree of a civil court. This is the mechanism provided in Section 36 of the Arbitration and Conciliation Act 1996. The award does not need to be separately confirmed or approved by a court; it becomes executable once the challenge period under Section 34 has passed or any challenge has been finally disposed of.
+For a domestic arbitral award — one made by a tribunal seated in India in an arbitration governed by Part I of the Arbitration and Conciliation Act 1996 — the enforcement mechanism is established by Section 36. Once the time for filing a Section 34 challenge has expired (three months from receipt of the award, extendable by thirty days for sufficient cause), or once any Section 34 challenge has been dismissed, the award is deemed to be a decree of the court and may be enforced accordingly. The award-creditor files an execution petition before the competent civil or commercial court, attaching the original award and the arbitration agreement. The execution court then has the full range of enforcement tools available to it under the Code of Civil Procedure — attachment and sale of the award-debtor's movable and immovable assets, garnishee orders against third parties who owe money to the award-debtor, and in appropriate cases under the Code, the arrest of the judgment-debtor.
 
-The process is:
+The execution process is procedurally simpler than the original arbitration but can be significantly delayed if the award-debtor takes steps to contest the execution petition, seeks stays, or lacks identifiable assets in India. The execution court does not re-examine the merits of the dispute — its role is to give effect to the award, not to review it — but it must satisfy itself that the award is final and enforceable and that no valid stay is in place.
 
-1. Wait for the Section 34 challenge period to elapse (three months from the date on which the party filing the challenge received the award, with a further 30-day condonable period for delay)
-2. If no challenge is filed, or if a challenge was dismissed, file an **execution petition** before the appropriate court
-3. The court receiving the execution petition treats the award as a decree and applies the mechanisms of Order XXI of the Code of Civil Procedure — attachment of property, garnishee proceedings against debtors of the judgment debtor, sale of property, arrest of the judgment debtor in appropriate cases
+## The Section 34 Challenge: Grounds and Limitation
 
-The court for execution is determined by where the award debtor's assets are located — not necessarily the court at the seat of arbitration. Where assets are in multiple locations, the award holder may need to register and execute in multiple jurisdictions.
+Section 34 of the Act provides the mechanism by which a domestic award can be challenged. The limitation period is three months from the date of receipt of the signed copy of the award by the challenging party — extendable by a further thirty days if the court is satisfied that the party was prevented by sufficient cause from filing within the original period, but not beyond thirty days. This outer limit is strict: the Supreme Court has confirmed that courts have no power to condone delay beyond the thirty-day extension, making timely review of a domestic award essential.
 
-## Section 34 Challenge: Grounds and Strategic Implications
+The grounds for challenge under Section 34 are narrow and exhaustive, reflecting the UNCITRAL Model Law's commitment to minimal judicial intervention. They are: incapacity of a party; invalidity of the arbitration agreement under applicable law; failure to give proper notice of the appointment of the arbitrator or the proceedings, or inability to present one's case; the award deals with disputes not falling within the arbitration agreement or beyond the scope of the submission to arbitration; the composition of the tribunal or the procedure was not in accordance with the parties' agreement or the Act; the subject matter of the dispute is not arbitrable under Indian law; or enforcement of the award would be contrary to the public policy of India. Crucially, courts exercising Section 34 jurisdiction do not review the merits of the award — they do not ask whether the arbitrator reached the correct conclusion of fact or law, only whether one of the specified grounds is established.
 
-Section 34 of the Act allows an aggrieved party to apply to set aside a domestic award. The grounds are exhaustively stated and are intended to be narrow — Section 34 is not an appeal on the merits. The grounds are:
+## Automatic Stay vs. Conditional Stay
 
-- **Incapacity of a party** to the arbitration agreement
-- **Invalidity of the arbitration agreement** under applicable law
-- **Failure of natural justice** — insufficient notice of the appointment of arbitrators or of the proceedings, or inability to present one's case
-- **Award beyond scope** — the tribunal decided matters not submitted to it
-- **Improper composition** of the tribunal or procedure
-- **Non-arbitrability** — the subject matter is not capable of settlement by arbitration under Indian law (insolvency, criminal matters, matrimonial status, and certain other categories fall outside arbitration's reach)
-- **Public policy violation** — which, following the 2015 amendment and the Supreme Court's decision in *ONGC v. Western Geco* (2014) and *Ssangyong Engineering* (2019), is now confined to: awards that are contrary to the fundamental policy of Indian law, contrary to the basic notions of morality and justice, or tainted by fraud or corruption
+Before the 2015 Amendment, the filing of a Section 34 application operated as an automatic stay on enforcement — meaning the mere act of filing stopped the award from being enforceable while the challenge was pending, regardless of the merits of the challenge. This provision was widely criticised as an incentive for award-debtors to file dilatory Section 34 applications for the sole purpose of delaying payment. The 2015 Amendment addressed this by removing the automatic stay: filing a Section 34 application no longer stays enforcement automatically. Instead, the award-debtor must separately apply for a stay, and the court has discretion to grant or refuse it.
 
-What Section 34 does not permit is a re-examination of the merits — the tribunal's findings of fact, the legal analysis applied to those facts, or the quantum of the award (unless the amount awarded falls outside what was claimed or the method of computation violates fundamental policy). Courts have repeatedly held that an award will not be set aside merely because the court would have reached a different conclusion on the same evidence.
+The 2021 Amendment went further, providing that in cases where the court is prima facie satisfied that the arbitration agreement was induced by fraud or corruption, or the award was made by a fraudulently constituted tribunal, an unconditional stay may be granted. In other cases, the court may impose a conditional stay — typically requiring the award-debtor to deposit the award amount in court or provide security as a condition of the stay. This conditional stay mechanism is a significant deterrent to purely tactical Section 34 challenges, and award-creditors should promptly apply for enforcement and oppose any unconditional stay application vigorously.
 
-**Limitation:** A Section 34 application must be filed within three months of the applicant receiving the award, with a further 30-day period available on showing sufficient cause. Courts have been strict about this limitation — applications filed beyond the condonable period have been rejected. This creates a practical urgency: a party that intends to challenge an award must move quickly.
+## Enforcing Foreign Awards: The New York Convention Framework
 
-**Automatic stay:** Under the 2021 amendment to the Act, filing a Section 34 application does not automatically stay enforcement of the award. The applicant must separately seek a stay and must furnish security as ordered by the court. An unconditional automatic stay — which used to be common — is no longer available.
+India is a signatory to the 1958 Convention on the Recognition and Enforcement of Foreign Arbitral Awards (the New York Convention) and has notified the Convention countries whose awards are enforceable in India. Enforcement of a foreign award in India is governed by Sections 44 to 58 of the Act. The award-creditor must apply to the relevant High Court (for foreign awards, the jurisdiction lies with a High Court, not a lower commercial court) attaching the original award, the arbitration agreement, and certified translations if the award is not in English.
 
-## Foreign Award Enforcement: The New York Convention Framework
+Before a foreign award is enforced, the court satisfies itself that the award is valid and final under the law of the seat where it was made, and that none of the grounds for refusal under Section 48 applies. Once the court is satisfied, it declares the award enforceable, and from that point the award is treated as a decree of the court for execution purposes. The process for enforcement of a New York Convention award in India has become more streamlined over the years — courts have moved towards a more enforcement-friendly approach in line with the Convention's objectives — but challenges at the Section 48 stage remain possible.
 
-India enforces foreign arbitral awards from countries notified as reciprocating territories under the New York Convention through Sections 44–58 of the Arbitration Act (Part II). The process is:
+## Grounds to Resist Enforcement of a Foreign Award
 
-1. File an enforcement application before the High Court of appropriate jurisdiction (where the award debtor's assets are located, or where the debtor is situated)
-2. Produce the certified award and certified arbitration agreement
-3. The court determines whether any of the grounds under Section 48 to resist enforcement are made out
-4. If not, the award is enforced as a decree
+Section 48 of the Act mirrors Article V of the New York Convention in setting out the grounds on which enforcement may be refused. These grounds include: incapacity of a party or invalidity of the arbitration agreement; failure of proper notice or inability to present one's case; the award exceeds the scope of the arbitration; the composition of the tribunal was improper; the award has not yet become binding or has been set aside at the seat; the subject matter is not arbitrable; or the award is contrary to the public policy of India.
 
-### Grounds to Resist Enforcement of a Foreign Award (Section 48)
+The public policy ground has been significantly narrowed by the 2015 Amendment and by judicial interpretation. The Supreme Court in Vijay Karia v. Prysmian Cavi (2020) affirmed that the public policy ground in Section 48 is a narrow one — limited to awards that violate the fundamental policy of Indian law, are contrary to the most basic notions of justice or morality, or conflict with India's interests in the most fundamental sense. An award that contains a legal error, applies foreign law differently from how an Indian court might, or reaches a conclusion with which an Indian judge would disagree does not thereby become contrary to public policy. This pro-enforcement approach is consistent with India's obligations under the New York Convention and is a marked evolution from earlier, broader readings of the public policy ground.
 
-The grounds for resisting enforcement of a foreign award are closely modelled on Article V of the New York Convention:
+## Practical Steps for an Execution Petition
 
-- **Incapacity of a party** or invalidity of the agreement
-- **Lack of proper notice** or inability to present the case
-- **Excess of jurisdiction** — the award deals with matters not covered by the arbitration agreement
-- **Improper composition** of the tribunal or procedure not in accordance with the parties' agreement
-- **Award not yet binding** or set aside by the court of the seat
-- **Non-arbitrability** under Indian law
-- **Violation of public policy** of India
+Once a domestic award is enforceable or a foreign award has been declared enforceable, the execution process begins in earnest. The award-creditor files an execution petition in the appropriate court, attaching the award, the arbitration agreement, and proof that the award is final and uncontested (or that any stay has been vacated). The petition must identify the specific assets or accounts against which execution is sought — courts cannot conduct an asset search on behalf of the petitioner. Common execution measures include attachment of the award-debtor's bank accounts (through a garnishee order to the bank), attachment and sale of immovable property, attachment of receivables owed to the award-debtor by third parties, and in exceptional cases under the Code of Civil Procedure, detention of the judgment-debtor.
 
-The public policy ground for foreign awards, following *Renusagar* and subsequent cases, has been interpreted more narrowly than for domestic awards — it is limited to the most fundamental violations. Indian courts have enforced foreign awards over numerous challenges and have generally maintained a pro-enforcement approach consistent with India's New York Convention obligations.
+## Non-Arbitrable Matters
 
-## Practical Steps for Enforcement
+A brief but important caveat: certain categories of dispute are not arbitrable under Indian law, and an award dealing with such matters can be challenged or refused enforcement on that ground. Non-arbitrable categories include criminal offences, matrimonial matters such as divorce and custody, insolvency and winding-up proceedings (which vest exclusively in specialised courts), and certain consumer and labour disputes where the relevant statute confers exclusive jurisdiction on a specific forum. Parties whose contracts touch on these areas should take advice before relying on an arbitration clause to resolve what may turn out to be a non-arbitrable dispute.
 
-The award holder's practical strategy for enforcement should address:
-
-- **Locating the debtor's assets** — bank accounts, real property, receivables from third parties, shareholding in companies
-- **Preserving those assets** pending enforcement by applying under Section 9 for post-award interim relief if there is a risk of dissipation
-- **Choosing the right enforcement forum** — a court in the location of assets, with experienced commercial judges who are familiar with arbitral enforcement
-- **Responding to Section 34 or Section 48 challenges** promptly and with substantive submissions on why the grounds raised are not available
-
----
-
-The enforceability of an arbitral award is the ultimate test of whether the arbitration process has served its purpose. Understanding the enforcement framework — and any obstacles the losing party may attempt to place in the way — is as important as the arbitration proceedings themselves. For advice on enforcement strategy or responding to a challenge against an award, visit our [Arbitration Practice page](/practices/arbitration).
+For comprehensive advice on enforcing domestic or foreign arbitral awards in India — from post-award strategy through to execution — visit our [arbitration practice page](/practices/arbitration).
