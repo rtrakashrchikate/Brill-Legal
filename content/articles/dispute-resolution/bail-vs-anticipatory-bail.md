@@ -12,7 +12,7 @@ related:
   - rights-on-arrest-india
 faqs:
   - q: "Can I apply for anticipatory bail after being arrested?"
-    a: "No. Anticipatory bail is a pre-arrest protection. Once arrested, the remedy is regular bail under Section 483 BNSS before the magistrate or sessions court."
+    a: "No. Anticipatory bail is a pre-arrest protection. Once arrested, the remedy is regular bail under Section 483 BNSS before the appropriate magistrate or sessions court."
   - q: "What is default bail?"
     a: "Default bail under Section 187 BNSS is a right that accrues when police fail to file a chargesheet within 60 or 90 days depending on the seriousness of the offence."
   - q: "Can bail be cancelled after it is granted?"
@@ -31,13 +31,13 @@ When exercising discretion in non-bailable matters, courts consider the nature a
 
 ### Surety Requirements
 
-Whether a court imposes a surety requirement depends on the offence and the court's assessment of flight risk. A surety is a third party who guarantees the accused's appearance in court and whose property can be attached if the accused absconds. Courts have the discretion to dispense with sureties and release the accused on a personal bond, particularly where the accused is a first-time offender, is economically disadvantaged, or the offence is at the lower end of seriousness.
+Whether a court imposes a surety requirement depends on the offence and the court's assessment of flight risk. A surety is a third party who guarantees the accused's appearance in court and whose property can be attached if the accused absconds. Courts have the discretion to dispense with sureties and release the accused on a personal bond, particularly where the accused is a first-time offender, is economically disadvantaged, or the offence is at the lower end of seriousness. The amount of surety must be fixed with regard to the accused's means and should not be set so high as to make bail illusory.
 
 ## Anticipatory Bail Under Section 482 BNSS
 
 Anticipatory bail is categorically different from regular bail. It is not granted after arrest; it is a direction, made in anticipation of arrest, that the applicant shall be released on bail if arrested for a specified offence. Section 482 BNSS vests concurrent jurisdiction in both the sessions court and the High Court to entertain anticipatory bail applications.
 
-The applicant must demonstrate a reasonable apprehension of arrest. Courts examine whether there is a genuine and imminent threat, whether the apprehension is based on specific information or merely on conjecture, and whether the applicant has a prior criminal record. The test articulated in Gurbaksh Singh Sibbia v. State of Punjab remains the lodestar: courts must not exercise the power mechanically in either direction and must weigh liberty against the interests of justice.
+The applicant must demonstrate a reasonable apprehension of arrest. Courts examine whether there is a genuine and imminent threat, whether the apprehension is based on specific information rather than mere conjecture, and whether the applicant has a prior criminal record. The test articulated in Gurbaksh Singh Sibbia v. State of Punjab remains the lodestar: courts must not exercise the power mechanically in either direction and must weigh liberty against the interests of justice.
 
 ### Duration of Anticipatory Bail
 
@@ -47,13 +47,13 @@ A long-standing controversy surrounded the question of whether anticipatory bail
 
 Default bail occupies a distinct position in the bail landscape. It is not a matter of judicial discretion but a statutory right that crystallises upon the investigating agency's failure to file a chargesheet within the prescribed time. For offences punishable with imprisonment for less than ten years, the chargesheet must be filed within 60 days of arrest. For offences punishable with death, imprisonment for life, or imprisonment for ten or more years, the period is 90 days.
 
-Once the period expires and no chargesheet has been filed, the accused can apply for default bail and is entitled to be released as a matter of right, provided they are prepared to furnish bail. The right to default bail is not extinguished by a chargesheet filed after the period expires but before the accused applies for default bail; the Supreme Court has clarified that once the right accrues, it is vested and cannot be defeated by a belated filing.
+Once the period expires and no chargesheet has been filed, the accused can apply for default bail and is entitled to be released as a matter of right, provided they are prepared to furnish bail. The right to default bail is not extinguished by a chargesheet filed after the period expires but before the accused applies: the Supreme Court has clarified that once the right accrues, it is vested and cannot be defeated by a belated filing.
 
 ## Bail Conditions
 
 Both regular bail and anticipatory bail are routinely granted subject to conditions. Common conditions include surrendering the passport and travel documents, not leaving the jurisdiction of the court without permission, reporting periodically to the police station, not contacting or intimidating witnesses or the complainant, and cooperating with the investigation. Conditions must be relevant to the purpose of bail, namely ensuring the accused's presence at trial, and cannot be punitive or illusory.
 
-Where anticipatory bail is granted, an additional condition often seen is that the accused shall cooperate with any interrogation by the investigating agency and make themselves available as and when required.
+Where anticipatory bail is granted, an additional condition often seen is that the accused shall cooperate with any interrogation by the investigating agency and make themselves available as and when required. Courts set the conditions with reference to the facts of each case, and overly burdensome conditions can be challenged before the same or a higher court.
 
 ## Cancellation of Bail
 
