@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Container, SectionHeading } from "@/components/ui";
-import { PracticeCard } from "@/components/cards";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CtaBand } from "@/components/CtaBand";
-import { StaggerGroup, StaggerItem } from "@/components/motion";
+import { BentoPracticeCards } from "@/components/BentoPracticeCards";
+import { Reveal } from "@/components/motion";
 import { allPractices } from "@/lib/source/structured";
 import { pageMeta } from "@/lib/seo";
 
@@ -33,13 +33,9 @@ export default async function PracticesPage() {
       </header>
 
       <Container className="py-16">
-        <StaggerGroup className="grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3 [&>*]:bg-paper">
-          {practices.map((p, i) => (
-            <StaggerItem key={p.slug}>
-              <PracticeCard practice={p} index={i} />
-            </StaggerItem>
-          ))}
-        </StaggerGroup>
+        <Reveal>
+          <BentoPracticeCards practices={practices} />
+        </Reveal>
         <CtaBand matter="your matter" />
       </Container>
     </>

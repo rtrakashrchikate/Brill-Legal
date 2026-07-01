@@ -71,6 +71,8 @@ export function mapPractice(node: WpPractice): Practice & { order: number } {
     capabilities: (f.capabilities ?? [])
       .map((c) => c.item ?? "")
       .filter(Boolean),
+    // Sub-practices are curated locally; WP-sourced practices carry none.
+    subPractices: [],
     order: f.orderNo ?? 99,
   };
 }

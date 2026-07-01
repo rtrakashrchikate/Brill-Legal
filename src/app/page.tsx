@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { Container, SectionHeading } from "@/components/ui";
-import { PracticeCard, ArticleCard } from "@/components/cards";
+import { ArticleCard } from "@/components/cards";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { TrustStrip } from "@/components/TrustStrip";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";
+import { BentoPracticeCards } from "@/components/BentoPracticeCards";
+import { StatBand } from "@/components/StatBand";
 import { allPractices } from "@/lib/source/structured";
 import { pillars as sourcePillars, publishedArticles } from "@/lib/source/articles";
 
@@ -56,15 +58,13 @@ export default async function Home() {
               intro="Deep capability across the areas that matter most to our clients — explained plainly, advised honestly."
             />
           </Reveal>
-          <StaggerGroup className="mt-14 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-3 [&>*]:bg-paper">
-            {practices.map((p, i) => (
-              <StaggerItem key={p.slug}>
-                <PracticeCard practice={p} index={i} />
-              </StaggerItem>
-            ))}
-          </StaggerGroup>
+          <div className="mt-14">
+            <BentoPracticeCards practices={practices} />
+          </div>
         </Container>
       </section>
+
+      <StatBand />
 
       {/* Established feel band */}
       <section className="bg-wine relative overflow-hidden border-y border-line text-paper">
