@@ -79,6 +79,37 @@ export default async function PracticePage({
         </Container>
       </header>
 
+      {p.subPractices.length > 0 && (
+        <Container className="pt-16">
+          <Reveal>
+            <SectionHeading
+              kicker="Service lines"
+              title={`How our ${p.short.toLowerCase()} work breaks down`}
+            />
+          </Reveal>
+          <StaggerGroup className="mt-8 grid gap-px border border-line bg-line sm:grid-cols-2">
+            {p.subPractices.map((s) => (
+              <StaggerItem key={s.slug}>
+                <Link
+                  href={`/practices/${p.slug}/${s.slug}`}
+                  className="group flex h-full flex-col bg-paper-card p-6 transition-colors hover:bg-paper-dim/40"
+                >
+                  <h3 className="font-display text-lg text-ink transition-colors group-hover:text-accent-deep">
+                    {s.name}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                    {s.summary}
+                  </p>
+                  <span className="mt-4 text-xs font-medium text-accent-deep">
+                    Explore →
+                  </span>
+                </Link>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
+        </Container>
+      )}
+
       <Container className="py-16">
         <section className="grid gap-12 lg:grid-cols-3">
           <div className="lg:col-span-2">

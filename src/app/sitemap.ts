@@ -48,6 +48,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
+  const subPracticePages = practices.flatMap((p) =>
+    (p.subPractices ?? []).map((s) => ({
+      url: url(`/practices/${p.slug}/${s.slug}`),
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  );
+
   const locationPages = locations.map((l) => ({
     url: url(`/${l.slug}`),
     lastModified: now,
@@ -93,6 +102,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...staticPages,
     ...practicePages,
+    ...subPracticePages,
     ...locationPages,
     ...articlePages,
     ...glossaryPages,
