@@ -5,12 +5,15 @@ import { BlogGrid } from "@/components/blogs/BlogGrid";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Reveal } from "@/components/motion/primitives";
 import { CtaBand } from "@/components/home/CtaBand";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema, canonical, itemListSchema } from "@/lib/seo";
 import { getBlogs } from "@/lib/source/content";
 
 export const metadata: Metadata = {
   title: "Blogs",
   description:
     "Playbooks, field notes and data from the Rotaract Club of Pune Metro — written by the people who ran the projects.",
+  alternates: canonical("/blogs"),
 };
 
 export default async function BlogsPage() {
@@ -19,6 +22,19 @@ export default async function BlogsPage() {
 
   return (
     <>
+      <JsonLd
+        schema={[
+          itemListSchema(
+            "Publications",
+            "/blogs",
+            blogs.map((blog) => ({ name: blog.title, path: `/blogs/${blog.slug}` })),
+          ),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Blogs", path: "/blogs" },
+          ]),
+        ]}
+      />
       <PageHeader
         eyebrow="Publications"
         title="What we learned, written down properly."

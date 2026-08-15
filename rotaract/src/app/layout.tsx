@@ -3,8 +3,10 @@ import { Inter, Sora } from "next/font/google";
 
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { ThemeProvider, themeInitScript } from "@/components/theme/ThemeProvider";
 import { site } from "@/config/site";
+import { canonical, organisationSchema, webSiteSchema } from "@/lib/seo";
 
 import "./globals.css";
 
@@ -28,14 +30,32 @@ export const metadata: Metadata = {
     template: `%s · ${site.shortName}`,
   },
   description: site.description,
+  applicationName: site.name,
+  alternates: canonical("/"),
+  keywords: [
+    "Rotaract",
+    "Rotaract Club",
+    "Pune",
+    site.district,
+    "community service",
+    "blood donation",
+    "volunteering",
+    "Rotary International",
+  ],
   openGraph: {
     type: "website",
     title: site.name,
     description: site.description,
     siteName: site.name,
+    locale: "en_IN",
+    url: site.url,
   },
   twitter: { card: "summary_large_image", title: site.name, description: site.description },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
 };
 
 export const viewport: Viewport = {
@@ -53,6 +73,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className="min-h-dvh antialiased">
+        {/* Site-wide identity — emitted once, referenced by @id from every
+            page-level schema. */}
+        <JsonLd schema={[organisationSchema(), webSiteSchema()]} />
         <ThemeProvider>
           <a
             href="#main"

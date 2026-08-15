@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 
 import { HubBoard } from "@/components/hub/HubBoard";
 import { PageHeader } from "@/components/layout/PageHeader";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { breadcrumbSchema, canonical } from "@/lib/seo";
 import { Reveal } from "@/components/motion/primitives";
 import { Badge, VerifiedBadge } from "@/components/ui/Badge";
 import { ArrowRight, ButtonLink } from "@/components/ui/Button";
@@ -12,6 +14,7 @@ export const metadata: Metadata = {
   title: "Requirement Hub",
   description:
     "A public bulletin board of active resource requests from Rotaract clubs — blood, funding, volunteers, materials, mentorship and collaboration. Open to read for everyone.",
+  alternates: canonical("/hub"),
 };
 
 // New listings should appear immediately after they are posted.
@@ -24,6 +27,12 @@ export default async function HubPage() {
 
   return (
     <>
+      <JsonLd
+        schema={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Requirement Hub", path: "/hub" },
+        ])}
+      />
       <PageHeader
         eyebrow="Requirement hub"
         title="Ask the whole district, not one WhatsApp group."

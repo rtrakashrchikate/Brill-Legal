@@ -103,3 +103,7 @@ export async function getNews(): Promise<NewsItem[]> {
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
   );
 }
+
+export async function getNewsItem(slug: string): Promise<NewsItem | undefined> {
+  return (await getNews()).find((item) => item.slug === slug);
+}

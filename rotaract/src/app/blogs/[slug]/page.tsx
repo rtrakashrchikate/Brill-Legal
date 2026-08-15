@@ -4,12 +4,15 @@ import { notFound } from "next/navigation";
 
 import { BlogCard } from "@/components/blogs/BlogCard";
 import { EngagementBar } from "@/components/engagement/EngagementBar";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { Reveal } from "@/components/motion/primitives";
 import { Badge } from "@/components/ui/Badge";
 import { ArrowRight } from "@/components/ui/Button";
 import { Aurora } from "@/components/ui/Aurora";
 import { CoverArt, Monogram } from "@/components/ui/CoverArt";
 import { GlassCard } from "@/components/ui/GlassCard";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { articleSchema, canonical } from "@/lib/seo";
 import { getBlog, getBlogs } from "@/lib/source/content";
 import { formatDate } from "@/lib/utils";
 
@@ -30,6 +33,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: blog.title,
     description: blog.excerpt,
+    alternates: canonical(`/blogs/${blog.slug}`),
+    authors: [{ name: blog.authorName }],
+    keywords: blog.tags,
     openGraph: {
       type: "article",
       title: blog.title,
@@ -51,18 +57,20 @@ export default async function BlogPage({ params }: PageProps) {
 
   return (
     <>
+      <JsonLd schema={articleSchema(blog)} />
+
       <article className="relative isolate">
         <Aurora variant="soft" />
 
         <div className="relative mx-auto w-full max-w-3xl px-4 sm:px-6">
           <Reveal y={12}>
-            <Link
-              href="/blogs"
-              className="inline-flex items-center gap-2 text-[0.78rem] text-fg-muted transition-colors hover:text-cranberry-600"
-            >
-              <ArrowRight className="size-3.5 rotate-180" />
-              All publications
-            </Link>
+            <Breadcrumbs
+              trail={[
+                { name: "Home", path: "/" },
+                { name: "Blogs", path: "/blogs" },
+                { name: blog.title, path: `/blogs/${blog.slug}` },
+              ]}
+            />
           </Reveal>
 
           <Reveal delay={0.05} className="mt-6 flex flex-wrap items-center gap-2">

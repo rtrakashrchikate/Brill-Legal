@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { CtaBand } from "@/components/home/CtaBand";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { CountUp, Reveal, Stagger, StaggerItem } from "@/components/motion/primitives";
 import { Badge } from "@/components/ui/Badge";
@@ -8,16 +9,24 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { achievements, history, mission, stats, values, vision } from "@/data/club";
 import { site } from "@/config/site";
+import { breadcrumbSchema, canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "About",
   description:
     "History, mission and how the Rotaract Club of Pune Metro actually works — including the standards we hold ourselves to and the numbers we publish.",
+  alternates: canonical("/about"),
 };
 
 export default function AboutPage() {
   return (
     <>
+      <JsonLd
+        schema={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "About", path: "/about" },
+        ])}
+      />
       <PageHeader
         eyebrow="About the club"
         title="Twenty-two years of doing the unglamorous half of the work."

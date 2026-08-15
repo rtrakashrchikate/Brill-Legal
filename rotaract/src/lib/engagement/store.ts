@@ -86,15 +86,15 @@ function persist(key: string, counts: EngagementCounts): EngagementCounts {
       void sbUpsert(
         "engagement_counts",
         {
-          target_type: parsed.type,
-          target_id: parsed.id,
+          targetType: parsed.type,
+          targetId: parsed.id,
           views: counts.views,
           likes: counts.likes,
           clap: counts.reactions.clap,
           heart: counts.reactions.heart,
           fire: counts.reactions.fire,
         },
-        "target_type,target_id",
+        "targetType,targetId",
       );
     }
   }

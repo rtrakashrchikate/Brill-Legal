@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import { AnimatePresence, motion, useScroll, useSpring } from "framer-motion";
 
 import { Countdown } from "@/components/events/Countdown";
@@ -167,7 +168,14 @@ function EventRow({ event }: { event: TimelineEvent }) {
             </span>
           </div>
 
-          <h3 className="text-xl font-semibold sm:text-2xl">{event.title}</h3>
+          <h3 className="text-xl font-semibold sm:text-2xl">
+            <Link
+              href={`/events/${event.slug}`}
+              className="transition-colors duration-300 hover:text-cranberry-600 dark:hover:text-cranberry-400"
+            >
+              {event.title}
+            </Link>
+          </h3>
           <p className="max-w-2xl text-[0.88rem] leading-relaxed text-fg-muted">
             {event.description}
           </p>
@@ -204,6 +212,14 @@ function EventRow({ event }: { event: TimelineEvent }) {
             label={event.contactName}
             icon={<WhatsAppIcon />}
           />
+
+          <Link
+            href={`/events/${event.slug}`}
+            className="group/details ml-auto inline-flex items-center gap-1.5 text-[0.78rem] font-medium text-cranberry-600 dark:text-cranberry-400"
+          >
+            Full details
+            <ArrowRight className="size-3.5 group-hover/details:translate-x-1" />
+          </Link>
         </div>
 
         <EngagementBar type="event" id={event.id} size="sm" />

@@ -10,7 +10,20 @@
     "publishedAt": "2026-07-30",
     "impactMetric": "1,214 units in 12 months",
     "beneficiaries": 340,
-    "weight": "tall"
+    "weight": "tall",
+    "body": [
+      "For years the district's thalassemia response was a phone tree. A parent would call a club president, who would post in a group, and somewhere between twenty and two hundred people would see it in time.",
+      "## What changed",
+      "Eleven clubs and three hospitals agreed a standing monthly roster instead. Each club owns two dates a year; the hospital confirms requirement seventy-two hours ahead; a shared sheet tracks donor eligibility windows so nobody is called before they can give again.",
+      "The result is boring, which is the point. Paediatric thalassemia patients need transfusions on a schedule, and a scheduled supply is worth more than a heroic one.",
+      "## The number that matters is not 1,214",
+      "It is 61% — the share of units that came from repeat donors. An emergency network recruits strangers forever; a programme grows a base. The clubs now measure themselves on repeat rate and treat total units as the output it is."
+    ],
+    "replicate": [
+      "A named hospital coordinator per club",
+      "Seventy-two-hour confirmation window",
+      "Shared eligibility tracker so donors are not called early"
+    ]
   },
   {
     "id": "n-002",
@@ -23,7 +36,19 @@
     "publishedAt": "2026-07-18",
     "impactMetric": "210 students, 3 extra study hours/day",
     "beneficiaries": 210,
-    "weight": "regular"
+    "weight": "regular",
+    "body": [
+      "The ashram school runs a residential programme for 210 students. Until this year its evenings ran on a diesel generator that ran two hours a night and cost more than the school's entire stationery budget.",
+      "## The install",
+      "A 9kW rooftop array with battery backup, sized against a week of metered consumption rather than a brochure figure. The club spent longer on the load survey than on the installation.",
+      "## What it unlocked",
+      "Three supervised study hours a night, every night, without a fuel line item. The warden reports that attendance in the residential wing has held through the monsoon for the first time in four years."
+    ],
+    "replicate": [
+      "Meter the actual load before sizing",
+      "Budget for battery replacement in year five",
+      "Train two staff on basic fault-finding"
+    ]
   },
   {
     "id": "n-003",
@@ -36,7 +61,19 @@
     "publishedAt": "2026-07-05",
     "impactMetric": "4 units, 100% locally funded upkeep",
     "beneficiaries": 5600,
-    "weight": "wide"
+    "weight": "wide",
+    "body": [
+      "Installing a water ATM is a weekend. Keeping it running for two years is a project, and it is the part most clubs quietly lose.",
+      "## The handover was designed in from day one",
+      "Each of the four panchayats signed a maintenance commitment before installation, with a named operator, a card-based usage log and a monthly consumables budget line. The club funded upkeep for the first twelve months on a tapering scale, then stopped.",
+      "## Two years on",
+      "All four units are running on panchayat budget lines with no club money. One has already been through a filter replacement cycle without anybody calling us, which is the outcome we were actually after."
+    ],
+    "replicate": [
+      "Written maintenance commitment before installation",
+      "Tapering funding rather than a cliff",
+      "A named operator, not a committee"
+    ]
   },
   {
     "id": "n-004",
@@ -49,7 +86,19 @@
     "publishedAt": "2026-06-28",
     "impactMetric": "38 schools, 7,400 students",
     "beneficiaries": 7400,
-    "weight": "regular"
+    "weight": "regular",
+    "body": [
+      "The first version of this programme was delivered by visiting volunteers. Attendance was polite and low, and the follow-up questions never came.",
+      "## Peer educators changed the arithmetic",
+      "The club trained senior students as peer educators and moved the volunteers into a support role. Session attendance roughly doubled and, more usefully, students began asking questions after the session rather than during it.",
+      "## Co-design with counsellors",
+      "The curriculum was written with school counsellors rather than handed to them. That is slower by about six weeks and is the reason thirty-eight schools adopted it instead of three."
+    ],
+    "replicate": [
+      "Train peer educators, don't parachute in speakers",
+      "Co-write with school counsellors",
+      "Measure post-session questions, not attendance alone"
+    ]
   },
   {
     "id": "n-005",
@@ -62,7 +111,19 @@
     "publishedAt": "2026-06-12",
     "impactMetric": "62% survival at 36 months",
     "beneficiaries": 0,
-    "weight": "tall"
+    "weight": "tall",
+    "body": [
+      "Three years after planting, the club published everything: survival by species, by site, by planting month — including the two sites where nothing survived at all.",
+      "## Why publish the failures",
+      "Because the failures carry the information. The two dead sites shared a characteristic — tidal exposure the survey had recorded and the planting plan had ignored — and that finding is worth more to the next club than the headline survival number.",
+      "## 62% at 36 months",
+      "Comparable published figures are scarce, which is itself the problem. The club has offered its raw dataset to any club willing to publish theirs on the same terms."
+    ],
+    "replicate": [
+      "Publish species-level and site-level survival",
+      "Revisit at 12, 24 and 36 months",
+      "Record tidal exposure at survey, and act on it"
+    ]
   },
   {
     "id": "n-006",
@@ -75,7 +136,19 @@
     "publishedAt": "2026-05-29",
     "impactMetric": "140 artisans, avg. 31% income lift",
     "beneficiaries": 140,
-    "weight": "regular"
+    "weight": "regular",
+    "body": [
+      "One hundred and forty women artisans, most selling through a middleman at a fixed rate, six weeks of evening sessions.",
+      "## What the lab actually taught",
+      "Photography on a phone, listing hygiene, honest pricing arithmetic and the GST basics needed to invoice. No branding workshops, no aspiration slides.",
+      "## Ending with a live storefront",
+      "Nobody graduated without a working listing and their first ten orders processed with a facilitator sitting beside them. The average income lift at six months was 31%, and the artisans who did best were the ones who kept photographing their own work rather than outsourcing it."
+    ],
+    "replicate": [
+      "End the course with a live storefront, not a certificate",
+      "Teach invoicing, not branding",
+      "Sit with them through the first ten orders"
+    ]
   },
   {
     "id": "n-007",
@@ -88,7 +161,19 @@
     "publishedAt": "2026-05-14",
     "impactMetric": "9 blocks, 2,100 students",
     "beneficiaries": 2100,
-    "weight": "regular"
+    "weight": "regular",
+    "body": [
+      "Nine sanitation blocks across zilla parishad schools, built to a single district specification rather than nine local ones.",
+      "## Why a shared spec",
+      "Standardising the design meant spares are interchangeable, the same mason understands every site, and the maintenance instructions are one document instead of nine.",
+      "## A named owner per site",
+      "Following the model that fixed the Anganwadi durability problem, each block has a named maintenance owner at the school and a scheduled six-month revisit. The first revisit cycle is complete and all nine are functional."
+    ],
+    "replicate": [
+      "One district specification, not per-site designs",
+      "Named maintenance owner at each school",
+      "Six-month revisit written into the handover"
+    ]
   },
   {
     "id": "n-008",
@@ -101,7 +186,18 @@
     "publishedAt": "2026-04-30",
     "impactMetric": "2 fellows, 12-week exchange",
     "beneficiaries": 0,
-    "weight": "regular"
+    "weight": "regular",
+    "body": [
+      "Two Rotaractors from the district were selected for a twelve-week community mediation exchange.",
+      "## The condition attached",
+      "Both fellows committed, in writing and before departure, to run district-level training on their return. A fellowship that ends at the airport is a holiday with paperwork.",
+      "## What comes back",
+      "The training runs across two weekends in the coming Rotary year and is open to any club in the zone."
+    ],
+    "replicate": [
+      "Attach a return-training commitment before departure",
+      "Open the resulting training to the whole district"
+    ]
   },
   {
     "id": "n-009",
@@ -114,7 +210,18 @@
     "publishedAt": "2026-04-16",
     "impactMetric": "812 surgeries, ₹1,100 per patient",
     "beneficiaries": 812,
-    "weight": "wide"
+    "weight": "wide",
+    "body": [
+      "Four clubs used to run cataract camps separately, each arranging its own transport, its own surgeons and its own post-operative follow-up.",
+      "## Pooling the logistics, not the credit",
+      "The clubs kept their own camps and pooled only the expensive shared parts: vehicles, screening staff and the follow-up roster. Per-patient cost fell by roughly a third.",
+      "## Follow-up is the hard half",
+      "Eight hundred and twelve surgeries is the easy number to publish. The harder one is that 94% of patients completed their post-operative review, which only happened because the follow-up roster had a named caller per patient."
+    ],
+    "replicate": [
+      "Pool transport and follow-up, keep camps local",
+      "One named caller per patient for post-op review"
+    ]
   },
   {
     "id": "n-010",
@@ -127,7 +234,19 @@
     "publishedAt": "2026-03-27",
     "impactMetric": "60 villages, 18,000 books circulated",
     "beneficiaries": 4300,
-    "weight": "regular"
+    "weight": "regular",
+    "body": [
+      "A crate of three hundred books that moves between villages every quarter, tracked on index cards the village keeps itself.",
+      "## Deliberately low-tech",
+      "There is no app. A card per book, a register, and a volunteer librarian chosen by the village. Sixty villages have run it without a single support call.",
+      "## Sixty villages, eighteen thousand circulations",
+      "The crates are replaced on a three-year cycle. Losses run at about four percent a year, which the club has decided is the cost of a library people actually use."
+    ],
+    "replicate": [
+      "Index cards beat an app at this scale",
+      "Let the village choose the librarian",
+      "Budget for 4% annual loss and stop worrying about it"
+    ]
   },
   {
     "id": "n-011",
@@ -140,7 +259,18 @@
     "publishedAt": "2026-03-08",
     "impactMetric": "46 placements, 11 employers",
     "beneficiaries": 46,
-    "weight": "tall"
+    "weight": "tall",
+    "body": [
+      "Forty-six placements across eleven employers, from a programme that spent its first year training candidates and placing almost nobody.",
+      "## The bottleneck was never the candidates",
+      "Graduates were job-ready well before employers were ready to hire them. The club moved its effort to running sensitisation sessions inside partner companies — interview adjustments, workplace communication, what an interpreter does and does not do.",
+      "## Placement rate tripled",
+      "Same candidate training, different audience. Eleven employers now have a written interview-adjustment protocol, which outlasts any individual placement."
+    ],
+    "replicate": [
+      "Run sensitisation inside the employer, not the training centre",
+      "Get the interview-adjustment protocol in writing"
+    ]
   },
   {
     "id": "n-012",
@@ -153,6 +283,18 @@
     "publishedAt": "2026-02-19",
     "impactMetric": "22 tonnes, 96 hours, 14 villages",
     "beneficiaries": 3800,
-    "weight": "regular"
+    "weight": "regular",
+    "body": [
+      "Twenty-two tonnes of relief material moved through fourteen villages in ninety-six hours, on a network that was built when nothing was happening.",
+      "## Built in peacetime",
+      "A pre-agreed roster of drivers, warehouse space, and — the part most networks skip — verification volunteers whose job is to confirm need before a truck moves.",
+      "## Activated by one message",
+      "Because roles were assigned in advance, activation was a single message rather than a day of coordination calls. The network has since been adopted by two neighbouring districts."
+    ],
+    "replicate": [
+      "Assign roles before the crisis, not during",
+      "Include verification volunteers in the roster",
+      "One activation message, no coordination calls"
+    ]
   }
 ]

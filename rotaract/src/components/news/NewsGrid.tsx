@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { EngagementBar } from "@/components/engagement/EngagementBar";
@@ -121,7 +122,12 @@ export function NewsGrid({ items }: { items: NewsItem[] }) {
 function NewsCard({ item }: { item: NewsItem }) {
   return (
     <GlassCard interactive padding="none" className="flex flex-col">
-      <div className={cn("relative overflow-hidden", COVER_HEIGHT[item.weight])}>
+      <Link
+        href={`/news/${item.slug}`}
+        aria-hidden
+        tabIndex={-1}
+        className={cn("relative block overflow-hidden", COVER_HEIGHT[item.weight])}
+      >
         <CoverArt seed={item.id} className="size-full" />
         <div className="absolute inset-x-3 bottom-3 flex flex-wrap items-center gap-1.5">
           <Badge tone="cranberry" className="bg-canvas/80 backdrop-blur">
@@ -131,7 +137,7 @@ function NewsCard({ item }: { item: NewsItem }) {
             {item.impactArea}
           </Badge>
         </div>
-      </div>
+      </Link>
 
       <div className="flex flex-1 flex-col gap-3 p-5">
         <div className="flex items-center justify-between gap-2 text-[0.72rem] text-fg-muted">
@@ -139,7 +145,14 @@ function NewsCard({ item }: { item: NewsItem }) {
           <time dateTime={item.publishedAt}>{formatDate(item.publishedAt)}</time>
         </div>
 
-        <h3 className="text-[1.05rem] font-semibold leading-snug">{item.title}</h3>
+        <h3 className="text-[1.05rem] font-semibold leading-snug">
+          <Link
+            href={`/news/${item.slug}`}
+            className="transition-colors duration-300 hover:text-cranberry-600 dark:hover:text-cranberry-400"
+          >
+            {item.title}
+          </Link>
+        </h3>
         <p className="text-[0.85rem] leading-relaxed text-fg-muted">{item.summary}</p>
 
         <div className="mt-auto flex flex-col gap-3 pt-2">

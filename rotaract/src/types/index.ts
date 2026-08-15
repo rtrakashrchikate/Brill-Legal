@@ -121,6 +121,10 @@ export interface NewsItem extends Engageable {
   /** Headline impact figure, e.g. "1,200 units collected". */
   impactMetric: string;
   beneficiaries: number;
+  /** Full write-up for the detail page; headings are prefixed with "## ". */
+  body?: string[];
+  /** What another club would need to copy this. */
+  replicate?: string[];
   sourceUrl?: string;
   /** Controls the masonry tile aspect so the grid reads as editorial. */
   weight: "tall" | "regular" | "wide";

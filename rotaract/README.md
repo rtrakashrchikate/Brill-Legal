@@ -25,8 +25,8 @@ Seven public pages plus the verified-only surfaces:
 | `/about` | Mission/vision, operating principles, animated history timeline, citations |
 | `/blogs`, `/blogs/[slug]` | Publication grid with category + search filters; full article view |
 | `/members` | Photo directory of the board and roster, filterable by **name, year and role**, with a profile sheet |
-| `/events` | Vertical animated timeline with a **live countdown** on every upcoming event |
-| `/news` | Masonry feed of district projects, filterable by **district and impact area** |
+| `/events`, `/events/[slug]` | Vertical animated timeline with a **live countdown** on every upcoming event; detail page with venue, organiser and registration |
+| `/news`, `/news/[slug]` | Masonry feed of district projects, filterable by **district and impact area**; detail page with the full write-up and a "how to copy this" panel |
 | `/hub` | **Requirement Hub** — public bulletin board of live resource requests |
 | `/login`, `/dashboard` | Mock auth and the posting surface behind the verification wall |
 
@@ -45,6 +45,30 @@ The official palette is applied as design tokens in `src/app/globals.css`:
 Dark/light is class-based, remembered in LocalStorage and applied by an inline
 script before first paint, so there is no flash of the wrong theme. Every
 animation is wrapped in `prefers-reduced-motion` handling.
+
+---
+
+## SEO
+
+| Surface | Where |
+| --- | --- |
+| XML sitemap (all public routes, including every blog, event and news slug) | `src/app/sitemap.ts` |
+| `robots.txt`, disallowing `/api/`, `/dashboard`, `/login` | `src/app/robots.ts` |
+| Canonical URLs on every page | `canonical()` in `src/lib/seo.ts` |
+| Open Graph / Twitter cards, generated per route | `src/lib/og.tsx` + `opengraph-image.tsx` files |
+| JSON-LD structured data | `src/lib/seo.ts`, emitted by `<JsonLd>` |
+| Web manifest and icon | `src/app/manifest.ts`, `src/app/icon.svg` |
+
+Structured data is scoped so nothing describes content the page does not show:
+`NGO` + `WebSite` once in the root layout (referenced by `@id` everywhere
+else), `BlogPosting` on articles, `Event` per upcoming event, `NewsArticle` on
+district projects, `CollectionPage` + `ItemList` on index pages, and
+`BreadcrumbList` wherever a trail is rendered — generated from the same array
+that renders the visible breadcrumbs, so the two cannot drift.
+
+OG cards are drawn from typography and the brand gradient only. No remote
+images and no dynamic font fetches, so the render cannot fail on a network
+hiccup at build time.
 
 ---
 
@@ -121,9 +145,44 @@ site is identical with or without a backend.
 - **Env set** → reads and writes hit Supabase; the local store stays as the
   fallback path.
 
-Expected tables: `members`, `blogs`, `events`, `news`, `resource_requests`,
-`profiles`, `engagement_counts` (keyed on `target_type,target_id`). Column names
-match the TypeScript interfaces in `src/types/index.ts`.
+### Schema
+
+```bash
+supabase db push                 # or paste supabase/migrations/0001_init.sql
+node supabase/seed.mjs           # loads src/data/*.json (idempotent upserts)
+node supabase/seed.mjs --dry-run # preview payloads, send nothing
+```
+
+Column names are camelCase and quoted on purpose: PostgREST returns them
+verbatim, so the Supabase path and the local fallback produce byte-identical
+shapes with no mapping layer to drift.
+
+Row-level security mirrors the application's verification wall rather than
+restating it loosely — the two are meant to fail closed together:
+
+| Table | anon | authenticated |
+| --- | --- | --- |
+| `members`, `blogs`, `events`, `news` | read | read |
+| `resource_requests` | read | read; **insert only when `is_verified_rotaractor()`**; update own listing |
+| `engagement_counts` | read | read (no write grant to either role) |
+| `profiles` | none | own row only |
+
+Two triggers enforce what a `WITH CHECK` cannot, because policy expressions
+cannot see the previous row:
+
+- `freeze_verification` — a signed-in user can never flip their own
+  `is_verified_rotaractor`. Only a privileged path (service role, or a club
+  secretary tool running as one) may grant it.
+- `freeze_request_badge` — `isVerified` is a snapshot taken at posting time, so
+  editing a listing later cannot change what the badge claimed.
+
+`is_verified_rotaractor()` is `SECURITY DEFINER` with a pinned `search_path`: a
+policy on `profiles` that itself selects from `profiles` would recurse.
+
+The migration and every policy above were applied to a real PostgreSQL 16 and
+exercised — verified insert succeeds, unverified insert is rejected by RLS,
+self-verification and badge edits raise, anon reads listings but sees no
+profiles and cannot write counts.
 
 See `.env.example` for every variable.
 
@@ -149,15 +208,22 @@ src/
 │   ├── motion/primitives.tsx      Reveal, Stagger, CountUp, Tilt, Magnetic, WordReveal
 │   ├── theme/                     provider + no-flash script + toggle
 │   └── ui/                        glass card, button, badge, filters, copy button, generated art
+│   └── seo/JsonLd                 structured-data emitter
 ├── config/site.ts                 club identity, nav, taxonomies
 ├── data/                          seed JSON + editorial content
 ├── lib/
 │   ├── auth/                      session signing, user lookup, verification gate
 │   ├── backend/                   supabase client, local write-through store
 │   ├── engagement/                visitor hash, rate limit, server store, client hook
+│   ├── og.tsx                     shared Open Graph card renderer
+│   ├── seo.ts                     canonicals + JSON-LD builders
 │   └── source/                    unified read layer
 ├── middleware.ts                  edge session check for /dashboard
 └── types/index.ts                 domain model
+
+supabase/
+├── migrations/0001_init.sql       schema, RLS, triggers, grants
+└── seed.mjs                       idempotent loader for src/data/*.json
 ```
 
 ## Notes on the seed content
