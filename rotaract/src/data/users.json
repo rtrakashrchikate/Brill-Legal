@@ -1,0 +1,32 @@
+[
+  {
+    "id": "u-001",
+    "email": "president@racpunemetro.org",
+    "name": "Aarav Deshmukh",
+    "club": "RAC Pune Metro",
+    "district": "RID 3131",
+    "role": "President",
+    "is_verified_rotaractor": true,
+    "passwordHash": "d72309fe4d74866e5579149da40c5294b7f3182ac77bd3ad00ac7802528f5ee4"
+  },
+  {
+    "id": "u-002",
+    "email": "community@racpunemetro.org",
+    "name": "Meera Joshi",
+    "club": "RAC Pune Metro",
+    "district": "RID 3131",
+    "role": "Director — Community Service",
+    "is_verified_rotaractor": true,
+    "passwordHash": "d72309fe4d74866e5579149da40c5294b7f3182ac77bd3ad00ac7802528f5ee4"
+  },
+  {
+    "id": "u-003",
+    "email": "prospect@example.org",
+    "name": "Prospective Member",
+    "club": "Unaffiliated",
+    "district": "RID 3131",
+    "role": "Prospect",
+    "is_verified_rotaractor": false,
+    "passwordHash": "ce253f1bb1500ba96042ec39839c98cd37cda18472e96d44f87dcc127f0e96e8"
+  }
+]
