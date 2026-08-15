@@ -1,0 +1,348 @@
+@import "tailwindcss";
+
+/* Class-based dark mode (toggled by ThemeProvider on <html>). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------ *
+ * Design tokens — official Rotaract / Rotary brand palette
+ * ------------------------------------------------------------------ */
+@theme {
+  /* Brand */
+  --color-cranberry-50: #fdf2f6;
+  --color-cranberry-100: #fce7ee;
+  --color-cranberry-200: #fbcfdd;
+  --color-cranberry-300: #f7a8c1;
+  --color-cranberry-400: #f2739e;
+  --color-cranberry-500: #e8437d;
+  --color-cranberry-600: #d91b5c;
+  --color-cranberry-700: #b81050;
+  --color-cranberry-800: #991045;
+  --color-cranberry-900: #80123e;
+
+  --color-gold-50: #fffaeb;
+  --color-gold-100: #fef0c7;
+  --color-gold-200: #fddf8a;
+  --color-gold-300: #fcc84d;
+  --color-gold-400: #fab424;
+  --color-gold-500: #f7a81b;
+  --color-gold-600: #db8008;
+  --color-gold-700: #b65c0b;
+  --color-gold-800: #93470f;
+  --color-gold-900: #793b10;
+
+  --color-royal-50: #eff7ff;
+  --color-royal-100: #dbedff;
+  --color-royal-200: #bfe0ff;
+  --color-royal-300: #93cdff;
+  --color-royal-400: #60b0ff;
+  --color-royal-500: #3b8ffc;
+  --color-royal-600: #1f6ff1;
+  --color-royal-700: #0050a1;
+  --color-royal-800: #084488;
+  --color-royal-900: #0d3b70;
+
+  /* Canvas */
+  --color-ink-950: #0b0f19;
+  --color-ink-900: #10162a;
+  --color-ink-800: #161d33;
+  --color-ink-700: #1e2740;
+
+  /* Semantic aliases resolved per theme below */
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-hairline: var(--hairline);
+
+  /* Type */
+  --font-display: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Motion */
+  --ease-glass: cubic-bezier(0.16, 1, 0.3, 1);
+  --radius-glass: 1.25rem;
+
+  /* Keyframes */
+  --animate-drift: drift 26s ease-in-out infinite;
+  --animate-drift-slow: drift 38s ease-in-out infinite reverse;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+  --animate-pulse-ring: pulse-ring 2.6s var(--ease-glass) infinite;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  33% {
+    transform: translate3d(6%, -8%, 0) scale(1.08);
+  }
+  66% {
+    transform: translate3d(-5%, 6%, 0) scale(0.95);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-cranberry-600) 45%, transparent);
+  }
+  70% {
+    box-shadow: 0 0 0 14px transparent;
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Theme surfaces
+ * ------------------------------------------------------------------ */
+:root {
+  --canvas: #ffffff;
+  --surface: #ffffff;
+  --fg: #0b0f19;
+  --fg-muted: #55607a;
+  --hairline: rgb(11 15 25 / 0.09);
+
+  --glass-bg: rgb(255 255 255 / 0.62);
+  --glass-border: rgb(255 255 255 / 0.75);
+  --glass-shadow: 0 20px 60px -24px rgb(11 15 25 / 0.28);
+  --glass-highlight: rgb(255 255 255 / 0.9);
+
+  --blob-a: rgb(217 27 92 / 0.22);
+  --blob-b: rgb(247 168 27 / 0.2);
+  --blob-c: rgb(0 80 161 / 0.18);
+
+  /* Brand gradient stops for text — kept per-theme so the royal end stays
+     readable against a deep canvas instead of sinking into it. */
+  --grad-1: var(--color-cranberry-600);
+  --grad-2: var(--color-gold-500);
+  --grad-3: var(--color-royal-700);
+
+  color-scheme: light;
+}
+
+.dark {
+  --canvas: #0b0f19;
+  --surface: #10162a;
+  --fg: #eef1f8;
+  --fg-muted: #9aa4bf;
+  --hairline: rgb(255 255 255 / 0.1);
+
+  --glass-bg: rgb(255 255 255 / 0.05);
+  --glass-border: rgb(255 255 255 / 0.12);
+  --glass-shadow: 0 24px 70px -28px rgb(0 0 0 / 0.85);
+  --glass-highlight: rgb(255 255 255 / 0.14);
+
+  --blob-a: rgb(217 27 92 / 0.3);
+  --blob-b: rgb(247 168 27 / 0.16);
+  --blob-c: rgb(0 80 161 / 0.34);
+
+  --grad-1: var(--color-cranberry-500);
+  --grad-2: var(--color-gold-400);
+  --grad-3: var(--color-royal-400);
+
+  color-scheme: dark;
+}
+
+/* ------------------------------------------------------------------ *
+ * Base
+ * ------------------------------------------------------------------ */
+@layer base {
+  * {
+    border-color: var(--hairline);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transition:
+      background-color 0.5s var(--ease-glass),
+      color 0.5s var(--ease-glass);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-cranberry-600) 28%, transparent);
+    color: var(--fg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-cranberry-600);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in oklab, var(--fg-muted) 32%, transparent);
+    border-radius: 999px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklab, var(--color-cranberry-600) 60%, transparent);
+    background-clip: content-box;
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Glassmorphism utilities
+ * ------------------------------------------------------------------ */
+@utility glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(20px) saturate(170%);
+  -webkit-backdrop-filter: blur(20px) saturate(170%);
+}
+
+@utility glass-panel {
+  position: relative;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-glass);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  overflow: hidden;
+}
+
+/* Specular top edge that sells the "pane of glass" read. */
+@utility glass-sheen {
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      var(--glass-highlight),
+      transparent
+    );
+    pointer-events: none;
+  }
+}
+
+@utility text-gradient {
+  /* sRGB first as the floor — the text is `color: transparent`, so a browser
+     that cannot parse the oklab form must still get a paintable gradient. */
+  background-image: linear-gradient(
+    120deg,
+    var(--grad-1),
+    var(--grad-2) 55%,
+    var(--grad-3)
+  );
+  /* oklab interpolation keeps the gold → royal transit vivid instead of
+     passing through a desaturated grey. */
+  background-image: linear-gradient(
+    120deg in oklab,
+    var(--grad-1),
+    var(--grad-2) 55%,
+    var(--grad-3)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@utility ring-brand {
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--color-cranberry-600) 35%, transparent),
+    0 18px 50px -22px color-mix(in oklab, var(--color-cranberry-600) 70%, transparent);
+}
+
+/* Animated aurora field used behind heroes and section breaks. */
+@utility aurora {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@utility shimmer-text {
+  background: linear-gradient(
+    90deg,
+    var(--fg-muted) 0%,
+    var(--fg) 50%,
+    var(--fg-muted) 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: var(--animate-shimmer);
+}
+
+@utility grid-fade {
+  background-image:
+    linear-gradient(to right, var(--hairline) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--hairline) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+}
+
+@utility masonry-3 {
+  column-gap: 1.5rem;
+  columns: 1;
+
+  @media (min-width: 768px) {
+    columns: 2;
+  }
+
+  @media (min-width: 1280px) {
+    columns: 3;
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Accessibility — honour reduced-motion everywhere
+ * ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
